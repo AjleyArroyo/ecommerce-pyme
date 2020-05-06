@@ -78,7 +78,7 @@ pickle-email-*.html
 # /config/*.yml
 !/config/*.example.yml
 !/config/secrets.yml
-!/config/database.yml
+/config/database.yml
 
 
 # Ignore Byebug command history file.
