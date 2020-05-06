@@ -1,5 +1,5 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.12.0"
+lock "~> 3.14.0"
 
 set :application, "ecommerce-pyme"
 set :repo_url, "git@gitlab.com:israellias/ecommerce-pyme.git"
