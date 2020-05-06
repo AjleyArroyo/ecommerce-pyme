@@ -30,7 +30,7 @@ require 'capistrano/rails/migrations'
 require "capistrano/puma"
 require "capistrano/rvm"
 
-require "whenever/capistrano"
+# require "whenever/capistrano"
 
 
 
