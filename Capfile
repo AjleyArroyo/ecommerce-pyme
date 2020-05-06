@@ -38,7 +38,7 @@ install_plugin Capistrano::Puma
 
 
 set :rvm_type, :user                     # Defaults to: :auto
-set :rvm_ruby_version, 'ruby-2.6.0'      # Defaults to: 'default'
+set :rvm_ruby_version, 'ruby-2.6.5'      # Defaults to: 'default'
 
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
