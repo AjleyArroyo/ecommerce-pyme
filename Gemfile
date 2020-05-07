@@ -21,8 +21,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
-gem 'capistrano-rvm'
-
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
@@ -31,6 +29,7 @@ group :development do
 
   gem 'capistrano', '~> 3.12'
   gem 'capistrano-rails', '~> 1.4'
+  gem 'capistrano-rbenv', '~> 2.1'
   gem 'capistrano3-puma'
 end
 
