@@ -29,8 +29,8 @@ module Marketone
     # the framework and any gems in your application.
 
     # I18n.enforce_available_locales = false
-    # I18n.config.available_locales = :es
-    # config.i18n.default_locale = :es
-    # config.time_zone = 'La Paz'
+    I18n.config.available_locales = :es
+    config.i18n.default_locale = :es
+    config.time_zone = 'La Paz'
   end
 end
