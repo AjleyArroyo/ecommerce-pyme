@@ -39,4 +39,6 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'figaro'
+gem 'sentry-raven'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
