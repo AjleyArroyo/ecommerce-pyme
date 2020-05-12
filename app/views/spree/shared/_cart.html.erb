@@ -1,5 +1,17 @@
+<style>
+  .cart-icon-blue{
+    color: #0074c2;
+  }
+  .cart-icon-count{
+    background: #0074c2;
+  }
+</style>
+<% style="" %>
+<% if item_count>0 %>
+  <% style = "cart-icon-blue" %>
+<% end %>
 <%= link_to spree.cart_path,
-  class: "cart-icon cart-icon--visible-count #{local_assigns[:class]}",
+  class: style + " cart-icon cart-icon--visible-count #{local_assigns[:class]}",
   'aria-label': Spree.t(:cart) do %>
   <%= icon(name: 'cart',
            width: size,

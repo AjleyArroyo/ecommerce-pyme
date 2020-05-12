@@ -1,5 +1,27 @@
+<style>
+  .buy-now-button{
+    line-height: 1.15;
+    font-family: Roboto, sans-serif;
+    width: 80%;
+    color: rgb(238, 238, 238);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    box-shadow: rgba(0, 0, 0, 0.46) 3px 3px 8px 0px;
+    text-align: center;
+    cursor: pointer;
+    background: #0074c2;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+</style>
 <% permitted_params = params.permit(*filtering_params) %>
-
 <div data-hook="search_results">
   <% if @products.empty? %>
     <% if permitted_params[:keywords].present? && permitted_params.to_h.one? %>
@@ -39,7 +61,11 @@
 
 <%= render 'spree/products/filters_mobile', permitted_params: permitted_params %>
 <%= render 'spree/products/sort_mobile', permitted_params: permitted_params %>
-
+<% if simple_current_order&.item_count > 0 %>
+  <div class="d-lg-none buy-now-button">
+    COMPRAR AHORA <%= Money::Currency.find(simple_current_order&.currency).symbol %> <%= simple_current_order&.total %>
+  </div>
+<% end %>
 <% cache cache_key_for_products(@products, 'json-ld') do %>
   <%= products_structured_data(@products) %>
 <% end %>
