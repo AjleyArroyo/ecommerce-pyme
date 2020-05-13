@@ -17,6 +17,9 @@ gem 'spree_gateway', '~> 3.7'
 gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 
+gem 'spree_social', github: 'spree-contrib/spree_social'
+
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
