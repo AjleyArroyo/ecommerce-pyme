@@ -29,36 +29,6 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-# es:
-#   spree:
-#     contact_us: Contáctanos
-#     homepage:
-#       new_collection: "Nueva Colección"
-#       summer_collection: "Colección de Verano"
-#       men: "Hombres"
-#       women: "Mujeres"
-#       sportswear: "Ropa Deportiva"
-#       shop_now: "Comprar Ahora"
-#       summer_sale: "Ventas de Verano"
-#       up_to_60: "Hasta 60"
-#       streetstyle: "Estilo Úrbano"
-#     nav_bar:
-#       show_search: "Mostrar Búsqueda"
-#       show_user_menu: "Mostrar Menú de Usuario"
-#       cart: "Carrito"
-#       go_to_previous_menu: "Atrás"
-#       close_menu: "Cerrar Menú"
-#       show_menu: "Mostrar Menú"
-#       my_account: "Mi Cuenta"
-
-#       log_out: "Cerrar Sessión"
-#       log_in: "Iniciar Sessión"
-#       sign_up: "Registrar"
-#     cart_page:
-#       empty_info: "Carrito Vacío"
-#       header: "Compras"
-#       title: "Compras"
-
 es:
   activerecord:
     attributes:
@@ -431,6 +401,8 @@ es:
     additional_item: Costo adicional por elemento
     address1: Dirección
     address2: Dirección (continuación)
+    address_book:
+      successfully_updated: Actualizado exitosamente
     adjustable: Ajustable
     adjustment: Ajuste
     adjustment_amount: Monto
@@ -779,7 +751,7 @@ es:
         gte: mayor o igual que
         lt:
         lte:
-    items_cannot_be_shipped:
+    items_cannot_be_shipped: Los artículos no se pueden enviar
     items_in_rmas:
     items_reimbursed:
     items_to_be_reimbursed:
@@ -1127,6 +1099,8 @@ es:
     rename: Renombrar
     report:
     reports: Informes
+    required: Requerido
+    required_fields: Datos requeridos
     resend: Volver a enviar
     reset_password: Reiniciar mi contraseña
     response_code: Código de respuesta
