@@ -1,6 +1,5 @@
 <% url = spree.product_path(product, taxon_id: @taxon&.id) %>
-
-<div class='h-100 d-flex flex-column justify-content-between'>
+<%= link_to url, class: 'h-100 d-flex flex-column justify-content-between' do %>
   <% cache [common_product_cache_keys, product] do %>
     <%= plp_and_carousel_image(product, image_class) %>
     <div>
@@ -8,9 +7,9 @@
         <%= product.name %>
       </div>
       <div class="product-component-price"><%= display_price(product) %></div>
-      <%= link_to url do %>
-        Agregar
+      <% if product.discount %>
+        <div class=""> Antes: <%= display_no_discount_price(product) %></div>
       <% end %>
     </div>
   <% end %>
-</div>
+<% end %>
