@@ -24,7 +24,9 @@
             <%-#= f.submit Spree.t(:continue_as_guest), class: 'btn btn-block btn-outline-primary spree-btn', tabindex: 4 %>
           <%-# end %>
 
-          
+          <div class='text-center'>
+            <%= link_to '<i class="d-inline-block icon-spree-facebook-circled"></i>'.html_safe, spree_user_facebook_omniauth_authorize_path, class: 'd-inline-block', title: 'Login with facebook' %>
+          </div>
         <% end %>
       </div>
     </div>
