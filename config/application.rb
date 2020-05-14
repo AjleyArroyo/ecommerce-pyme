@@ -8,6 +8,10 @@ Bundler.require(*Rails.groups)
 
 module Marketone
   class Application < Rails::Application
+    Raven.configure do |config|
+      config.dsn = ENV['sentry_dsn']
+    end
+
 
     config.to_prepare do
       # Load application's model / class decorators
