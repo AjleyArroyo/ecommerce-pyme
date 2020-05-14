@@ -124,10 +124,12 @@ es:
         expires_at: Expira
         name: Nombre
         path: Ruta
+        promotion_category: Categoria de Promoción
         starts_at: Comienza
         usage_limit: Límite de Uso
       spree/promotion_category:
         name: Nombre
+        code: Código
       spree/property:
         name: Nombre
         presentation: Presentación
@@ -149,12 +151,13 @@ es:
         updated:
         user:
       spree/store:
-        mail_from_address:
-        meta_description:
-        meta_keywords:
-        name:
-        seo_title:
-        url:
+        mail_from_address: Dirección de correo
+        meta_description: Meta descripción
+        meta_keywords: Meta palabras clave
+        meta_title: Meta título
+        name: Nombre
+        seo_title: Título de SEO
+        url: Link
       spree/tax_category:
         description: Descripción
         name: Nombre
@@ -255,42 +258,43 @@ es:
       spree/payment:
         one: Pago
         other: Pagos
-      spree/payment_method:
+      spree/payment_method: Método de Pago
       spree/product:
         one: Producto
         other: Productos
-      spree/promotion:
-      spree/promotion_category:
+      spree/promotion: Promoción
+      spree/promotion_category: Categoria de Promoción
       spree/property:
         one: Propiedad
         other: Propiedades
       spree/prototype:
         one: Prototipo
         other: Prototipos
-      spree/refund_reason:
-      spree/reimbursement:
-      spree/reimbursement_type:
+      spree/refund_reason: Razón de Reembolso
+      spree/reimbursement: Reembolso
+      spree/reimbursement_type: Tipo Reembolso
       spree/return_authorization:
         one: Autorización de Devolución
         other: Autorizaciones de Devolución
-      spree/return_authorization_reason:
+      spree/return_authorization_reason: Razon de autorización de devolución
       spree/role:
         one: Rol
         other: Roles
-      spree/shipment:
+      spree/shipment: 
         one: Envío
         other: Envíos
       spree/shipping_category:
         one: Categoría de Envío
         other: Categorías de Envíos
-      spree/shipping_method:
+      spree/shipping_method: Método de envío
       spree/state:
         one: Estado
         other: Estados
-      spree/state_change:
-      spree/stock_location:
-      spree/stock_movement:
-      spree/stock_transfer:
+      spree/state_change: Cambio de estado
+      spree/stock_location: Ubicación de stock
+      spree/stock_movement: Movimiento de stock
+      spree/stock_transfer: Transferencia de stock
+      spree/store_credit_category: Categoria de credito de la tienda
       spree/tax_category:
         one: Categoría de Impuesto
         other: Categorías de Impuesto
@@ -385,7 +389,7 @@ es:
     add: Añadir
     add_action_of_type: Añadir tipo de acción
     add_country: Añadir País
-    add_coupon_code:
+    add_coupon_code: Añadir código de cupon
     add_new_header: Añadir nuevo encabezado
     add_new_style: Añadir nuevo estilo
     add_one: Añadir uno
@@ -437,7 +441,7 @@ es:
         orders: Ordenes
         user_information: Información de usuario
     administration: Administración
-    advertise:
+    advertise: Anunciar
     agree_to_privacy_policy: Aceptar política de privacidad.
     agree_to_terms_of_service: Aceptar términos del servicio.
     all: Todos
@@ -468,8 +472,8 @@ es:
     associated_adjustment_closed: El ajuste relacionado está cerrado, y no será recalculado. ¿Deseas abrirlo?
     at_symbol: '@'
     authorization_failure: Fallo de autorización
-    authorized:
-    auto_capture:
+    authorized: Autorizado
+    auto_capture: Auto Captura
     available_on: Disponible en
     average_order_value:
     avs_response:
@@ -496,8 +500,9 @@ es:
     calculator_settings_warning: Si está cambiando el tipo de calculadora, debe guardar su selección antes de editar su configuración
     cancel: Cancelar
     canceled_at:
+    canceled: Cancelado
     canceler:
-    cannot_create_customer_returns:
+    cannot_create_customer_returns: No se pueden crear devoluciones de clientes
     cannot_create_payment_without_payment_methods: No puedes crear un pago para una orden que no tiene métodos de pago definidos
     cannot_create_returns: No puede crearse la devolución ya que este pedido aún no ha sido enviado.
     cannot_perform_operation: No puede realizarse la operación requerida
@@ -521,9 +526,9 @@ es:
     choose_dashboard_locale: Escoger Idioma del Panel de Control
     choose_location:
     city: Ciudad
-    clear_cache:
-    clear_cache_ok:
-    clear_cache_warning:
+    clear_cache: limpiar caché
+    clear_cache_ok: borrar caché ok
+    clear_cache_warning: advertencia limpiar caché
     click_and_drag_on_the_products_to_sort_them:
     clone: Clonar
     close: Cerrar
@@ -616,7 +621,7 @@ es:
     description: Descripción
     destination: Destino
     destroy: Eliminar
-    details:
+    details: Detalle
     discount_amount: Importe del descuento
     dismiss_banner: No. ¡Gracias!. No estoy interesado, no muestres este mensaje de nuevo
     display: Mostrar
@@ -715,7 +720,8 @@ es:
       available_locales: Traduciones Disponibles
       language: Idioma
       localization_settings: Ajustes de traducciones
-      this_file_language:
+      this_file_language: Este archivo de idioma
+      locales_displayed_on_frontend_select_box: Configuración regional mostrada en el cuadro de selección frontend
     icon: Icono
     identifier:
     image: Imagen
@@ -798,7 +804,7 @@ es:
     memo:
     meta_description: Meta descripción
     meta_keywords: Meta palabras clave
-    meta_title:
+    meta_title: Meta título
     metadata: Metadatos
     minimal_amount: Cantidad mínima
     month: Mes
@@ -822,11 +828,11 @@ es:
     new_payment_method: Nueva forma de pago
     new_product: Nuevo producto
     new_promotion: Nueva promoción
-    new_promotion_category:
+    new_promotion_category: Nueva categoria de promoción
     new_property: Nueva propiedad
     new_prototype: Nuevo prototipo
-    new_refund:
-    new_refund_reason:
+    new_refund: Nuevo reembolso
+    new_refund_reason: Nueva razón de reembolso
     new_return_authorization: Nueva autorización de devolución
     new_rma_reason:
     new_shipment_at_location:
@@ -836,6 +842,7 @@ es:
     new_stock_location: Nueva locación de existencias
     new_stock_movement: Nuevo Movimiento de inventario
     new_stock_transfer: Nuevo movimiento de inventario
+    new_store_credit_category: Nueva categoría de crédito de la tienda
     new_tax_category: Nueva categoría de impuestos
     new_tax_rate: Nueva tasa de impuestos
     new_taxon: Nueva Categoría
@@ -849,7 +856,7 @@ es:
     no_payment_found:
     no_pending_payments:
     no_products_found: No se han encontrado productos
-    no_resource_found:
+    no_resource_found: No se encontraron recursos
     no_results: Sin resultados
     no_returns_found:
     no_rules_added: No se han añadido nuevas reglas
@@ -972,6 +979,15 @@ es:
     phone: Teléfono
     place_order: Hacer pedido
     please_define_payment_methods: Por favor primero defina algunos métodos de pago
+    plp:
+      default: Defecto
+      price_low_to_high: Precio bajo a alto
+      price_high_to_low: Precio alto a bajo
+      newest_first: Lo más nuevo primero
+      sort_by: Ordenar por
+      no_results: Sin resultados
+      not_found_filters1: no encontrado filtros 1
+      not_found_filters2: no encontrado filtros 2
     populate_get_error: Algo salió mal. Por favor intente agregando el artículo de nuevo
     powered_by: Hecho con
     pre_tax_amount:
@@ -999,22 +1015,23 @@ es:
       product_source:
         group: Del grupo de productos
         manual: Elegir manualmente
+    preview_product: Vista Previa de Producto
     products: Productos
     promotion: Promoción
     promotion_action: Acción de promoción
     promotion_action_types:
       create_adjustment:
-        description: Creates a promotion credit adjustment on the order
-        name: Crear ajuste
+        description: Crea un ajuste de crédito de promoción en el pedido.
+        name: Crear ajuste por pedido
       create_item_adjustments:
-        description:
-        name:
+        description: Crea un ajuste de crédito de promoción por cada item.
+        name: Crear ajuste por item
       create_line_items:
         description: Llene el carrito con la cantidad específica de variantes
         name: Crear artículos de línea
       free_shipping:
-        description:
-        name:
+        description: Envío gratis
+        name: Envío gratis
     promotion_actions: Acciones
     promotion_form:
       match_policies:
@@ -1022,6 +1039,9 @@ es:
         any: Coincide con alguna de estas reglas
     promotion_rule: Regla de promoción
     promotion_rule_types:
+      country:
+        description: Para la región seleccionada
+        name: por Región
       first_order:
         description: Debe ser el primer pedido del cliente
         name: Primer pedido
@@ -1032,25 +1052,26 @@ es:
         description: El cliente debió haber visitado la página específica
         name: Página de inicio
       one_use_per_user:
-        description:
-        name:
+        description: Para los clientes de un vendedor en especifico 
+        name: Especificamente por un usuario
       option_value:
-        description:
-        name:
+        description: Con valores opcionales
+        name: Valores opcionales
       product:
         description: El pedido incluye los siguientes productos
         name: Producto(s)
       taxon:
-        description:
-        name:
+        description: El pedido incluye las siguientes categorias
+        name: Categoria(s)
       user:
         description: Disponible sólo para los siguientes clientes
         name: Usuario
       user_logged_in:
         description: Disponible sólo para usuarios con sesión iniciada
-        name: User Logged In
+        name: Con Usuario Logueado
     promotion_uses:
-    promotionable:
+    promotionable: Promocionable
+    promotion_categories: Categoria Promoción
     promotions: Promociones
     propagate_all_variants:
     properties: Propiedades
@@ -1073,7 +1094,7 @@ es:
     reference: Referencia
     refund: Devolver
     refund_amount_must_be_greater_than_zero:
-    refund_reasons:
+    refund_reasons: Razones de reembolso
     refunded_amount:
     refunds:
     register: Registrar
@@ -1159,6 +1180,7 @@ es:
     server: Servidor
     server_error: El servidor ha devuelto un error
     settings: Configuración
+    sort_by: Ordenar por
     ship: enviar
     ship_address: Dirección de envío
     ship_total: Envío Total
@@ -1415,3 +1437,17 @@ es:
     sign_up: "Registrar"
     log_in_to_continue: "Inicie Sessión Para Continuar"
     dont_have_account: "Sin Registrar"
+    find_a_taxon: Buscar un Taxon
+    mail_from_address: Dirección de correo
+    name: Nombre
+    seo_title: Título de SEO
+    url: Link
+    tax_code: Código de Impuestos
+    iso: ISO
+    iso3: ISO3
+    internal_name: Nombre Interno
+    backorderable_default: Predeterminado en espera
+    propagate_all_variants: Propagar todas las variantes
+    reimbursement_types: Tipo Reembolso
+    return_authorization_reasons: Razon de autorización de devolución
+    generate_code: Generar Código
