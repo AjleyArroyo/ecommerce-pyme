@@ -73,7 +73,7 @@ es:
       spree/order:
         checkout_complete: Flujo de Compra Completado
         completed_at: Completado el
-        considered_risky:
+        considered_risky: Considerado arriesgado
         coupon_code: Cupón
         created_at: Fecha de pedido
         email: E-Mail del cliente
@@ -141,9 +141,9 @@ es:
         abbr: Abreviación
         name: Nombre
       spree/state_change:
-        state_changes:
-        state_from:
-        state_to:
+        state_changes: Cambios de estado
+        state_from: Estado de
+        state_to: Estado a
         timestamp:
         type:
         updated:
@@ -412,18 +412,20 @@ es:
     adjustments: Ajustes
     admin:
       tab:
+        return_authorizations: Autorizaciones para devoluciones
+        customer_returns: Devoluciones de cliente
         configuration: Configuración
-        option_types:
+        option_types: Tipos de Opciones
         orders: Ordenes
         overview: Visión general
         products: Productos
         promotions: Promociones
-        promotion_categories:
+        promotion_categories: Categorias de Promoción
         properties: Propiedades
         prototypes: Prototipos
         reports: Reportes
-        taxonomies:
-        taxons:
+        taxonomies: Taxonomías
+        taxons: Taxones
         users: Usuarios
       user:
         account: Cuenta
@@ -581,8 +583,8 @@ es:
     customer: Cliente
     customer_details: Detalles del cliente
     customer_details_updated: Detalles del cliente actualizados
-    customer_return:
-    customer_returns:
+    customer_return: Devolución de cliente
+    customer_returns: Devoluciones de Clientes
     customer_search: Búsqueda de clientes
     cut: Corte
     cvv_response:
@@ -677,6 +679,7 @@ es:
     expedited_exchanges_warning:
     expiration: Caducidad
     extension: Extensión
+    extensions_directory: Directorio de Extensión
     failed_payment_attempts:
     filename: Nombre de archivo
     fill_in_customer_info: Por favor complete la información del cliente
@@ -707,6 +710,7 @@ es:
     height: Altura
     hide_cents: Ocultar centavos
     home: Inicio
+    help_center: Centro de ayuda
     i18n:
       available_locales: Traduciones Disponibles
       language: Idioma
@@ -756,6 +760,7 @@ es:
     items_reimbursed:
     items_to_be_reimbursed:
     jirafe: Jirafe
+    join_slack: Unirse a Slack
     landing_page_rule:
       path: Ruta
     last_name: Apellidos
@@ -1120,7 +1125,7 @@ es:
     return_number:
     return_quantity: Devolver cantidad
     returned: regresó
-    returns:
+    returns: Devoluciones
     review: Revisar
     risk:
     risk_analysis:
@@ -1130,7 +1135,7 @@ es:
     rma_value: Valor RMA
     roles: Funciones
     rules: Reglas
-    safe:
+    safe: Seguro
     sales_total: Total de ventas
     sales_total_description: Total de ventas de todos los pedidos
     sales_totals: Total de Ventas
@@ -1172,7 +1177,7 @@ es:
     shipment_state: Estado del envío
     shipment_states:
       backorder: backorder
-      canceled:
+      canceled: cancelado
       partial: parcial
       pending: pendiente
       ready: listo
@@ -1402,6 +1407,8 @@ es:
       header: "Compras"
       title: "Compras"
     store_credit_name: "Compras"
+    store_credit_categories: Almacenar Categorías de Crédito
+    refund_reasons: Razones de Reembolso
     add_new_address: "Añadir Correo Electronico"
     email: "Correo"
     log_in: "Iniciar Sessión"
