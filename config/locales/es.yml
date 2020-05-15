@@ -478,7 +478,7 @@ es:
     average_order_value:
     avs_response:
     back: Atrás
-    back_end: Parte Intera
+    back_end: Parte Interna
     back_to_payment:
     back_to_resource_list:
     back_to_rma_reason_list:
@@ -1425,9 +1425,20 @@ es:
       log_in: "Iniciar Sessión"
       sign_up: "Registrar"
     cart_page:
+      product: Producto
+      quantity: Cantidad
+      add_promo_code: Añadir código de promoción
       empty_info: "Carrito Vacío"
       header: "Compras"
       title: "Compras"
+      checkout: Caja
+    checkout_page:
+      header: Caja
+      back_to_cart: Volver al carrito
+      delivery_method: Método de envío
+    pdp:
+      view_cart: Ver Carrito
+      checkout: Caja
     store_credit_name: "Compras"
     store_credit_categories: Almacenar Categorías de Crédito
     refund_reasons: Razones de Reembolso
@@ -1451,3 +1462,9 @@ es:
     reimbursement_types: Tipo Reembolso
     return_authorization_reasons: Razon de autorización de devolución
     generate_code: Generar Código
+    added_to_cart: Añadido al carrito
+    payment_type: Tipo de Pago
+    cvv: CVV
+    order_number: Número de Órden
+    order_success: Compra exitosa
+    order_success_explain: Detalle de la compra exitosa
