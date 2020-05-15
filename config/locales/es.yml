@@ -150,6 +150,10 @@ es:
         type:
         updated:
         user:
+      spree/authentication_method:
+        social_provider: Proveedor social
+        social_api_secret: API secreta social 
+        social_api_key: llave API social 
       spree/store:
         mail_from_address: Dirección de correo
         meta_description: Meta descripción
@@ -295,6 +299,10 @@ es:
       spree/stock_movement: Movimiento de stock
       spree/stock_transfer: Transferencia de stock
       spree/store_credit_category: Categoria de credito de la tienda
+      spree/authentication_method:
+        social_provider: Proveedor social
+        social_api_secret: API secreta social 
+        social_api_key: llave API social 
       spree/tax_category:
         one: Categoría de Impuesto
         other: Categorías de Impuesto
@@ -428,8 +436,8 @@ es:
         properties: Propiedades
         prototypes: Prototipos
         reports: Reportes
-        taxonomies: Taxonomías
-        taxons: Taxones
+        taxonomies: Categorías
+        taxons: Clasificaciones
         users: Usuarios
       user:
         account: Cuenta
@@ -515,7 +523,7 @@ es:
     card_type_is: Tipo de tarjeta
     cart: Carrito
     cart_subtotal:
-    categories: Categorías
+    categories: Categories
     category: Categoría
     charged:
     check_for_spree_alerts: Verificar alertas de Spree
@@ -838,6 +846,7 @@ es:
     new_shipment_at_location:
     new_shipping_category: Nueva categoría de envío
     new_shipping_method: Nueva forma de envío
+    new_social_method: Nuevo método social
     new_state: Nuevo estado
     new_stock_location: Nueva locación de existencias
     new_stock_movement: Nuevo Movimiento de inventario
@@ -986,8 +995,11 @@ es:
       newest_first: Lo más nuevo primero
       sort_by: Ordenar por
       no_results: Sin resultados
+      no_results_found: Sin resultados encontrados
       not_found_filters1: no encontrado filtros 1
       not_found_filters2: no encontrado filtros 2
+      not_found_text1: no encontrado texto 1
+      not_found_text2: no encontrado texto 2
     populate_get_error: Algo salió mal. Por favor intente agregando el artículo de nuevo
     powered_by: Hecho con
     pre_tax_amount:
@@ -1315,12 +1327,12 @@ es:
       label:
       match_all:
       match_any:
-    taxonomies: Categorías
-    taxonomy: Taxonomy
+    taxonomies: Propiedades
+    taxonomy: Propiedad
     taxonomy_edit: Editar categorías
     taxonomy_tree_error: El cambio solicitado no ha sido aceptado y el árbol ha vuelto a su estado anterior. Por favor, inténtelo de nuevo.
     taxonomy_tree_instruction: "* Click derecho en uno de los nodos para acceder al menu para añadir, eliminar u ordenar nodos"
-    taxons: Categorías
+    taxons: Clasificaciónes
     test: Prueba
     test_mailer:
       test_email:
@@ -1468,3 +1480,10 @@ es:
     order_number: Número de Órden
     order_success: Compra exitosa
     order_success_explain: Detalle de la compra exitosa
+    social_authentication_methods: Métodos de autenticación social
+    no_authentication_methods_found: No se encontraron métodos de autenticación
+    social_provider: Proveedor social
+    social_api_secret: API secreta social 
+    social_api_key: llave API social 
+    back_to_authentication_methods_list: Volver a la lista de métodos de autenticación
+    edit_social_method: Editar método social
