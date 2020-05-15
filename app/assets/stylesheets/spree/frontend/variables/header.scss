@@ -22,6 +22,7 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  box-shadow: 0 0 10px rgba(10,10,10,.7);
 }
 
 @media (min-width: 768px) {
@@ -36,6 +37,7 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    box-shadow: 0 0 10px rgba(10,10,10,.7);
   }
 }
 
