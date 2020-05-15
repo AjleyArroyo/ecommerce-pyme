@@ -2,66 +2,66 @@ default:
   navigation:
     - title: Mujeres
       subtitle: Categorias
-      url: /t/women
+      url: /t/categorias/women
       items:
         - :title: Faldas
-          :url: /t/women/skirts
+          :url: /t/categorias/women/skirts
         - :title: Vestidos
-          :url: /t/women/dresses
+          :url: /t/categorias/women/dresses
         - :title: Camisas y Blusas
-          :url: /t/women/shirts-and-blouses
+          :url: /t/categorias/women/shirts-and-blouses
         - :title: Suéteres
-          :url: /t/women/sweaters
+          :url: /t/categorias/women/sweaters
         - :title: Tops y camisetas
-          :url: /t/women/tops-and-t-shirts
+          :url: /t/categorias/women/tops-and-t-shirts
         - :title: Chaquetas y abrigos
-          :url: /t/women/jackets-and-coats
+          :url: /t/categorias/women/jackets-and-coats
       promo_banners:
         - subtitle: Nueva colección
           title: Verano 2019
-          url: /t/new-collection/summer-2019
+          url: /t/categorias/sportswear/pants
           image: 'meganav/promo_banner_left-first-category.jpg'
         - subtitle: Ofertas especiales
           title: Obtenga hasta un 30% de descuento
-          url: /t/special-offers/30-off
+          url: /t/categorias/sportswear/tops
           image: 'meganav/promo_banner_right-first-category.jpg'
     - title: Hombres
       subtitle: Categorias
-      url: /t/men
+      url: /t/categorias/men
       items:
         - :title: Camisas
-          :url: /t/men/shirts
+          :url: /t/categorias/men/shirts
         - :title: Camisetas
-          :url: /t/men/t-shirts
+          :url: /t/categorias/men/t-shirts
         - :title: Suéteres
-          :url: /t/men/sweaters
+          :url: /t/categorias/men/sweaters
         - :title: Chaquetas y abrigos
-          :url: /t/men/jackets-and-coats
+          :url: /t/categorias/men/jackets-and-coats
       promo_banners:
         - subtitle: Nueva colección
           title: Verano 2019
-          url: /t/new-collection/summer-2019
+          url: /t/categorias/sportswear/pants
           image: 'meganav/promo_banner_left-second-category.jpg'
         - subtitle: Ofertas especiales
           title: Obtenga hasta un 30% de descuento
-          url: /t/special-offers/30-off
+          url: /t/categorias/sportswear/tops
           image: 'meganav/promo_banner_right-second-category.jpg'
     - title: Ropa de deporte
       subtitle: Categorias
-      url: /t/sportswear
+      url: /t/categorias/sportswear
       items:
         - :title: Tops
-          :url: /t/sportswear/tops
+          :url: /t/categorias/sportswear/tops
         - :title: Sudaderas
-          :url: /t/sportswear/sweatshirts
+          :url: /t/categorias/sportswear/sweatshirts
         - :title: Pantalones
-          :url: /t/sportswear/pants
+          :url: /t/categorias/sportswear/pants
       promo_banners:
         - subtitle: Nueva colección
           title: Verano 2019
-          url: /t/new-collection/summer-2019
+          url: /t/categorias/sportswear/pants
           image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Ofertas especiales
           title: Obtenga hasta un 30% de descuento
-          url: /t/special-offers/30-off
+          url: /t/categorias/sportswear/tops
           image: 'meganav/promo_banner_right-third-category.jpg'
