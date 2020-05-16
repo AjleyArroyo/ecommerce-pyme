@@ -41,7 +41,11 @@
 
 <%= render 'spree/products/filters_mobile', permitted_params: permitted_params %>
 <%= render 'spree/products/sort_mobile', permitted_params: permitted_params %>
-
+<% if simple_current_order&.item_count > 0 %>
+  <div class="d-lg-none buy-now-button">
+    <%= Spree.t('buy_now') %> <%= Money::Currency.find(simple_current_order&.currency).symbol %> <%= simple_current_order&.total %>
+  </div>
+<% end %>
 <% cache cache_key_for_products(@products, 'json-ld') do %>
   <%= products_structured_data(@products) %>
 <% end %>
