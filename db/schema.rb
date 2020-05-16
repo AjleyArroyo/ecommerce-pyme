@@ -162,10 +162,10 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.boolean "states_required", default: false
     t.datetime "updated_at"
     t.boolean "zipcode_required", default: true
+    t.index "(lower(`iso_name`))", name: "index_spree_countries_on_lower_iso_name", unique: true
+    t.index "(lower(`name`))", name: "index_spree_countries_on_lower_name", unique: true
     t.index ["iso"], name: "index_spree_countries_on_iso", unique: true
     t.index ["iso3"], name: "index_spree_countries_on_iso3", unique: true
-    t.index ["iso_name"], name: "index_spree_countries_on_iso_name", unique: true
-    t.index ["name"], name: "index_spree_countries_on_name", unique: true
   end
 
   create_table "spree_credit_cards", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -656,7 +656,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.boolean "mutable", default: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["name"], name: "index_spree_refund_reasons_on_name", unique: true
+    t.index "(lower(`name`))", name: "index_spree_refund_reasons_on_lower_name", unique: true
   end
 
   create_table "spree_refunds", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -688,7 +688,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "type"
-    t.index ["name"], name: "index_spree_reimbursement_types_on_name", unique: true
+    t.index "(lower(`name`))", name: "index_spree_reimbursement_types_on_lower_name", unique: true
     t.index ["type"], name: "index_spree_reimbursement_types_on_type"
   end
 
@@ -711,7 +711,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.boolean "mutable", default: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["name"], name: "index_spree_return_authorization_reasons_on_name", unique: true
+    t.index "(lower(`name`))", name: "index_spree_return_authorization_reasons_on_lower_name", unique: true
   end
 
   create_table "spree_return_authorizations", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -764,7 +764,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
 
   create_table "spree_roles", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.index ["name"], name: "index_spree_roles_on_name", unique: true
+    t.index "(lower(`name`))", name: "index_spree_roles_on_lower_name", unique: true
   end
 
   create_table "spree_shipments", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -997,7 +997,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.string "facebook"
     t.string "twitter"
     t.string "instagram"
-    t.index ["code"], name: "index_spree_stores_on_code", unique: true
+    t.index "(lower(`code`))", name: "index_spree_stores_on_lower_code", unique: true
     t.index ["default"], name: "index_spree_stores_on_default"
     t.index ["url"], name: "index_spree_stores_on_url"
   end
