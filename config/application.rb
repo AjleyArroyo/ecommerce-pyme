@@ -10,6 +10,7 @@ module Marketone
   class Application < Rails::Application
     Raven.configure do |config|
       config.dsn = ENV['sentry_dsn']
+      config.environments = %w(test production)
     end
 
 
