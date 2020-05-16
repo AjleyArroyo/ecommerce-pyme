@@ -8,14 +8,8 @@ Rails.application.routes.draw do
   # We ask that you don't use the :as option here, as Spree relies on it being
   # the default of "spree".
   mount Spree::Core::Engine, at: '/'
-<<<<<<< HEAD
   
   Spree::Core::Engine.routes.draw do
     get "/sale" => "home#sale"
   end
-=======
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  # Spree::Core::Engine.routes.draw do
-  # end
->>>>>>> 696b00268528ac85bdb0c1836a12ba50399b4e13
 end
