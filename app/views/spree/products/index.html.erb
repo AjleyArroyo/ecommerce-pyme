@@ -1,5 +1,7 @@
 <% permitted_params = params.permit(*filtering_params) %>
-
+<script>
+  page = 2;
+</script>
 <div data-hook="search_results">
   <% if @products.empty? %>
     <% if permitted_params[:keywords].present? && permitted_params.to_h.one? %>
@@ -9,7 +11,7 @@
     <% end %>
   <% else %>
     <% if params[:keywords] %>
-      <div class="container d-md-flex pt-md-5">
+      <div id="all-products" class="container d-md-flex pt-md-5">
         <div class="plp-results-text text-uppercase mx-md-auto py-md-5">
           <%= "#{@products.total_count} #{Spree.t('plp.results_for')} '#{params[:keywords].upcase}'" %>
         </div>
@@ -31,8 +33,8 @@
     <%= render 'spree/products/filter_and_sort_mobile_buttons' %>
     <%= render 'spree/products/sort_desktop', permitted_params: permitted_params %>
     <div class="container mb-3 d-md-flex">
-      <%= render 'spree/products/filters_desktop', permitted_params: permitted_params %>
-      <%= render 'spree/shared/products', products: @products %>
+      <%= render :partial  => 'spree/products/filters_desktop', :locals=> {permitted_params: permitted_params} %>
+      <%= render :partial  => 'spree/shared/products', :locals => {products: @products} %>
     </div>
   <% end %>
 </div>
