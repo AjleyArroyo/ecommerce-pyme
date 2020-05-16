@@ -2,12 +2,12 @@
   <header id="header" class="d-flex align-items-center header-spree border-bottom">
     <div class="container position-relative">
       <div class="position-absolute checkout-header-link">
-        <%= link_to spree.root_path, class: "d-none d-sm-inline text-uppercase", method: :get do %>
+        <%= link_to spree.cart_path, class: "d-none d-sm-inline text-uppercase", method: :get do %>
           <%= icon(name: 'arrow-right',
                    classes: 'spree-icon-arrow spree-icon-arrow-left',
                    width: 7,
                    height: 14) %>
-          <span class="checkout-header-link-text"><%= Spree.t('spree.checkout_page.back_to_home') %></span>
+          <span class="checkout-header-link-text"><%= Spree.t('checkout_page.back_to_cart') %></span>
         <% end %>
 
         <%= link_to spree.cart_path, class: "d-sm-none text-uppercase", method: :get do %>
