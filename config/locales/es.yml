@@ -42,6 +42,7 @@ es:
         phone: Teléfono
         state: Estado / Provincia
         zipcode: Código Postal
+        reference: Referencia
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
         preferred_tiers:
@@ -994,6 +995,8 @@ es:
       price_high_to_low: Precio alto a bajo
       newest_first: Lo más nuevo primero
       sort_by: Ordenar por
+      filter_by: Filtrar por
+      price: Precio
       no_results: Sin resultados
       no_results_found: Sin resultados encontrados
       not_found_filters1: no encontrado filtros 1
@@ -1487,3 +1490,5 @@ es:
     social_api_key: llave API social 
     back_to_authentication_methods_list: Volver a la lista de métodos de autenticación
     edit_social_method: Editar método social
+    go_to_category: Ir a la Categoria
+    already_have_account: Ya tengo cuenta
