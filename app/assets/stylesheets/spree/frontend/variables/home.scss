@@ -1,0 +1,52 @@
+.product-price {
+  color: #aaaaaa;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  text-decoration: line-through;
+  margin-top: 0.5rem
+}
+
+@media (min-width: 768px) {
+  .product-price {
+    color: #aaaaaa;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-decoration: line-through;
+    margin-top: 1rem
+  }
+}
+
+.product-price-with-discount {
+  color: red;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .product-price-with-discount {
+    color: red;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
+}
+
+.product-price-block div {
+  display: inline-block;
+  color: black;
+  height: auto;
+  font-weight: 600;
+  font-size: 0.840rem;
+  line-height: 0.840rem;
+}
+
+@media (min-width: 768px) {
+  .product-price-block div {
+    display: inline-block;
+    color: black;
+    height: auto;
+    font-size: 1.15rem;
+    line-height: 1.15rem;
+  }
+}
