@@ -1449,7 +1449,7 @@ es:
       checkout: Caja
     checkout_page:
       header: Caja
-      back_to_cart: Volver al carrito
+      back_to_home: Seguir comprando
       delivery_method: Método de envío
     pdp:
       view_cart: Ver Carrito
