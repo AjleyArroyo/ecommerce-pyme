@@ -21,7 +21,7 @@
     <div class="col-6">
 
       <div class="homepage-taxon-box mb-3">
-        <%= link_to spree.nested_taxons_path('men') do %>
+        <%= link_to spree.nested_taxons_path('categorias/men') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
@@ -34,7 +34,7 @@
       </div>
 
       <div class="homepage-taxon-box">
-        <%= link_to spree.nested_taxons_path('sportswear') do %>
+        <%= link_to spree.nested_taxons_path('categorias/sportswear') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
@@ -51,7 +51,7 @@
     <div class="col-6 d-flex flex-column">
 
       <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path('women') do %>
+        <%= link_to spree.nested_taxons_path('categorias/women') do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
             data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
@@ -76,7 +76,7 @@
     <div class="homepage-fashion-trends-box-description-text text-center mb-3">
       <%= Spree.t('homepage.fashion_trends_note') %>
     </div>
-    <%= link_to Spree.t('homepage.read_more'), spree.nested_taxons_path('trending'), class: 'btn px-5 spree-btn btn-outline-primary' %>
+    <%= link_to Spree.t('homepage.read_more'), spree.nested_taxons_path('categorias/trending'), class: 'btn px-5 spree-btn btn-outline-primary' %>
   </div>
 </div>
 
@@ -85,7 +85,7 @@
 <div class="container">
   <div class="row">
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path('streetstyle') do %>
+      <%= link_to spree.nested_taxons_path('categorias/streetstyle') do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/promo_banner_left.jpg') %>"
@@ -105,7 +105,7 @@
     </div>
 
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path('summer-sale') do %>
+      <%= link_to spree.nested_taxons_path('categorias/summer-sale') do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/promo_banner_right.jpg') %>"
