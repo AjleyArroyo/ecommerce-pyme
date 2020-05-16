@@ -42,6 +42,7 @@ es:
         phone: Teléfono
         state: Estado / Provincia
         zipcode: Código Postal
+        reference: Referencia
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
         preferred_tiers:
