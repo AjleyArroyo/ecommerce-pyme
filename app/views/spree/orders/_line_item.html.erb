@@ -20,8 +20,8 @@
           </li>
         <% end %>
       </ul>
-      <%= render 'line_item_data', view: 'mobile', line_item: line_item, item_form: item_form %>
+      <%= render 'spree/orders/line_item_data', view: 'mobile', line_item: line_item, item_form: item_form %>
     </div>
-    <%= render 'line_item_data', view: 'desktop', line_item: line_item, item_form: item_form %>
+    <%= render 'spree/orders/line_item_data', view: 'desktop', line_item: line_item, item_form: item_form %>
   </div>
 <% end %>

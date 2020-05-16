@@ -2,7 +2,7 @@
 
 <div data-hook="cart_container" class="container shopping-cart-1">
 
-  <span class="text-uppercase shopping-cart-1-header"><%= Spree.t('cart_page.header') %></span>
+  <span class="text-uppercase shopping-cart-1-header"><%= Spree.t('shopping_cart') %></span>
 
   <% if simple_current_order.line_items.empty? %>
     <div data-hook="empty_cart" class="shopping-cart-1-empty">
@@ -23,7 +23,7 @@
       <%= form_for simple_current_order, url: spree.update_cart_path, html: { id: 'update-cart' } do |order_form| %>
         <div data-hook="inside_cart_form">
           <div data-hook="cart_items" class="shopping-cart-1-table">
-            <%= render partial: 'form', locals: { order_form: order_form } %>
+            <%= render partial: 'spree/orders/form', locals: { order_form: order_form } %>
           </div>
 
           <div class="d-lg-flex flex-wrap justify-content-between">
@@ -54,7 +54,7 @@
             </div>
 
             <% if Spree::Frontend::Config[:coupon_codes_enabled] %>
-              <%= render 'coupon_code',
+              <%= render 'spree/orders/coupon_code',
                 promotion: simple_current_order.valid_coupon_promotions.first,
                 order_form: order_form,
                 classes: ''
