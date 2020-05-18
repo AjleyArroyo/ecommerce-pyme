@@ -72,6 +72,12 @@
             </div>
             <span class="order-show-line-items-line-item-desc-quantity-val d-lg-block"><%= item.quantity %></span>
           </div>
+          <div class="order-show-line-items-line-item-desc-observation">
+            <div class="order-show-line-items-line-item-desc-observation-attr-name d-inline d-lg-block">
+              <span><%= Spree.t(:observation) %></span>
+            </div>
+            <span class="order-show-line-items-line-item-desc-observation-val d-lg-block"><%= item.observation %></span>
+          </div>
           <div class="order-show-line-items-line-item-desc-total">
             <div class="order-show-line-items-line-item-desc-total-attr-name d-inline d-lg-block">
               <span><%= Spree.t(:total) %></span>

@@ -68,6 +68,7 @@ es:
       spree/line_item:
         price: Precio
         quantity: Cantidad
+        observation: Observación
       spree/option_type:
         name: Nombre
         presentation: Presentación
@@ -117,6 +118,7 @@ es:
         shipping_category: Categoría de Envíos
         tax_category: Categoría de Impuestos
         less_than: "Menor a"
+        discount: Descuento %
       spree/promotion:
         advertise: Anuncio
         code: Código
@@ -189,6 +191,16 @@ es:
         sku: SKU
         weight: Peso
         width: Ancho
+      spree/vendor:
+        about_us: Acerca de
+        contact_us: Contáctanos
+        image: Imagen
+        name: Nombre
+        state: estado
+        created_at: creado en
+        priority: prioridad
+        commission_rate: porcentaje de comisión
+        notification_email: Correo de notificación
       spree/zone:
         description: Descripción
         name: Nombre
@@ -323,6 +335,9 @@ es:
       spree/variant:
         one: Variante
         other: Variantes
+      spree/vendor:
+        one: Vendedor
+        other: Vendedores
       spree/zone:
         one: Zona
         other: Zonas
@@ -348,6 +363,9 @@ es:
     oauth_callbacks:
       failure: No pudo autorizarse desde %{kind} debido a %{reason}.
       success: Autorizado desde la cuenta de %{kind}
+    omniauth_callbacks:
+      failure: No pudo autorizarse desde %{kind} debido a %{reason}.
+      success: "Estás sesión con tu cuenta de %{kind}."
     unlocks:
       send_instructions: En breve recibirá  un email con instrucciones acerca de como desbloquear su cuenta.
       unlocked: Su cuenta fue desbloqueada correctamente. Ahora está conectado
@@ -661,7 +679,6 @@ es:
     enable_mail_delivery: Habilitar envío por correo
     end: Fin
     ending_in: Ending in
-    environment: Entorno
     error: error
     errors:
       messages:
@@ -926,6 +943,10 @@ es:
         subtotal:
         thanks: Gracias por su negocio
         total:
+      vendor_notification_email:
+        dear_vendor: Estimado vendedor,
+        subject: Notificación de vendedor
+        thanks: Gracias
     order_not_found: No pudimos encontrar su orden. Por favor inténtalo de nuevo
     order_number:
     order_processed_successfully: Su pedido se ha procesado correctamente
@@ -1308,7 +1329,7 @@ es:
     street_address_2: Dirección (continuación)
     subtotal: Subtotal
     subtract: Restar
-    success:
+    success: Éxito
     successfully_created: "¡%{resource} ha sido creado con éxito"
     successfully_refunded:
     successfully_removed: "%{resource} ha sido borrado con éxito"
@@ -1442,6 +1463,7 @@ es:
     cart_page:
       product: Producto
       quantity: Cantidad
+      observation: Observación
       add_promo_code: Añadir código de promoción
       empty_info: "Carrito Vacío"
       header: "Compras"
@@ -1483,12 +1505,39 @@ es:
     order_number: Número de Órden
     order_success: Compra exitosa
     order_success_explain: Detalle de la compra exitosa
-    social_authentication_methods: Métodos de autenticación social
-    no_authentication_methods_found: No se encontraron métodos de autenticación
-    social_provider: Proveedor social
-    social_api_secret: API secreta social 
-    social_api_key: llave API social 
-    back_to_authentication_methods_list: Volver a la lista de métodos de autenticación
-    edit_social_method: Editar método social
     go_to_category: Ir a la Categoria
     already_have_account: Ya tengo cuenta
+    observation: Observación
+    environment: Ambiente
+    user_was_not_valid: "El usuario no fue válido."
+    add_another_service: 'Añadir otro servicio para inicio de sesión:'
+    authentications:
+      destroy: 'Método de autenticación destruido exitosamente.'
+    back_to_authentication_methods_list: "Volver a la lista de métodos de autenticación"
+    edit_social_method: 'Editando metodo de autenticación'
+    new_social_method: 'Nuevo método de autenticación'
+    no_authentication_methods_found: "No se encuentran ni métodos de autenticación"
+    one_more_step: 'Un paso más para completar tu registro desde %{kind}'
+    remove_authentication_option_confirmation: '¿Está seguro que quiere eliminar este método de autenticación?'
+    sign_into_account: 'Puedes iniciar sesión usando:'
+    sign_in_through_one_of_these_services: 'Iniciar sesión a través de uno de estos servicios:'
+    social_api_key: 'API Clave'
+    social_api_secret: 'API Secreto'
+    social_authentication_methods: 'Métodos de autenticación'
+    social_authentication_methods_description: 'Configurar métodos de autenticación de OAuth'
+    social_provider: 'Proveedor social'
+    please_confirm_your_email: 'Por favor confirme su email para continuar'
+    sign_in_with: 'Autententicado con %{provider}'
+    you_have_signed_in_with_these_services: "Has iniciado sesión con estos servicios"
+    back_to_vendors_list: Volver a la lista de vendedores
+    edit_vendor: Editar vendedor
+    new_vendor: Nuevo vendedor
+    only_alphanumeric_chars: Debería contener solo letras y dígitos
+    vendor: Vendedor
+    vendor_name: Nombre del vendedor
+    vendor_states:
+      active: Activo
+      blocked: Bloqueado
+      pending: Pendiente
+    admin:
+      commission: Comisión

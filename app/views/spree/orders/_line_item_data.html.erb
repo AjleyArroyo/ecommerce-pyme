@@ -15,6 +15,12 @@
   </div>
 </div>
 
+<div class="shopping-cart-item-observation <%= additional_classes %>" data-hook="cart_item_observation">
+  <div class="d-flex align-items-center">
+    <%= line_item.observation %>
+  </div>
+</div>
+
 <% if view == "desktop" %>
   <div class="shopping-cart-item-total d-none d-lg-table-cell" data-hook="cart_item_total">
     <%= line_item.display_amount.to_html unless line_item.quantity.nil? %>

@@ -5,6 +5,3 @@ module SpreeFrontend
     end
   end
 end
-
-
-# ::Spree::Address.prepend SpreeFrontend::Spree::AddressDecorator if ::Spree::Address.included_modules.exclude?(SpreeFrontend::Spree::AddressDecorator)

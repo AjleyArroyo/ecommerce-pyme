@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_13_190905) do
+ActiveRecord::Schema.define(version: 2020_05_18_194230) do
 
   create_table "action_mailbox_inbound_emails", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.integer "status", default: 0, null: false
@@ -83,6 +83,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
     t.datetime "deleted_at"
+    t.string "reference"
     t.index ["country_id"], name: "index_spree_addresses_on_country_id"
     t.index ["deleted_at"], name: "index_spree_addresses_on_deleted_at"
     t.index ["firstname"], name: "index_addresses_on_firstname"
@@ -162,10 +163,10 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.boolean "states_required", default: false
     t.datetime "updated_at"
     t.boolean "zipcode_required", default: true
-    t.index "(lower(`iso_name`))", name: "index_spree_countries_on_lower_iso_name", unique: true
-    t.index "(lower(`name`))", name: "index_spree_countries_on_lower_name", unique: true
     t.index ["iso"], name: "index_spree_countries_on_iso", unique: true
     t.index ["iso3"], name: "index_spree_countries_on_iso3", unique: true
+    t.index ["iso_name"], name: "index_spree_countries_on_iso_name", unique: true
+    t.index ["name"], name: "index_spree_countries_on_name", unique: true
   end
 
   create_table "spree_credit_cards", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -248,6 +249,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.decimal "pre_tax_amount", precision: 12, scale: 4, default: "0.0", null: false
     t.decimal "taxable_adjustment_total", precision: 10, scale: 2, default: "0.0", null: false
     t.decimal "non_taxable_adjustment_total", precision: 10, scale: 2, default: "0.0", null: false
+    t.text "observation"
     t.index ["order_id"], name: "index_spree_line_items_on_order_id"
     t.index ["tax_category_id"], name: "index_spree_line_items_on_tax_category_id"
     t.index ["variant_id"], name: "index_spree_line_items_on_variant_id"
@@ -525,6 +527,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.string "meta_title"
     t.integer "vendor_id"
     t.decimal "discount", precision: 8, scale: 2
+    t.boolean "no_discount_mode", default: false
     t.index ["available_on"], name: "index_spree_products_on_available_on"
     t.index ["deleted_at"], name: "index_spree_products_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_products_on_discontinue_on"
@@ -657,7 +660,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.boolean "mutable", default: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index "(lower(`name`))", name: "index_spree_refund_reasons_on_lower_name", unique: true
+    t.index ["name"], name: "index_spree_refund_reasons_on_name", unique: true
   end
 
   create_table "spree_refunds", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -689,7 +692,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "type"
-    t.index "(lower(`name`))", name: "index_spree_reimbursement_types_on_lower_name", unique: true
+    t.index ["name"], name: "index_spree_reimbursement_types_on_name", unique: true
     t.index ["type"], name: "index_spree_reimbursement_types_on_type"
   end
 
@@ -712,7 +715,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.boolean "mutable", default: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index "(lower(`name`))", name: "index_spree_return_authorization_reasons_on_lower_name", unique: true
+    t.index ["name"], name: "index_spree_return_authorization_reasons_on_name", unique: true
   end
 
   create_table "spree_return_authorizations", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -765,7 +768,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
 
   create_table "spree_roles", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.index "(lower(`name`))", name: "index_spree_roles_on_lower_name", unique: true
+    t.index ["name"], name: "index_spree_roles_on_name", unique: true
   end
 
   create_table "spree_shipments", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -998,7 +1001,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.string "facebook"
     t.string "twitter"
     t.string "instagram"
-    t.index "(lower(`code`))", name: "index_spree_stores_on_lower_code", unique: true
+    t.index ["code"], name: "index_spree_stores_on_code", unique: true
     t.index ["default"], name: "index_spree_stores_on_default"
     t.index ["url"], name: "index_spree_stores_on_url"
   end
@@ -1139,6 +1142,7 @@ ActiveRecord::Schema.define(version: 2020_05_13_190905) do
     t.datetime "updated_at", null: false
     t.datetime "created_at", null: false
     t.integer "vendor_id"
+    t.boolean "no_discount_mode", default: false
     t.index ["deleted_at"], name: "index_spree_variants_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_variants_on_discontinue_on"
     t.index ["is_master"], name: "index_spree_variants_on_is_master"

@@ -32,4 +32,4 @@ Spree::Frontend::Config[:locale] = :es
 Spree::Backend::Config[:locale] = :es
 Spree::Auth::Config[:confirmable] = false
 Spree::PermittedAttributes.address_attributes << :reference
-# Spree::PermittedAttributes.shipping_address_attributes << [:reference]
+Spree::PermittedAttributes.line_item_attributes << :observation
