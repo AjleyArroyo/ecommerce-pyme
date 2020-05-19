@@ -27,19 +27,22 @@
           </div>
 
           <div class="d-lg-flex flex-wrap justify-content-between">
+            <div class="text-uppercase d-none d-lg-block mt-3">
+              <%= link_to Spree.t(:continue_shopping), spree.products_path, class: 'shopping-cart-buttons-continue' %>
+            </div>
 
             <div class="text-right shopping-cart-total d-none d-lg-block">
               <div class="row no-gutters align-items-center">
-                <div class="text-uppercase shopping-cart-total-text col-6 mr-0">
+                <div class="text-uppercase shopping-cart-total-text col-8 mr-0">
                   <%= Spree.t(:subtotal) %>
                 </div>
-                <div class="shopping-cart-total-amount align-self-sm-start">
+                <div class="shopping-cart-total-amount col align-self-end">
                   <%= order_form.object.display_item_total %>
                 </div>
               </div>
               <% if !order_form.object.cart_promo_total.zero? %>
                 <div class="row no-gutters align-items-center">
-                  <div class="text-uppercase shopping-cart-total-text col-6 mr-0">
+                  <div class="text-uppercase shopping-cart-total-text col-8 mr-0">
                     <%= Spree.t(:promotion) %>
                   </div>
                   <div class="shopping-cart-total-amount col align-self-end">
@@ -47,10 +50,6 @@
                   </div>
                 </div>
               <% end %>
-            </div>
-
-            <div class="text-uppercase d-none d-lg-block mt-3">
-              <%= link_to Spree.t(:continue_shopping), spree.products_path, class: 'shopping-cart-buttons-continue' %>
             </div>
 
             <% if Spree::Frontend::Config[:coupon_codes_enabled] %>

@@ -972,7 +972,7 @@ es:
     payment_state: Estado del pago
     payment_states:
       balance_due: pago pendiente
-      checkout: caja
+      checkout: Pagar
       completed: completado
       credit_owed: cŕedito a deber
       failed: fallado
@@ -1446,14 +1446,14 @@ es:
       empty_info: "Carrito Vacío"
       header: "Compras"
       title: "Compras"
-      checkout: Caja
+      checkout: Pagar
     checkout_page:
-      header: Caja
+      header: Pagar
       back_to_home: Seguir comprando
       delivery_method: Método de envío
     pdp:
       view_cart: Ver Carrito
-      checkout: Caja
+      checkout: Pagar
     store_credit_name: "Compras"
     store_credit_categories: Almacenar Categorías de Crédito
     refund_reasons: Razones de Reembolso
