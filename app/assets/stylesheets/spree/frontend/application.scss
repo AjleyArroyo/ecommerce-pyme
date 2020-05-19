@@ -1,6 +1,5 @@
 @import "spree/frontend/variables/variables";
-@import "spree/frontend/variables/header";
-@import "spree/frontend/variables/cart";
+@import "spree/frontend/variables/home";
 @import "spree/frontend/variables/bootstrap-overrides";
 @import "spree/frontend/variables/helper-variables";
 @import "bootstrap";
@@ -55,3 +54,4 @@
 @import "spree/frontend/views/spree/shared/color_select";
 @import "spree/frontend/views/spree/shared/dropdown";
 @import "spree/frontend/views/spree/shared/delete_address_popup";
+@import "myStyle";
