@@ -7,4 +7,9 @@ module ApplicationHelper
         display_price_including_vat_for(current_price_options).
         to_html
   end
+
+  # def available_option_types_cache_key
+  #   @available_option_types_cache_key ||= Spree::OptionType.maximum(:updated_at)&.utc&.to_i
+  # end
+
 end
