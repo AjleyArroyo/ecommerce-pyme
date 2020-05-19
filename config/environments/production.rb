@@ -91,8 +91,8 @@ Rails.application.configure do
     :domain               => "caimango.com",
     :user_name            => Rails.application.credentials.gmail_user,
     :password             => Rails.application.credentials.gmail_pass,
-    :authentication       => "plain",
-    :enable_starttls_auto => true
+    :authentication       => "plain"
+    # :enable_starttls_auto => true
   }
 
   config.action_mailer.raise_delivery_errors = true
