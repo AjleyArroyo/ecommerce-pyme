@@ -19,7 +19,6 @@ gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 gem 'spree_social', github: 'spree-contrib/spree_social'
 gem "letter_opener", :group => :development
 
-
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end

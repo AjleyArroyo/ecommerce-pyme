@@ -38,8 +38,32 @@
       </div>
     </li>
   <% end %>
-  <li id="link-to-cart">
-    <%= render 'spree/shared/cart', class: 'd-none d-xl-inline-block cart-icon--xl', size: 36, item_count: 0 %>
-    <%= render 'spree/shared/cart', class: 'd-xl-none', size: 24, item_count: 0 %>
+  <li>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <%= render partial: 'spree/orders/show_cart'%>
+    </div>
+    <button class="navbar-button cart-icon cart-icon--visible-count " onclick="openNav()">
+      <%= icon(name: 'cart',
+               classes: 'd-none d-xl-inline-block',
+               width: 41.4,
+               height: 36)  %>
+
+      <%= icon(name: 'cart',
+               classes: 'd-xl-none',
+               width: 27.6,
+               height: 24)  %>
+      <div class="font-weight-medium cart-icon-count"><%= simple_current_order&.item_count   %></div>
+    </button>
   </li>
 </ul>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").className = "sidenavopen";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").className = "sidenav";
+  }
+</script>
