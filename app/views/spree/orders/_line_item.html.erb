@@ -1,11 +1,11 @@
 <% variant = line_item.variant %>
 
 <%= order_form.fields_for :line_items, line_item do |item_form| %>
-  <div class="d-table-row shopping-cart-item">
-    <div class="d-table-cell shopping-cart-item-image" data-hook="cart_item_image">
+  <div class="d-table-row shopping-cart-1-item">
+    <div class="d-table-cell shopping-cart-1-item-image" data-hook="cart_item_image">
       <%= link_to product_image(variant), variant.product %>
     </div>
-    <div class="d-table-cell shopping-cart-item-description" data-hook="cart_item_description">
+    <div class="d-table-cell shopping-cart-1-item-description" data-hook="cart_item_description">
       <h4 class="item-title"><%= link_to line_item.name, spree.product_path(variant.product) %></h4>
       <% if line_item.insufficient_stock? %>
         <span class="out-of-stock">
@@ -20,8 +20,8 @@
           </li>
         <% end %>
       </ul>
-      <%= render 'line_item_data', view: 'mobile', line_item: line_item, item_form: item_form %>
+      <%= render 'spree/orders/line_item_data', view: 'mobile', line_item: line_item, item_form: item_form %>
     </div>
-    <%= render 'line_item_data', view: 'desktop', line_item: line_item, item_form: item_form %>
+    <%= render 'spree/orders/line_item_data', view: 'desktop', line_item: line_item, item_form: item_form %>
   </div>
 <% end %>

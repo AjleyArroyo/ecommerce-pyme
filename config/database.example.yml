@@ -1,4 +1,4 @@
-#
+# 
 # Install the MYSQL driver
 #   gem install mysql2
 #
@@ -14,7 +14,7 @@ development:
   database: ec_development
   pool: 5
   username: root
-  password:
+  password: 
   # socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -27,7 +27,7 @@ test:
   database: ec_test
   pool: 5
   username: root
-  password:
+  password: 
   # socket: /tmp/mysql.sock
 
 production:
@@ -37,5 +37,5 @@ production:
   database: ec_production
   pool: 5
   username: root
-  password:
+  password: 
   # socket: /tmp/mysql.sock

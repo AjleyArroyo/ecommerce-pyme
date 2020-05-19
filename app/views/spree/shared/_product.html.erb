@@ -6,16 +6,7 @@
       <div class="product-component-name" title="<%= product.name %>">
         <%= product.name %>
       </div>
-      <% if product.discount %>
-          <div class="product-price-block">
-            <div>Antes:</div>
-            <div class="product-price"> <%= display_no_discount_price(product) %></div>
-          </div>
-          <div class="product-price-with-discount"><%= display_price(product) %></div>
-      <% else %>
-          <div class="product-component-price"><%= display_price(product) %></div>
-          <br>
-      <% end %>
+      <div class="product-component-price"><%= display_price(product) %></div>
     </div>
   <% end %>
 <% end %>
