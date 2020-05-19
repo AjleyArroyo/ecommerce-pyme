@@ -96,3 +96,5 @@ yarn-debug.log*
 
 # Ignore application configuration
 /config/application.yml
+
+.idea
