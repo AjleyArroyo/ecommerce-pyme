@@ -19,9 +19,17 @@
             <%= "#{ov.option_type.presentation}: #{ov.name.titleize}" %>
           </li>
         <% end %>
+        <li class="item-details form-group show-desktop">
+          <p class="form-group checkout-content-inner-field">
+            <input type="text" class="form-control" placeholder="<%= Spree.t('product_comment') %>"/>
+            <%#= item_form.text_field :quantity, class: 'form-control', placeholder: Spree.t('product_comment'), autofocus: true %>
+          </p>
+        </li>
       </ul>
       <%= render 'spree/orders/line_item_data', view: 'mobile', line_item: line_item, item_form: item_form %>
     </div>
     <%= render 'spree/orders/line_item_data', view: 'desktop', line_item: line_item, item_form: item_form %>
   </div>
+
 <% end %>
+
