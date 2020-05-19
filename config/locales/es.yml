@@ -68,7 +68,6 @@ es:
       spree/line_item:
         price: Precio
         quantity: Cantidad
-        observation: Observación
       spree/option_type:
         name: Nombre
         presentation: Presentación
@@ -1463,7 +1462,6 @@ es:
     cart_page:
       product: Producto
       quantity: Cantidad
-      observation: Observación
       add_promo_code: Añadir código de promoción
       empty_info: "Carrito Vacío"
       header: "Compras"
@@ -1507,7 +1505,6 @@ es:
     order_success_explain: Detalle de la compra exitosa
     go_to_category: Ir a la Categoria
     already_have_account: Ya tengo cuenta
-    observation: Observación
     environment: Ambiente
     user_was_not_valid: "El usuario no fue válido."
     add_another_service: 'Añadir otro servicio para inicio de sesión:'
