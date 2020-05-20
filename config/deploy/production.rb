@@ -1,5 +1,5 @@
 
-server '3.21.124.60', user: 'deploy', roles: %w{app db web}
+server '3.12.202.25', user: 'deploy', roles: %w{app db web}
 
 set :stage,           :production
 set :branch,          "master"
