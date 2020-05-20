@@ -9,6 +9,8 @@ module SpreeFrontend
         discount ||= 0
 
         self[:amount] * (1 - discount / 100)
+      rescue
+        self[:amount]
       end
 
     end
