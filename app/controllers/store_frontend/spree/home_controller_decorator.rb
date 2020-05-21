@@ -1,12 +1,11 @@
 module StoreFrontend
   module Spree
     module HomeControllerDecorator
-      include ::Spree::ProductsHelper
       include ::Spree::FrontendHelper
       def index
         @searcher = build_searcher(params.merge(include_images: true))
         @products = @searcher.retrieve_products
-
+        @products_with_discount = @searcher.retrieve_products.where.not(discount: nil).all
         last_modified = @products.maximum(:updated_at)&.utc if @products.respond_to?(:maximum)
 
         etag = [
