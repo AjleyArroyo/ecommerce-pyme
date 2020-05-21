@@ -10,6 +10,7 @@ module Marketone
   class Application < Rails::Application
     Raven.configure do |config|
       config.dsn = ENV['sentry_dsn']
+      config.environments = %w(test production)
     end
 
 
@@ -26,15 +27,14 @@ module Marketone
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
     # I18n.enforce_available_locales = false
-    # I18n.config.available_locales = :es
-    # config.i18n.default_locale = :es
-    # config.time_zone = 'La Paz'
+    I18n.config.available_locales = :es
+    config.i18n.default_locale = :es
+    config.time_zone = 'La Paz'
   end
 end

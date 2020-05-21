@@ -15,14 +15,18 @@
           </div>
           <% path = spree.respond_to?(:update_checkout_registration_path) ? spree.update_checkout_registration_path : spree_signup_path %>
 
-          <%= form_for @order, url: path, method: :put, html: { id: 'checkout_form_registration' } do |f| %>
-            <div class="form-group">
-              <p class="form-group checkout-content-inner-field">
-                <%= f.email_field :email, class: 'spree-flat-input', placeholder: Spree.t(:email), autofocus: true %>
-              </p>
-            </div>
-            <%= f.submit Spree.t(:continue_as_guest), class: 'btn btn-block btn-outline-primary spree-btn', tabindex: 4 %>
-          <% end %>
+          <%-# form_for @order, url: path, method: :put, html: { id: 'checkout_form_registration' } do |f| %>
+            <%# <div class="form-group">
+              <p class="form-group checkout-content-inner-field"> %>
+                <%-#= f.email_field :email, class: 'spree-flat-input', placeholder: Spree.t(:email), autofocus: true %>
+              <%# </p> %>
+            <%# </div> %>
+            <%-#= f.submit Spree.t(:continue_as_guest), class: 'btn btn-block btn-outline-primary spree-btn', tabindex: 4 %>
+          <%-# end %>
+
+          <div class='text-center'>
+            <%= link_to '<i class="d-inline-block icon-spree-facebook-circled"></i>'.html_safe, spree_user_facebook_omniauth_authorize_path, class: 'd-inline-block', title: 'Login with facebook' %>
+          </div>
         <% end %>
       </div>
     </div>

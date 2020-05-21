@@ -13,6 +13,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
+  config.products_per_page = 12
 end
 
 # Configure Spree Dependencies
@@ -28,3 +29,8 @@ end
 
 
 Spree.user_class = "Spree::User"
+Spree::Frontend::Config[:locale] = :es
+Spree::Backend::Config[:locale] = :es
+Spree::Auth::Config[:confirmable] = false
+Spree::PermittedAttributes.address_attributes << :reference
+# Spree::PermittedAttributes.shipping_address_attributes << [:reference]
