@@ -1,12 +1,15 @@
 module SpreeFrontend
   module Spree
     module PriceDecorator
+      attr_accessor :no_discount_mode
+
       def amount
-        unless variant.try(:no_discount_mode) || variant.try(:product).try(:no_discount_mode)
-          if variant.try(:product).try(:discount)
-            return self[:amount] * (1 - variant.try(:product).try(:discount) / 100)
-          end
-        end
+        return self[:amount] if @no_discount_mode
+        discount = variant.try(:product).try(:discount)
+        discount ||= 0
+
+        self[:amount] * (1 - discount / 100)
+      rescue
         self[:amount]
       end
     end
