@@ -31,6 +31,6 @@ end
 Spree.user_class = "Spree::User"
 Spree::Frontend::Config[:locale] = :es
 Spree::Backend::Config[:locale] = :es
-Spree::Auth::Config[:confirmable] = false
+Spree::Auth::Config[:confirmable] = true
 Spree::PermittedAttributes.address_attributes << :reference
 # Spree::PermittedAttributes.shipping_address_attributes << [:reference]
