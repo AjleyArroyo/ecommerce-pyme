@@ -32,3 +32,5 @@
 en:
   hello: "Hello world"
   buy_now: "BUY NOW"
+  spree:
+    taxonomy_discounts_name: "Discounts"
