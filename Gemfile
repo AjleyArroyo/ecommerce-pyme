@@ -16,7 +16,7 @@ gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
 gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
-gem 'spree_social', github: 'spree-contrib/spree_social'
+gem 'spree_social', github: 'hegeltrigo/spree_social'
 gem "letter_opener", :group => :development
 
 
