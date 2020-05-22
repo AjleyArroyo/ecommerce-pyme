@@ -221,7 +221,7 @@ es:
         spree/classification:
           attributes:
             taxon_id:
-              already_linked:
+              already_linked: ya está asignado a este producto
         spree/credit_card:
           attributes:
             base:
@@ -1541,3 +1541,4 @@ es:
     admin:
       commission: Comisión
     buy_now: COMPRAR AHORA
+    taxonomy_discounts_name: "Descuentos"
