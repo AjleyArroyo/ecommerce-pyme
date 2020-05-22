@@ -68,7 +68,8 @@
   </div>
 </div>
 
-<div data-product-carousel data-product-carousel-taxon-id='bestsellers' class="my-3"></div>
+<div data-product-carousel data-product-carousel-taxon-id='19' class="my-3"></div>
+<div data-product-carousel data-product-carousel-taxon-id='descuentos' class="my-3"></div>
 
 <div class="homepage-fashion-trends-box mb-3">
   <div class="text-center">
@@ -81,26 +82,7 @@
   </div>
 </div>
 
-<div class="row">
-      PRODUCTOS CON DESCUENTO
-  <% @products_with_discount.each_with_index do |product, index| %>
-      <div id="product_<%= product.id %>" class="col-sm-4 col-6 mb-3 mb-md-4 pr-sm-0 pr-md-0 pl-md-4 pl-sm-4 <%= index&1 == 0 ? 'pl-0 pr-2' : 'pr-0 pl-2' %>">
-        <%= render 'spree/shared/product', product: product, image_class: 'product-component-plp-image' %>
-      </div>
-  <% end %>
-</div>
-<div class="row">
-          PRODUCTOS SIN DESCUENTO
-  <% cache cache_key_for_products(@products) do %>
-      <% @products.each_with_index do |product, index| %>
-          <div id="product_<%= product.id %>" class="col-sm-4 col-6 mb-3 mb-md-4 pr-sm-0 pr-md-0 pl-md-4 pl-sm-4 <%= index&1 == 0 ? 'pl-0 pr-2' : 'pr-0 pl-2' %>">
-            <%= render 'spree/shared/product', product: product, image_class: 'product-component-plp-image' %>
-          </div>
-      <% end %>
-  <% end %>
-</div>
-
-<div data-product-carousel data-product-carousel-taxon-id='trending' class="mb-3"></div>
+<div data-product-carousel data-product-carousel-taxon-id='20' class="mb-3"></div>
 
 <div class="container">
   <div class="row">
