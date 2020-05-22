@@ -11,7 +11,7 @@ module SpreeFrontend
         taxonomy = ::Spree::Taxonomy::find_or_create_by!(name: I18n.t('spree.taxonomy_discounts_name'))
         taxon = ::Spree::Taxon.find_or_create_by(name: I18n.t('spree.taxonomy_discounts_name'), taxonomy: taxonomy)
         if self[:discount] != nil and self[:discount] > 0
-          self.taxons << taxon
+          self.taxons << taxon unless self.taxons.exists?(taxon.id)
         else
           self.taxons.delete(taxon)
         end
