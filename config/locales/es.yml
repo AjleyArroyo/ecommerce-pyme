@@ -1162,7 +1162,7 @@ es:
     rename: Renombrar
     report:
     reports: Informes
-    required: Requerido
+    required: '*'
     required_fields: Datos requeridos
     resend: Volver a enviar
     reset_password: Reiniciar mi contraseña
