@@ -34,7 +34,7 @@ es:
     attributes:
       spree/address:
         address1: Dirección
-        address2: Dirección (cont.)
+        address2: Nro Dpto/Casa
         city: Ciudad
         country: País
         firstname: Nombre
@@ -42,7 +42,7 @@ es:
         phone: Teléfono
         state: Estado / Provincia
         zipcode: Código Postal
-        reference: Referencia
+        dni: CI/DNI
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
         preferred_tiers:
@@ -430,7 +430,7 @@ es:
     add_variant: Añadir variante
     additional_item: Costo adicional por elemento
     address1: Dirección
-    address2: Dirección (continuación)
+    address2: Nro Dpto/Casa
     address_book:
       successfully_updated: Actualizado exitosamente
     adjustable: Ajustable
@@ -961,7 +961,7 @@ es:
       confirm: confirmado
       considered_risky:
       delivery: envío
-      payment: pago
+      payment: Confirmación de pago
       resumed: reanudado
       returned: devuelto
     order_summary: Resumen de pedido
@@ -1128,7 +1128,7 @@ es:
     receive_stock: Recibir inventario
     received: Recibido
     reception_status:
-    reference: Referencia
+    dni: CI/DNI
     refund: Devolver
     refund_amount_must_be_greater_than_zero:
     refund_reasons: Razones de reembolso
@@ -1327,7 +1327,7 @@ es:
     stop: Hasta
     store: Tienda
     street_address: Dirección
-    street_address_2: Dirección (continuación)
+    street_address_2: Nro Dpto/Casa
     subtotal: Subtotal
     subtract: Restar
     success: Éxito

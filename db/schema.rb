@@ -87,6 +87,7 @@ ActiveRecord::Schema.define(version: 2020_05_18_194230) do
     t.integer "user_id"
     t.datetime "deleted_at"
     t.string "reference"
+    t.string "dni"
     t.index ["country_id"], name: "index_spree_addresses_on_country_id"
     t.index ["deleted_at"], name: "index_spree_addresses_on_deleted_at"
     t.index ["firstname"], name: "index_addresses_on_firstname"
