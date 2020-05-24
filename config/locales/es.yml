@@ -40,9 +40,11 @@ es:
         firstname: Nombre
         lastname: Apellidos
         phone: Teléfono
-        state: Estado / Provincia
+        state: Estado
         zipcode: Código Postal
         dni: CI/DNI
+        nit: NIT
+        social_reason: Razón Social
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
         preferred_tiers:
@@ -92,15 +94,19 @@ es:
         firstname: Nombre (Dirección de Facturación)
         lastname: Apellidos (Dirección de Facturación)
         phone: Teléfono (Dirección de Facturación)
-        state: Estado / Provincia (Dirección de Facturación)
+        state: Estado (Dirección de Facturación)
         zipcode: Código Postal (Dirección de Facturación)
+        country: País (Dirección de Facturación)
+        dni: CI/ DNI (Dirección de Facturación)
+        nit: NIT (Dirección de Facturación)
+        social_reason: Razón social (Dirección de Facturación)
       spree/order/ship_address:
         address1: Calle (Dirección de Envíos)
         city: Ciudad (Dirección de Envíos)
         firstname: Nombre (Dirección de Envíos)
         lastname: Apellidos (Dirección de Envíos)
         phone: Teléfono (Dirección de Envíos)
-        state: Estado / Provincia (Dirección de Envíos)
+        state: Estado (Dirección de Envíos)
         zipcode: Código Postal (Dirección de Envíos)
       spree/payment:
         amount: Monto
@@ -230,7 +236,7 @@ es:
         spree/line_item:
           attributes:
             currency:
-              must_match_order_currency:
+              must_match_order_currency:  debe coincidir con la moneda del pedido
         spree/refund:
           attributes:
             amount:
@@ -423,7 +429,7 @@ es:
     add_product: Añadir producto
     add_product_properties: Añadir propiedades de producto
     add_rule_of_type: Añadir regla de tipo
-    add_state: Añadir Estado / Provincia
+    add_state: Añadir Estado
     add_stock: Añadir inventario
     add_stock_management: Añadir gestión de inventario
     add_to_cart: Añadir al carrito
@@ -505,7 +511,7 @@ es:
     average_order_value:
     avs_response:
     back: Atrás
-    back_end: Parte Interna
+    back_end: Sistema administrativo
     back_to_payment:
     back_to_resource_list:
     back_to_rma_reason_list:
@@ -727,7 +733,7 @@ es:
     forgot_password: "¿Olvidaste tu contraseña?"
     free_shipping: Gastos de envío gratuitos
     free_shipping_amount:
-    front_end: Sistema Interno
+    front_end: Tienda En linea
     gateway: Pasarela
     gateway_config_unavailable: Pasarela no disponible por configuración
     gateway_error: Error en la pasarela
@@ -1129,6 +1135,8 @@ es:
     received: Recibido
     reception_status:
     dni: CI/DNI
+    nit: NIT
+    social_reason: Razón Social
     refund: Devolver
     refund_amount_must_be_greater_than_zero:
     refund_reasons: Razones de reembolso
@@ -1309,7 +1317,7 @@ es:
       returned:
       shipped:
       void:
-    states: Provincias
+    states: Estados
     states_required: Estados Requeridos
     status: Estado
     stock:

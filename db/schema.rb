@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_18_194230) do
+ActiveRecord::Schema.define(version: 2020_05_15_231618) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -86,8 +86,9 @@ ActiveRecord::Schema.define(version: 2020_05_18_194230) do
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
     t.datetime "deleted_at"
-    t.string "reference"
     t.string "dni"
+    t.string "nit"
+    t.string "social_reason"
     t.index ["country_id"], name: "index_spree_addresses_on_country_id"
     t.index ["deleted_at"], name: "index_spree_addresses_on_deleted_at"
     t.index ["firstname"], name: "index_addresses_on_firstname"
@@ -530,7 +531,6 @@ ActiveRecord::Schema.define(version: 2020_05_18_194230) do
     t.datetime "discontinue_on"
     t.integer "vendor_id"
     t.decimal "discount", precision: 8, scale: 2
-    t.boolean "no_discount_mode", default: false
     t.index ["available_on"], name: "index_spree_products_on_available_on"
     t.index ["deleted_at"], name: "index_spree_products_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_products_on_discontinue_on"
@@ -1145,7 +1145,6 @@ ActiveRecord::Schema.define(version: 2020_05_18_194230) do
     t.datetime "discontinue_on"
     t.datetime "created_at", null: false
     t.integer "vendor_id"
-    t.boolean "no_discount_mode", default: false
     t.index ["deleted_at"], name: "index_spree_variants_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_variants_on_discontinue_on"
     t.index ["is_master"], name: "index_spree_variants_on_is_master"
