@@ -37,4 +37,8 @@ en:
   back_cart: "Back"
   remove_cart: "Remove from cart?"
   spree:
-    taxonomy_discounts_name: "Discounts"
+  product_comment: "Product comment"
+  removed: "REMOVE"
+  taxonomy_discounts_name: "Discounts"
+  back_cart: "Back"
+  summer_collection: "Summer Collection"

@@ -57,7 +57,6 @@ Spree.ready(function ($) {
                 return false
             }
         })
-
         formUpdateCart.find('button#shopping-cart-remove-coupon-code-button').off('click').on('click', function(event) {
             var input = {
                 appliedCouponCodeField: $('#order_applied_coupon_code'),
@@ -97,5 +96,11 @@ Spree.ready(function ($) {
     })
 
     if (!Spree.cartFetched) Spree.fetchCart()
+    $('.delete-modal').on('shown.bs.modal', function (e) {
+        $('.modal-backdrop').hide();
+    })
 })
 
+function openNav() {
+    $("#mySidenav").toggleClass("sidenav sidenavopen");
+}
