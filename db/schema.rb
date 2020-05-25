@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_15_231618) do
+ActiveRecord::Schema.define(version: 2020_05_25_203712) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -870,6 +870,7 @@ ActiveRecord::Schema.define(version: 2020_05_15_231618) do
     t.string "abbr"
     t.integer "country_id"
     t.datetime "updated_at"
+    t.boolean "enabled", default: true
     t.index ["country_id"], name: "index_spree_states_on_country_id"
   end
 
