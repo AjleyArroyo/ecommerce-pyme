@@ -6,15 +6,16 @@ module SpreeFrontend
       attr_accessor :skip_validation
 
       def self.prepended(base)
-        base.validates :firstname, :lastname, presence: true, if: :skip_validation
-        base.validates :phone, :dni, presence: true, numericality: true, if: :skip_validation
-        base.validates :nit, :social_reason, presence: true, unless: :skip_validation
+        base.after_initialize :skip_validators, if: :skip_validation
+        base.after_find :skip_validators, if: :skip_validation
+        base.validates :phone, :dni, presence: true, numericality: true, unless: :skip_validation
+        
       end
 
-      def bill_validator
-        _validators.reject! { |attribute, _| attribute == :firstname }
+      def skip_validators
+        self.class.clear_validators!
+        self.class.validates :nit, :social_reason, presence: true
       end
-
     end
   end
 end

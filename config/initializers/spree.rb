@@ -34,6 +34,7 @@ Spree::Frontend::Config[:locale] = :es
 Spree::Backend::Config[:locale] = :es
 Spree::Auth::Config[:confirmable] = true
 Spree::PermittedAttributes.address_attributes << :dni
+Spree::PermittedAttributes.address_attributes << :skip_validation
 Spree::PermittedAttributes.address_attributes << :nit
 Spree::PermittedAttributes.address_attributes << :social_reason
 Spree::Config[:checkout_zone] = 'South America'

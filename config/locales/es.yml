@@ -108,6 +108,10 @@ es:
         phone: Teléfono (Dirección de Envíos)
         state: Estado (Dirección de Envíos)
         zipcode: Código Postal (Dirección de Envíos)
+        country: País (Dirección de Envíos)
+        dni: CI/ DNI (Dirección de Envíos)
+        nit: NIT (Dirección de Envíos)
+        social_reason: Razón social (Dirección de Envíos)
       spree/payment:
         amount: Monto
       spree/payment_method:
