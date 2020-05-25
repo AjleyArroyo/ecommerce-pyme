@@ -32,5 +32,9 @@
 en:
   hello: "Hello world"
   buy_now: "BUY NOW"
+  product_comment: "Product comment"
+  removed: "REMOVE"
+  back_cart: "Back"
+  remove_cart: "Remove from cart?"
   spree:
     taxonomy_discounts_name: "Discounts"
