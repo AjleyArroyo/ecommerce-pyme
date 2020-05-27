@@ -210,7 +210,7 @@ es:
         spree/classification:
           attributes:
             taxon_id:
-              already_linked:
+              already_linked: ya está asignado a este producto
         spree/credit_card:
           attributes:
             base:
@@ -972,7 +972,7 @@ es:
     payment_state: Estado del pago
     payment_states:
       balance_due: pago pendiente
-      checkout: caja
+      checkout: pagar
       completed: completado
       credit_owed: cŕedito a deber
       failed: fallado
@@ -1446,14 +1446,14 @@ es:
       empty_info: "Carrito Vacío"
       header: "Compras"
       title: "Compras"
-      checkout: Caja
+      checkout: Pagar
     checkout_page:
-      header: Caja
+      header: Pagar
       back_to_cart: Volver al carrito
       delivery_method: Método de envío
     pdp:
       view_cart: Ver Carrito
-      checkout: Caja
+      checkout: Pagar
     store_credit_name: "Compras"
     store_credit_categories: Almacenar Categorías de Crédito
     refund_reasons: Razones de Reembolso
@@ -1493,3 +1493,8 @@ es:
     go_to_category: Ir a la Categoria
     already_have_account: Ya tengo cuenta
     buy_now: COMPRAR AHORA
+    removed: QUITAR
+    product_comment: Comentario del producto
+    back_cart: Volver
+    remove_cart: ¿Quitar del carrito?
+    taxonomy_discounts_name: "Descuentos"

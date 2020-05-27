@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.5'
 
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
+gem 'pg'
 gem 'mysql2'
 gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
@@ -16,7 +17,7 @@ gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
 gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
-gem 'spree_social', github: 'spree-contrib/spree_social'
+gem 'spree_social', github: 'hegeltrigo/spree_social'
 gem "letter_opener", :group => :development
 
 

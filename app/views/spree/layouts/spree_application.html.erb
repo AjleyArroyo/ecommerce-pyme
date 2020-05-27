@@ -10,10 +10,12 @@
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
     <%= render partial: 'spree/shared/header' %>
     <div id="overlay" class="overlay hide-on-esc"></div>
-
     <div data-hook>
       <main id="content" data-hook>
         <%= flash_messages %>
+        <div id="mySidenav" class="sidenav">
+          <%= render partial: 'spree/orders/leftmenu_edit'%>
+        </div>
         <%= yield %>
       </main>
 

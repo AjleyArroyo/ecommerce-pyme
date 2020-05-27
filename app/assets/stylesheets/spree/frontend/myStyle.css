@@ -22,3 +22,24 @@
 .carousel-item{
     height: 100%;
 }
+.show-desktop{
+    display: block;
+}
+.show-mobile{
+    display: none;
+}
+.margin-bottom{
+    margin-bottom: 5px !important;
+}
+@media (max-width: 992px) {
+    .show-desktop {
+        display: none;
+    }
+    .show-mobile{
+        display: block;
+    }
+}
+#modal-image > a > img {
+    width: 100%;
+    height: 100%;
+}
