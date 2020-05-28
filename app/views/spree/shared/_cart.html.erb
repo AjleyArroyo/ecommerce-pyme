@@ -1,0 +1,20 @@
+<% if item_count>0 %>
+  <style>
+    .cart-icon{
+      color: #0074c2;
+    }
+    .cart-icon-count{
+      background: #0074c2;
+    }
+  </style>
+<% end %>
+<button class="cartbutton navbar-button cart-icon cart-icon--visible-count <%=local_assigns[:class] %>" id="btn-cart"
+        aria-label="<%=Spree.t(:cart) %>"
+        onclick="openNav()">
+  <%= icon(name: 'cart',
+           width: size,
+           height: size) %>
+
+  <div class="font-weight-medium cart-icon-count"><%= item_count %></div>
+</button>
+

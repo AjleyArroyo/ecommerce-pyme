@@ -1,0 +1,69 @@
+<div id="delete-modal-<%=dom_id(line_item)%>" class="modal delete-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document" >
+    <div class="modal-content">
+      <div class="modal-header pb-0 px-4 pt-4 border-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <%= icon(name: 'close',
+                     classes: 'd-block d-lg-none',
+                     width: 16,
+                     height: 16) %>
+            <%= icon(name: 'close',
+                     classes: 'd-none d-lg-block',
+                     width: 30,
+                     height: 30) %>
+          </span>
+        </button>
+      </div>
+      <div class="modal-body p-4">
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-2 d-flex w-auto">
+              <%= icon(name: 'check-mark-circle',
+                       classes: 'd-block d-lg-none mx-auto product-added-modal-check-mark',
+                       width: 38,
+                       height: 38) %>
+              <%= icon(name: 'check-mark-circle',
+                       classes: 'd-none d-lg-block mx-auto product-added-modal-check-mark',
+                       width: 68,
+                       height: 68) %>
+            </div>
+            <div class="col-8 col-sm-6 col-lg-4 product-added-modal-message">
+              <%= Spree.t(:remove_cart) %>
+            </div>
+          </div>
+          <div class="row pt-5 justify-content-center align-items-center product-added-modal-product">
+            <div id="modal-image" class="col-4 col-sm-2 product-added-modal-product-image-container">
+              <%= link_to product_image(variant), variant.product, class: "product-added-modal-product-image-container-image" %>
+            </div>
+            <div class="col-8 col-sm-6 col-lg-4 py-1 product-added-modal-product-details">
+              <div class="product-added-modal-product-details-name">
+                <h4 class="item-title"><%= line_item.name %></h4>
+              </div>
+              <div class="product-added-modal-product-details-price">
+                <%= line_item.single_money.to_html %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer p-4 pb-5 border-0">
+        <div class="container-fluid">
+          <div class="row pb-4 justify-content-center">
+            <div class="col-12 col-lg-8 shopping-cart-item-delete" data-hook="cart_item_delete">
+              <%= link_to '#', class: 'delete btn btn-primary w-100 font-weight-bold text-uppercase product-added-modal-button',id: "delete_line_item_5",data: { turbolinks: false } do %>
+                <%= Spree.t('removed') %>
+              <% end %>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+              <button type="button" class="btn btn-outline-primary w-100 font-weight-bold text-uppercase product-added-modal-button" data-dismiss="modal" aria-label="Close"><%= Spree.t('back_cart') %></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

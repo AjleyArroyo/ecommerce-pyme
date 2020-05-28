@@ -1,0 +1,36 @@
+<% content_for :head do %>
+  <% if products.respond_to?(:total_pages) %>
+    <%= rel_next_prev_link_tags products %>
+  <% end %>
+<% end %>
+
+<div class="col-md-12 col-lg-9" data-hook="homepage_products">
+  <div id="infinite-scroll" class="row">
+    <%= render :partial  => 'spree/shared/products_row', :locals => {products: products} %>
+  </div>
+
+  <% if products.respond_to?(:total_pages) %>
+    <div class="row pl-md-4 pl-sm-4">
+      <div style="display: none" class="col-12">
+        <div class="plp-pagination d-none d-lg-flex">
+          <%= paginate products, window: 2, theme: 'twitter-bootstrap-4' %>
+        </div>
+
+        <div class="plp-pagination d-lg-none">
+          <%= paginate products, window: 1, theme: 'twitter-bootstrap-4' %>
+        </div>
+      </div>
+      <%if  @products.total_pages == 1%>
+        <style>
+          #loading{
+            display: none;
+          }
+        </style>
+      <% end %>
+      <div id="loading" class="col-4 offset-4">
+        <img style="width: 100%; height: 100%" class="lazyload"
+             data-src="<%= asset_path('noimage/loading.gif') %>" />
+      </div>
+    </div>
+  <% end %>
+</div>

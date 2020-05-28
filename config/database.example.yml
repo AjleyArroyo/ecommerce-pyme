@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: caimango_development
+  pool: 5
+  username: postgres
+  password: sheril
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: caimango_test
+  pool: 5
+  username: sample_postgres
+  password: sheril
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: caimango_production
+  pool: 5
+  username: postgres
+  password: sheril

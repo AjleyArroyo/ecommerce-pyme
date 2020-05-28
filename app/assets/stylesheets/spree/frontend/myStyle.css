@@ -1,0 +1,45 @@
+.buy-now-button{
+    line-height: 1.15;
+    font-family: Roboto, sans-serif;
+    width: 80%;
+    color: rgb(238, 238, 238);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    box-shadow: rgba(0, 0, 0, 0.46) 3px 3px 8px 0px;
+    text-align: center;
+    cursor: pointer;
+    background: #0074c2;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.carousel-item{
+    height: 100%;
+}
+.show-desktop{
+    display: block;
+}
+.show-mobile{
+    display: none;
+}
+.margin-bottom{
+    margin-bottom: 5px !important;
+}
+@media (max-width: 992px) {
+    .show-desktop {
+        display: none;
+    }
+    .show-mobile{
+        display: block;
+    }
+}
+#modal-image > a > img {
+    width: 100%;
+    height: 100%;
+}

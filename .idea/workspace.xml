@@ -1,7 +1,1171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f766801d-fc3e-49f5-8f4f-5b240085df34" name="Default" comment="" />
+    <list default="true" id="f766801d-fc3e-49f5-8f4f-5b240085df34" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/big_category_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/big_category_banner_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/big_category_banner_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/big_category_banner_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_lower.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_lower_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_lower_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_lower_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_upper.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_upper_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_upper_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/category_banner_upper_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/main_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/main_banner_dos.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/main_banner_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/main_banner_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/main_banner_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/products.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_left_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_left_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_left_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_right_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_right_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/homepage/promo_banner_right_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/meganav/promo_banner_left-first-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/meganav/promo_banner_left-second-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/meganav/promo_banner_left-third-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/meganav/promo_banner_right-first-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/meganav/promo_banner_right-second-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/meganav/promo_banner_right-third-category.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/big_category_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/big_category_banner_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/big_category_banner_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/big_category_banner_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/category_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/category_banner_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/category_banner_plp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/category_banner_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/category_banner_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/main_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/main_banner_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/main_banner_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/main_banner_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/plp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/product_photo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/promo_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/promo_banner_megamenu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/promo_banner_mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/promo_banner_tablet_landscape.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/noimage/promo_banner_tablet_portrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/admin/logo-80200db37ace2294842fdb8cadf550b3681426b5551d89ad8fc4c0a53249d729.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-a87e866cc75bbf976a11af6e1a0979a3b7a51200f28047337a98165442e34f9c.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-e2dd45c9cacd0aa8af165185978224a89df963fc11ab87958c678ec3e414f067.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-bcf5e460148f78c4398add56231155e346063960e7164016256f07822acca76d.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-right-104483052b027d78142aa06c325eb87a8867c4e62f50381c56c9d9ce55030d7a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bag-c50e047c26fbb1ea9bd2605c3f7c72c8f6c31e3dcc1ac20d10089dcca156c2b7.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/burger-0949bab96d00a82fa1a54b6efd761d7318bf5f36da2284c7e98de00bfa843d02.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/cart-13caa6d5b54e2abea8dc1b0b824679d04bc0fbc5bd4c088525f1503de4949e7e.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/check-mark-ab3d29e00f1fc27b0c151fe0082cf5b908d39f0cfa69a05920114563f26e7d80.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/check-mark-circle-9cb99b61373cef1ef93fe441d06463ed9dc46f3ab85dda8af2f03b3a56d05e5f.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/circle-1495c8a2ebef5cdddc628be67aed12a16e0891684dc83a9b6e7330c72ce4091b.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/circle-radio-a887a5c3dd8531d16f781e774b9aeb08d8d8d5b36eafb8ad94fac30e9f650ee0.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/close-a18f55cc92596bfc090808ba77855c199915364cf698a03ffa1f366f7fd7ea44.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/amex_cid-110b3c8694faccb08f6c0e150833efd218b6fe420fdca7175e3551c8bd4b925e.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/credit_card-5ca047adf17e2e7fdd101d108b2ac90178b4ccb32d02628ce723bb14ccb9bcea.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/discover_cid-a3047727fc48922fb60924d854938c44924fe3580e89b22e07afc00d6fd6cc69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/american_express-bddd7ca01fc4468e3c198995040f060ee885cf3bf7dfd4525717c4457d518ed2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/american_express-c8a783d6122d80aa409cc048535113cb4d7e7d7533d4b093f8d932e5d1cc7b76.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/cirrus-4f875cd1f8b69d983eae94789064e64beee80a3d00d01c2407ef80ec4333bab5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/delta-f8058ef2e9c52116978902e28d578c11d37b50f58c2ae20c05f431d483f34d79.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/diners_club-106b815730e7585d6fdf2899aa341979235406c82efcb489ed889ffc96cde880.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/diners_club-d4615f2ef74b6c4218c09d33676de18db8b36d7d328588d15a83a470d58b3398.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/directdebit-b02eaf68946ab2547eb63e884e749bff74ce3f7b4e54710d63efb930968d9f84.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/discover-7657f566fa8ab8b930fa2a1fa90caf0c5d5430afbd1b23425471cc29fc95c48a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/discover-7c51c2b93b35766af6d426d2045cd059880f5655821845a7a839be43a0eb7ce6.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/egold-7fa5daf64d696d244c6e1d8847c1823c30934ac9ce2772d44622d150b0ab36c6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/generic-0385e276dc6bd97b3bb2f154d99fb8713d8935da750459045fdf805638074840.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/jcb-226f02afb616c5cc05c6e1c14cfa511f2484ea5212fe84864fd84e337707de3e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/jcb-23ae6597f6c75deea89e60640c626412aba7b2c1cca7a385a7aab1523cecdb51.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/maestro-04253c601b66912deff0ee2a481c9bcf9154b8965ea4a52761db273fdff70144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/maestro-0c6248a05e89544986a732a8fec88cd2b4caa31c6ba4c99906e33e3849cbc77a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/master-7b3575882921b9234e47fb4d04e99cb05c4aab67a4f4f32cf06241d78b756dc4.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/master-c93be9b003aa2d00eabb76e6ae9bfd3412548da8b64606e4a552c945934b45c2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/paypal-f85bbab879c983e0a969228fc30f9a6b8bf3897e82e519968c0c81368c0d0c96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/solo-91b1d214eaa7c8cbbc1509f628c325f265e226053d1de40702e4ef32435cc71f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/switch-808fe60a28ba3b4e4ebb41a712434d1fc0f5ae7d16b3fb290cd63d8e315c0975.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/visa-601f8c5e3262bae9694d84d6859e1f99f8f4c8c03f08456183b80ea19c469054.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/visa-ce11dfd8058f3b15799c87709a3dea0c9ed5e61f69dbcfedb453c91bc1cdf662.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/visaelectron-6ac6e40b7af2dedd1ee0aad0665fae12f2ebf690c8421fe0f24141d02643be75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/westernunion-5060c8fc7fe0efd1d05f9f39ea85d87d9117f7d8ac92de1fc7acdd740cbef338.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/wirecard-0570018a538835cb2b0f0ab5ae72cc4b01661d0369c1b9977318a914509d4139.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/worldpay-114e072092625fad239074dd7851848fdc7529e548145fa7ec6e564dbb2056a6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/master_cid-aebcf5a0020689ae243e0b8c31da62d8801c1d071bfe0c7c97528fc298abbf96.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/visa_cid-0c885c2d8c5795439e23387124fcd92b7f330589a755c13c78556d19657d9c14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/doorkeeper/admin/application-2a7009dedd337366b9aad2f01c51f4707a1ddb7876597b2625f3a188d382e8e7.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/doorkeeper/application-12b1a092e7005f1dcca67682d8d50524f5abc0befab8cb65f915dcaac18ef840.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/edit-9fc269fcbf8096d13a1035a671ad0d23342a6898a1f70e17cdb0388337d2a35c.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/empty-cart-f9d1b24b77b1a1aa3667b4201d7834c7a33bb387fd6edce9f8b2edb8c0387b6f.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/error-da45849628b080464441ec34889d6e7d039b4ef8179094304b1f3af165b6d849.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-39d2b8bb83f476c851aa56decd154f551bad3bf48f3d77339a6e476bafb0f9cb.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/favicon-92e86d463e909754599d66730477622cd3dd0b9bff58c47c9c38bebceb8073e5.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/favicon-92e86d463e909754599d66730477622cd3dd0b9bff58c47c9c38bebceb8073e5.ico.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/full_circle-d0e00c307cf1c68cee4ec9171bc4200a97a4f924a9397ba6f83aced421442a45.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/full_circle-radio-e94fb4e38917608d662a51cf37ba25e29ee7607a81df45063e2058897d733a5d.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/garbage-1bb357961ce214bd0b2e9bb712024878114065763decdbee7bdf96609a0d92a4.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/garbage_2-5e7cfe6fbf24c17c37777aa879140c1d1b93ad0e7c2da01306a1d61bd7562fb3.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/big_category_banner-49ca5beea0972110a9e2e2f43d6f4e12915b9172630996c4c87da52c453ab8e8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/big_category_banner_mobile-30e1f30aabf6cbdf7c3794aba75e831e40b59fb133f879c4a3d78668a5ce9823.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/big_category_banner_tablet_landscape-06b3f421e4d93042bc340f2d4e5ec00bb0ca75ac7743745c373a6158d7f73334.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/big_category_banner_tablet_portrait-3741356975a8ea1caf8ed6821af5bbccb7f69cde29dd1299518085ec60963a5a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_lower-04de7e9ed6e6c6788e32891ac2f0ea3f352ff4f84d2df40be578e30001a248df.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_lower_mobile-7b71bb432d9317d25bbe8314820de06e1647dadf124c764f33eea4e7efa14eb9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_lower_tablet_landscape-ba74548aa370424ac65597b104231a5f733568f1158ba7f06ce16ac6efb393c1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_lower_tablet_portrait-3218f9f0db1bf5f4f05b877bb8b2d22b8b5c96ce985905733aaba22bce3cffd8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_upper-04de7e9ed6e6c6788e32891ac2f0ea3f352ff4f84d2df40be578e30001a248df.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_upper_mobile-7b71bb432d9317d25bbe8314820de06e1647dadf124c764f33eea4e7efa14eb9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_upper_tablet_landscape-ba74548aa370424ac65597b104231a5f733568f1158ba7f06ce16ac6efb393c1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/category_banner_upper_tablet_portrait-3218f9f0db1bf5f4f05b877bb8b2d22b8b5c96ce985905733aaba22bce3cffd8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/main-banner2-30a34858367c682bd975733dcac39ae36eba20e8723637f4e50e7e4a1288da30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/main-banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/main_banner-95fa8f4fd592696060f44dab378aac0386252b5aa29e8bc3f928e74e0bf252e0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/main_banner_mobile-e3b71f427079362adc781f7f197419ddf26952a71a22d72297401ad5edbf89e9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/main_banner_tablet_landscape-b453e5c14d3ae248bc8c39b305af031682408fe9859af45cbda4e2509e807b1d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/main_banner_tablet_portrait-87ff4cfa0a7688b35d77b11a7d17939179a775ab5a0a3a5486346e3d65a84cea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/products-87ee04b2eff3a80dcd66aca768346a3449b2f04d3c7aac717f9bd2d0aaf0b366.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_left-f13a9c6bf5b85211bd20801c2be6b2e6f9d88d1644782d73738ee15ab246b35a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_left_mobile-3141ab9d548850e012d43b7d1cfae29ae4fc685d19dc211e65761fb2d9b05f5c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_left_tablet_landscape-2739cf5dfb2c5ea18995980a7ea9f24bfc129787ebc43472a872eef5be7888ea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_left_tablet_portrait-68fbabaddd9535407f6d70b352df78a0d96ef4f7f82ae3fbfb9a19a3c4e87d3c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_right-f13a9c6bf5b85211bd20801c2be6b2e6f9d88d1644782d73738ee15ab246b35a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_right_mobile-3141ab9d548850e012d43b7d1cfae29ae4fc685d19dc211e65761fb2d9b05f5c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_right_tablet_landscape-2739cf5dfb2c5ea18995980a7ea9f24bfc129787ebc43472a872eef5be7888ea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/homepage/promo_banner_right_tablet_portrait-68fbabaddd9535407f6d70b352df78a0d96ef4f7f82ae3fbfb9a19a3c4e87d3c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/instagram-1cd14c7d8a1beacbf2116517ca3c61c89bae1c0d2cd9dc5eee2a11af4e75d60a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_444444_256x240-31d988765b4e6f56553c29588c500381dc3e6f0aa2980c8212202e5644aefd5d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_555555_256x240-32175261daee76c82bb0edf0eea16a56421866fbc31e94f3c1d570aa114502f5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_777620_256x240-0b020fc6e696d88d296e7bb1f61f1eb2ad827848e2c7382a4c3e0999e702dd9b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_777777_256x240-faf32007ae120c302213557626e660dd10e711c5dd4f1113d35f26dc05b78d2f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cc0000_256x240-40985a64b4d5dd213fba27fcd862a1bd1b337a97674f6ff0b9ec20abcee4bc69.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_ffffff_256x240-350df1b7131037de20e83c5c0f3a41a770d2ac48b5762ea772b3f4a8a7b9d47a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.jstree/themes/spree/style-4aa4ebb1a523a0f5c9477da91db23aff395909dd272f632613016c31b66fd198.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.jstree/themes/spree/throbber-4e4d43ccac9f0ed6eb6f48ea2b00e10a578b68df0e162df6c4c19d2c9725c04b.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-314aa0df77032e4088152ccce98323cf16a0bd5b0c77fa72595a7dc217807d0e.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo/spree_50-0ae687ccd486b63b01687b1df9e5394430f6fce3ab40c28250b179be4363ddc1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo@3x-35111f2e8fd373aa2a3349c44fa540415655d62f5f6cd5db9267fc4e657ee473.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/magnifying-glass-1e3444ff6abfdf17b592c9697626c38dbe9db2fe8a0907c222c96c62c2c7d992.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/meganav/promo_banner_left-first-category-29289cfbd7944aaf8532419a03365ed4feb07f21e01fb9ca5a7d6676049b4ff3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/meganav/promo_banner_left-second-category-29289cfbd7944aaf8532419a03365ed4feb07f21e01fb9ca5a7d6676049b4ff3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/meganav/promo_banner_left-third-category-29289cfbd7944aaf8532419a03365ed4feb07f21e01fb9ca5a7d6676049b4ff3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/meganav/promo_banner_right-first-category-29289cfbd7944aaf8532419a03365ed4feb07f21e01fb9ca5a7d6676049b4ff3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/meganav/promo_banner_right-second-category-29289cfbd7944aaf8532419a03365ed4feb07f21e01fb9ca5a7d6676049b4ff3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/meganav/promo_banner_right-third-category-29289cfbd7944aaf8532419a03365ed4feb07f21e01fb9ca5a7d6676049b4ff3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/minus-a88fc09f11068379bd0c43ed04e1fc3e8b21a7ed6525a81fe58ee2ab7b6b307b.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/big_category_banner-7118e1d1858da5d2aca2954622466acb38db2a807796e7f6921c3921059e3f32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/big_category_banner_mobile-1d685377b1327c307672880827cf4f0a04257011dab31299821ca20683a8ec48.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/big_category_banner_tablet_landscape-073561e60ee9af1c69e3daaa269ab179406e46c58b234719749223ed9a3f0016.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/big_category_banner_tablet_portrait-e9e988029878f9d3cb37dd3ee570a6d9e46586e8bdc60880399d4b662c1b10fd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/category_banner-673e35b830053a10bf537d097b89a76d7b683c591bfeb8862e203bab53a13356.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/category_banner_mobile-ffa62c5076244953f03b06250722fb538d768f78cbfd07d42d2a473f7002cd32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/category_banner_plp-3b39caedd21ebce23e627a5f37177a8bb7cecbb7de028adac446841ffe3847ad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/category_banner_tablet_landscape-ee323a49a030353f92b64ed66ccaa8c27378671c1c7fe7fcded8c9dd54a0fbfd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/category_banner_tablet_portrait-0cc639dfc2ed22ad4e94f7c832a376270045f3050dd5305b29bfdebee65ad197.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/large-fe154e843e2b66339f5460ae669c9a6307224a451ed6ba86479c8bf9837ede96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/loading-922f86f419e9f7973fa26e6dacff8c981828c1d6ddcbc7d39991eb09bb0ded36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/main_banner-c05360c277123edead4713d13defcf3e1bae87662e517e1a322584b522118a5b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/main_banner_mobile-41140b7403551c26f20ecfa6b67210067c257798af6e124edaab62cc8f3937b4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/main_banner_tablet_landscape-c794481ee9cfac65a8cb769d2b45f0e36293ab241cce380c4afe0f8853ea2792.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/main_banner_tablet_portrait-f06f42f57e8188fc220da5502720e38806e77129bf1c66053d1a773e5b0edf79.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/mini-d5d987414566f22657bbe0b08a980ddb4230d156845a31ab3cad0a0825016ce8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/plp-29b19e2710b8e8cd8f40bbd9267756d2f740d74b5f800c94a036464b52b647a7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/product-fe154e843e2b66339f5460ae669c9a6307224a451ed6ba86479c8bf9837ede96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/product_photo-4002a86c8e445c23121845e57a008f093c36426f06c819e419b20bc1851a9cef.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/promo_banner-81b01bf28a7590cb7617c39d849803f4d038c4d60f625b534a5c2747ad6ee03b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/promo_banner_megamenu-5c874326feb0d928144fc1bfb9a0283dd3400982f0af2d897c5c5c0a436083da.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/promo_banner_mobile-80b4e1f7835a3339e2f4d0b846eecf3a21ec16d1b5729bed418dfd74624e6665.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/promo_banner_tablet_landscape-be649c761f4185bb031e9311aa3f5de55d1f6364146b3fc7b4cb5633c7a75cb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/promo_banner_tablet_portrait-71c6906685f28fc39c17a236c5ce1df935fed358c8aef88b2f55a122d81403ae.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/noimage/small-1eaf254c069b00a8a692912bddd1660da5f1f80ac202c6bdc4d81b40fd2e0792.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pagination-arrow-right-3d48547d1efbc5f713be88163f5989a6993c1e3d96350f623f70d9337c4a6e4f.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pagination-double-arrow-right-563111e5409794b511b40f1a29eda0f650ccf651db570e37c4287d0d6786a033.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/person-ed3e99f3dd8b791143bd68f6b19cc7ced377e17738f752edd85e9936794199ca.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/picture-zoom-be66e8d944622a94cb28f32c977190ca6849b4b4a6dc1dcfdb3d377318c5fd65.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plus-29a6e0ad14dd7148add8cbf67226549371c9b49c3f2b54c0a56a5ea87dbf1f8b.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/psl/browserstack-logo-ccf7c763424ff6c301ae8bf8056cbaa6aedac0b4fdfd3ea4ec59ae1f5487d6f9.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/radio-button-1bc67c824910bd186e61618a7c651cd1df8f74dabcce0379b788b1a74bffb620.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/search-cb340c02c8882e6430216256d8bc78d27b5a4d8cc28276629f9b201be1a56f9a.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/search-no-results-f8ee2cbdd0cb282c09b4facd61884f8cf33fddb10e7e14ae3c4b8225fcd8f8dd.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2-d6b5d8d83dbc18fb8d77c8761d331cd9e5123c9684950bab0406e98a24ac5ae8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2-spinner-f6ecff617ec2ba7f559e6f535cad9b70a3f91120737535dab4d4548a6c83576c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ar-53a82b812be5640eb76ea168aaf59761eda884e66d8c5ae93be3321619fa545d.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_az-17ed2058772cfa1896093f5d59dc7031dc5fc2e539c55d8085fa1e68d3fcd927.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_bg-42c546b39ddf465f36571419fd70bb4f6e44ca4bba6443f8dc62228121441f49.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ca-b9b0ff178adfc196bc79779e5e641069f376b9ec7ee3f3e2836c5df71511eea8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_cs-27b95541bf7f4e2155d0f0cdc7af062aac217a807b348036c417eea70b0a2897.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_da-0772bb942f0ec472cd18b49adcfaf7bab125b32648e0759016ae6e39ea417f0a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_de-7ca5c4c1e6d14a86b68592e8e11974657602388c7745f8f7e3a1e4510614be7e.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_el-48bf3eef5ba982cb3ff1b70638a91c5ac1860fbc336728eb810f1f7fd1fd9812.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_es-7b33267904c47a4985ee1877565dc4129b28c7478edbe79d798017b141701b19.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_et-cda4d2bc92439ee6207db832ea34fca366cf2119268b755023cc4861da6d7df9.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_eu-b6732998ea9a29f182c344889e9de5cf0a3d8e9e839ebdc5ce4aee3f293af1d8.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_fa-d98464510d779afc9e003a282b93000caff3b66d3f9fef5fe54df44ea9732909.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_fi-d3aca88f97706ace6062209f688e77f477f4ba66541a2f797ae05d57045a54f5.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_fr-cca326cd42a17caf363015e0632ae360a2d9c924f15b05a0d7749c6575d4aa24.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_gl-4a273116f1ea3b1fafd8a04cc4b713277e8e4c0f0576196dc30e106dd8125e01.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_he-7d98d7c309a3707124d24a22741efad6c676dfa669e3a573619ffe806a98c0a3.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_hr-fb37ea68ac5e8664d41bac4727949c4269753586ec93d26b4f8f43ca50d901fd.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_hu-e8969fcadba7926e0a2e1e6a20f5df3ce4818b13196d07e6ce16879f602d0583.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_id-d5bfbd09d00b856005b1bfcffdaa74292fd27f1b772be41a374b675a673ced37.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_is-012b25e8d0f0d399924a26f0c9aebc4615006276ddec1f3d84e713f97cacd0d2.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_it-dcc45fb356269c7d56bee8485bfaa9b7d768b813d62d57dea6a1655a9df000ea.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ja-b2b311c42b079b65dc4bd77084a487f23d814fadcafeedeed3b134533ee47b6a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ka-6d93c37b19d576388bb67f4afa6dda1a352c9d99478ffac539c9b194fa5707ee.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ko-9dec66b6f325e13b849ec4e800e0693429625e6c859262f14e7a53e1e761c5ac.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_lt-b56ef195311a71cb8a3e2a55c20faf70f723a9232caa8116a19d3ea288586350.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_lv-334e18838f800abaff51f83b34beaba3e0c1640bc957bbefd6722bfa518cc04c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_mk-ac7a50fd55dd9ff5b4163857f6eba040aeaf7420c696b95cf5bcb00e958a3d5b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ms-ffe12e251c36d62bd23d9cc704b1a1f145cf3130d41d60247fb6bd7a2ae11f5a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_nb-96e4324de54ef1063b2768ab4acf27f7bd529ece7572a60a3f4428cab4a1f871.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_nl-b3bd6541e18715eabc9b402bc87ee926471f16806c644506dee5f2f3d967b286.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_no-450ea11297318434f9c5e427302333062ba0b4497f866f8010a85294604cf801.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_pl-66b89018403ff76164c2ffaf8cd267b7c8033bb61c5b2adcc21e31dee3fbfb1c.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_pt-BR-b316ef04a2596d3cd0af3b3ff43d610a896dd04537d73d8df09464e764555c5b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_pt-PT-2dc9ef1f7bf4ce21d4be57f85c304d525b2b5f19ad62b714ba94d2b118c84498.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ro-8c0bb8fa885ab577e50d6643d9ec68f87d9ba2a99b3e436c6cb21f67421d870a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_rs-1016c79a680bca3c3b8095ad04e67c9b89412ff6f6051dbc196627828e592c9b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ru-4c1cd4a76b568e7452b09b8a665a28f5808d5854aec120985101c17b7b960687.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_sk-3a3d1678ecc94a92a247f4e0eca9f368f6c1671970880acaca8f4927c36e99c4.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_sv-92964e4300e520e23f5f83492c2e750b5875484b6420ed54c5c7422e50bff49e.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_th-9d64c8b41fcc2d5d28d505f0d7b325b04edc51ca0ac74b3d9c5dd0275fa4dcbd.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_tr-ca28d4969d1dedbe981f7f621ded6180791945d4147cca89b0e0b3ca6edb27e3.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ug-CN-3a320caea8f59ef6c10c7fa462697a38029ab59a4450390c2ca9ec509b4a8263.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_uk-e912e0547b8a72e9caa72693c78a0e88db81dcd03f1cee8db45456c4eacbfab3.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_vi-17f9b6b5fb534e62c903152c05d8a02ad5b568482e25bdf13619bf01238f5055.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_zh-CN-86b8afaa82c0b8de71d37c2cfe3949a130055880c203c785022e32a6cb7f7aaa.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_zh-TW-a408bf991b2672ab5d537ff08915acecd2c043311c31f6b4041b8e04b51ba2a4.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2x2-6fe28d687dc0ed4d96016238c608ba1e7198c9c9accfa0b360b78018b9fb9bc2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spark-logo@3x-9355f05da321d3e5fca20ae091dd6750de1dc395658ccb020db44d1c8106c19c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/address_states-76840b8177a1aba71ee06233175b713fb4855f7b4fe28db303c47be7807ae36b.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/all-7f7182b6eb8a1b76ac9775ffdc779404c97de3ec14416959087385ee41b692b5.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/all-8b077cece7304b3ce2ba62571fefd7cd1598c9f3da438a9918d552e9e0e243fb.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/all-9fbfb9af50f7c09cc2222a0fd1d7f2b46fc69cc192d34b9908787d59913ed828.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-703961a489eab6fd69a7b0a753b19872bc6eb84b31e188dc3d598e580be29a18.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-dccba400145d265c140880d9e806db4211c75681318d5f0c6ce1fa4761991ce5.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-e347ec53aa6b7f88018bd8ddb64fec3ab8c93892a0ed6a8613679897a91d1434.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-f12c21d7d0378685dbf7b4d885c79ebcf43e6f49e7faec6c88cef39ec7d4ba9a.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/application-775db999246c18db163fd4cf3e4601c37fb32fdb8e98b21b408b7fdff68a64cd.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/application-a87e866cc75bbf976a11af6e1a0979a3b7a51200f28047337a98165442e34f9c.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/checkout/shipment-6831cf15e8c78defbb9e9ec4d41d9dce182b79a37750b29b688e65f994644ca6.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-117ac2937bff2bc3b4975895fe9e7645aed441d45bdd533460dc1d7c7a24f2d1.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/vimeo-89236a51b692d4f37a22dc4190bf997a51eacbff24fb8605b32ed399152f9075.svg.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.browserslistrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.ruby-version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Capfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/application.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/cart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/myStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/variables/home.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/spree/frontend/variables/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/store_frontend/spree/home_controller_decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/javascript/channels/consumer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/javascript/channels/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/application_record.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/concerns/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/spree_frontend/spree/address_decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/spree_frontend/spree/price_decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/spree_frontend/spree/product_decorator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/kaminari/twitter-bootstrap-4/_first_page.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/kaminari/twitter-bootstrap-4/_gap.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/kaminari/twitter-bootstrap-4/_last_page.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/kaminari/twitter-bootstrap-4/_next_page.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/kaminari/twitter-bootstrap-4/_page.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/kaminari/twitter-bootstrap-4/_paginator.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/kaminari/twitter-bootstrap-4/_prev_page.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/address/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/addresses/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/addresses/destroy.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/addresses/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/addresses/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/adjustments/_adjustment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/adjustments/_adjustments_table.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/adjustments/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/adjustments/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/adjustments/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/adjustments/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/countries/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/countries/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/countries/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/countries/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/customer_returns/_reimbursements_table.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/customer_returns/_return_item_decision.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/customer_returns/_return_item_selection.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/customer_returns/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/customer_returns/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/customer_returns/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/general_settings/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/images/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/images/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/images/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/images/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/log_entries/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/option_types/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/option_types/_option_value_fields.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/option_types/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/option_types/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/option_types/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_add_line_item.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_add_product.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_adjustments.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_line_items.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_line_items_edit_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_order_actions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_risk_analysis.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_shipment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_shipment_manifest.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/_store_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/cart.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/customer_details/_autocomplete.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/customer_details/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/customer_details/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/orders/store.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payment_methods/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payment_methods/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payment_methods/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payment_methods/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/_capture_events.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/_list.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/credit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/source_forms/_gateway.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/source_forms/_storecredit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/source_views/_check.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/source_views/_gateway.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/source_views/_storecredit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/product_properties/_product_property_fields.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/product_properties/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/_add_stock_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/_autocomplete.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/products/stock.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_actions/create.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_actions/destroy.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_categories/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_categories/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_categories/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_categories/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_rules/create.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotion_rules/destroy.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/_actions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/_promotion_action.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/_promotion_rule.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/_rules.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/actions/_create_adjustment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/actions/_create_item_adjustments.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/actions/_create_line_items.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/actions/_free_shipping.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/calculators/_default_fields.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/calculators/tiered_flat_rate/_fields.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/calculators/tiered_percent/_fields.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_country.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_first_order.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_item_total.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_one_use_per_user.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_option_value.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_product.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_taxon.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_user.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/promotions/rules/_user_logged_in.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/properties/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/properties/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/properties/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/properties/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/_prototypes.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/available.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/select.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/prototypes/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/refund_reasons/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/refund_reasons/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/refund_reasons/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/refunds/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/refunds/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reimbursement_types/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reimbursement_types/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reimbursement_types/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reimbursement_types/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reimbursements/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reimbursements/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reimbursements/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reports/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/reports/sales_total.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_authorization_reasons/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_authorization_reasons/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_authorization_reasons/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_authorizations/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_authorizations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_authorizations/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_authorizations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_index/customer_returns.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/return_index/return_authorizations.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/roles/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/roles/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/roles/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/roles/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_account_nav.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_address.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_address_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_calculator_fields.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_content_header.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_destroy.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_edit_resource_links.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_error_messages.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_head.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_header.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_index_table_options.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_main_menu.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_new_resource_links.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_order_summary.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_order_tabs.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_product_tabs.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_refunds.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_report_order_criteria.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_sidebar.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_table_filter.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_translations.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_update_order_state.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_update_store_credit.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/_version.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/named_types/_edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/named_types/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/named_types/_index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/named_types/_new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/sub_menu/_configuration.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/sub_menu/_product.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/sub_menu/_promotion.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shared/sub_menu/_returns.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_categories/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_categories/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_categories/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_categories/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_methods/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_methods/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_methods/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/shipping_methods/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/state_changes/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/states/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/states/_state_list.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/states/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/states/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/states/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/states/new.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_items/destroy.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_locations/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_locations/_transfer_stock_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_locations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_locations/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_locations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_movements/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_movements/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_movements/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_transfers/_stock_movements.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_transfers/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_transfers/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stock_transfers/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credit_categories/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credit_categories/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credit_categories/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credit_categories/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credits/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credits/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credits/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/store_credits/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stores/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stores/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stores/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/stores/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_categories/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_categories/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_categories/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_categories/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_categories/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_rates/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_rates/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_rates/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/tax_rates/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxonomies/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxonomies/_js_head.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxonomies/_list.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxonomies/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxonomies/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxonomies/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxons/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxons/_taxon_table.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxons/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/taxons/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/_addresses_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/_lifetime_stats.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/_sidebar.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/_user_page_actions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/addresses.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/items.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/users/orders.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/_autocomplete.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/_autocomplete_line_items_stock.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/_autocomplete_stock.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/_split.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/new.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/update.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/zones/_country_members.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/zones/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/zones/_state_members.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/zones/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/zones/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/zones/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/_address.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/_confirm.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/_credit_card.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/_delivery.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/_payment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/_summary.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/payment/_check.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/payment/_gateway.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/payment/_storecredit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/checkout/registration.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/content/cvv.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/content/test.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/errors/not_found.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/home/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/layouts/admin.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/layouts/checkout.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/_adjustment_row.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/_adjustments.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/_coupon_code.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/_leftmenu_edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/_line_item.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/_line_item_data.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/orders/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_cart_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_cart_form_availability_templates.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_color_option_type.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_description.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_filter_and_sort_mobile_buttons.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_filters_desktop.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_filters_mobile.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_gallery.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_gallery_modal.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_no_results.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_no_results_with_filters.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_option_type.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_product.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_promotions.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_properties.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_sort_desktop.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_sort_mobile.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_taxons.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/_thumbnails.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/index.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/related.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/products/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_address.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_breadcrumbs.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_carousel_4_products.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_carousel_products.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_cart.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_checkout_header.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_color_select.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_copyright.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_delete_address_popup.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_delete_modal.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_error_messages.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_flashes.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_footer.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_head.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_header.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_line_item.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_link_to_account.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_link_to_cart.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_login.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_main_nav_bar.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_mobile_navigation.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_nav_bar.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_no_product_available.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_option_values.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_order_details.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_payment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_payment_sources.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_product.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_product_added_modal.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_products.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_products_row.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_quantity_select.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_registration.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_search.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_shipment_tracking.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_sidebar.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_taxonomies.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_translations.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/_user_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/carousel/_single.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/carousel/_thumbnails.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/forbidden.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/shared/unauthorized.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/taxons/_header.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/taxons/_subcategories.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/taxons/product_carousel.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/taxons/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/taxons/show.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/users/_address.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/users/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/users/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/babel.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/bundle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/rails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/setup" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/webpack" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/webpack-dev-server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/yarn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cable.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.example.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/deploy/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/content_security_policy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/spree_storefront.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/es.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/nginx.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/puma.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/spree_storefront.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/spring.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/storage.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack/development.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack/environment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack/production.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpack/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/webpacker.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161318_create_active_storage_tables.active_storage.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161319_create_action_mailbox_tables.action_mailbox.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161320_create_action_text_tables.action_text.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161321_spree_one_two.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161322_spree_promo_one_two.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161323_add_tax_rate_label.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161324_add_toggle_tax_rate_display.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161325_remove_unused_preference_columns.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161326_add_lock_version_to_variant.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161327_add_states_required_to_countries.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161328_add_on_demand_to_product_and_variant.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161329_remove_not_null_constraint_from_products_on_hand.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161330_split_prices_from_variants.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161331_remove_not_null_from_spree_prices_amount.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161332_add_currency_to_line_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161333_add_currency_to_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161334_add_cost_currency_to_variants.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161335_remove_display_on_from_payment_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161336_add_position_to_taxonomies.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161337_add_last_ip_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161338_add_state_to_spree_adjustments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161339_add_display_on_to_spree_payment_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161340_add_position_to_product_properties.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161341_add_identifier_to_spree_payments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161342_add_order_id_index_to_payments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161343_add_primary_to_spree_products_taxons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161344_create_spree_stock_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161345_create_spree_stock_locations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161346_create_default_stock.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161347_add_order_id_index_to_shipments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161348_change_meta_description_on_spree_products_to_text.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161349_add_stock_location_id_to_spree_shipments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161350_add_pending_to_inventory_unit.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161351_remove_on_demand_from_product_and_variant.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161352_create_shipping_method_zone.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161353_remove_shipping_category_id_from_shipping_method.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161354_create_shipping_method_categories.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161355_add_tracking_url_to_spree_shipping_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161356_create_spree_shipping_rates.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161357_remove_category_match_attributes_from_shipping_method.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161358_create_stock_movements.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161359_add_address_fields_to_stock_location.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161360_add_active_field_to_stock_locations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161361_add_backorderable_to_stock_item.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161362_add_default_quantity_to_stock_movement.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161363_add_source_and_destination_to_stock_movements.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161364_change_orders_total_precision.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161365_change_spree_payments_amount_precision.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161366_change_spree_return_authorization_amount_precision.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161367_change_adjustments_amount_precision.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161368_add_originator_to_stock_movement.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161369_drop_source_and_destination_from_stock_movement.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161370_migrate_inventory_unit_sold_to_on_hand.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161371_add_stock_location_to_rma.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161372_update_shipment_state_for_canceled_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161373_add_seo_metas_to_taxons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161374_remove_stock_item_and_variant_lock.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161375_add_name_to_spree_credit_cards.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161376_update_name_fields_on_spree_credit_cards.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161377_add_index_to_source_columns_on_adjustments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161378_update_adjustment_states.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161379_add_shipping_rates_to_shipments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161380_create_spree_stock_transfers.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161381_drop_products_count_on_hand.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161382_set_default_shipping_rate_cost.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161383_add_number_to_stock_transfer.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161384_add_sku_index_to_spree_variants.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161385_add_backorderable_default_to_spree_stock_location.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161386_add_propage_all_variants_to_spree_stock_location.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161387_rename_shipping_methods_zones_to_spree_shipping_methods_zones.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161388_add_user_id_index_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161389_add_updated_at_to_spree_countries.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161390_add_updated_at_to_spree_states.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161391_add_cvv_result_code_and_cvv_result_message_to_spree_payments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161392_add_unique_index_to_permalink_on_spree_products.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161393_add_unique_index_to_orders_shipments_and_stock_transfers.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161394_add_deleted_at_to_spree_tax_rates.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161395_remove_lock_version_from_inventory_units.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161396_add_cost_price_to_line_item.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161397_set_backorderable_to_default_to_false.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161398_add_created_by_id_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161399_index_completed_at_on_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161400_add_tax_category_id_to_spree_line_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161401_migrate_tax_categories_to_line_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161402_drop_spree_mail_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161403_set_default_stock_location_on_shipments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161404_upgrade_adjustments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161405_rename_adjustment_fields.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161406_add_admin_name_column_to_spree_shipping_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161407_add_admin_name_column_to_spree_stock_locations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161408_add_shipment_total_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161409_expand_order_number_size.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161410_rename_activators_to_promotions.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161411_add_adjustment_total_to_line_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161412_add_adjustment_total_to_shipments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161413_add_depth_to_spree_taxons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161414_add_tax_total_to_line_items_shipments_and_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161415_add_shipping_category_to_shipping_methods_and_products.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161416_migrate_old_shipping_calculators.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161417_add_code_to_spree_promotion_rules.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161418_change_states_required_for_countries.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161419_add_deleted_at_to_spree_stock_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161420_remove_promotions_event_name_field.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161421_add_promo_total_to_line_items_and_shipments_and_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161422_remove_unused_credit_card_fields.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161423_add_track_inventory_to_variant.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161424_add_tax_category_to_variants.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161425_add_channel_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161426_add_included_to_adjustments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161427_rename_tax_total_fields.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161428_add_line_item_id_to_spree_inventory_units.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161429_add_updated_at_to_variants.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161430_add_position_to_classifications.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161431_create_spree_orders_promotions.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161432_unique_shipping_method_categories.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161433_add_item_count_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161434_remove_value_type_from_spree_preferences.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161435_rename_permalink_to_slug_for_products.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161436_add_index_to_variant_id_and_currency_on_prices.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161437_rename_activator_id_in_rules_and_actions_to_promotion_id.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161438_add_deleted_at_to_spree_prices.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161439_add_approver_id_and_approved_at_to_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161440_add_confirmation_delivered_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161441_add_auto_capture_to_payment_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161442_create_spree_payment_capture_events.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161443_add_uncaptured_amount_to_payments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161444_default_variant_weight_to_zero.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161445_add_tax_category_id_to_shipping_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161446_add_tax_rate_id_to_shipping_rates.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161447_add_pre_tax_amount_to_line_items_and_shipments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161448_add_more_indexes.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161449_add_considered_risky_to_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161450_add_preference_store_to_everything.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161451_add_user_id_to_spree_credit_cards.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161452_migrate_old_preferences.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161453_create_spree_stores.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161454_create_store_from_preferences.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161455_add_timestamps_to_spree_assets.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161456_create_spree_taxons_promotion_rules.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161457_add_additional_store_fields.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161458_add_many_missing_indexes.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161459_correct_some_polymorphic_index_and_add_more_missing.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161460_add_user_id_created_by_id_index_to_order.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161461_change_spree_price_amount_precision.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161462_add_token_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161463_move_order_token_from_tokenized_permission.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161464_set_shipment_total_for_users_upgrading.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161465_drop_credit_card_first_name_and_last_name.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161466_add_deleted_at_to_spree_promotion_actions.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161467_remove_uncaptured_amount_from_spree_payments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161468_create_spree_refunds.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161469_create_spree_return_authorization_inventory_unit.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161470_rename_return_authorization_inventory_unit_to_return_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161471_backfill_line_item_pre_tax_amount.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161472_recreate_spree_return_authorizations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161473_add_amount_fields_to_return_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161474_drop_return_authorization_amount.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161475_create_spree_return_authorization_reasons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161476_create_spree_refund_reasons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161477_rename_return_authorization_reason.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161478_create_spree_promotion_categories.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161479_drop_received_at_on_return_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161480_add_reception_and_acceptance_status_to_return_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161481_create_default_refund_reason.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161482_add_default_to_spree_stock_locations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161483_create_spree_customer_returns.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161484_add_customer_return_id_to_return_item.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161485_create_friendly_id_slugs.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161486_rename_spree_refund_return_authorization_id.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161487_increase_return_item_pre_tax_amount_precision.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161488_copy_product_slugs_to_slug_history.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161489_create_spree_reimbursements.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161490_add_promotionable_to_spree_products.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161491_add_exchange_inventory_unit_foreign_keys.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161492_add_acceptance_status_errors_to_return_item.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161493_create_spree_reimbursement_types.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161494_add_default_to_shipment_cost.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161495_add_default_to_spree_credit_cards.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161496_make_existing_credit_cards_default.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161497_add_type_to_reimbursement_type.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161498_create_spree_reimbursement_credits.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161499_add_meta_title_to_spree_products.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161500_add_kind_to_zone.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161501_add_code_to_spree_tax_categories.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161502_default_pre_tax_amount_should_be_zero.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161503_add_code_to_spree_shipping_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161504_add_cancel_audit_fields_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161505_add_store_id_to_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161506_create_spree_taxons_prototypes.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161507_add_state_lock_version_to_order.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161508_add_counter_cache_from_spree_variants_to_spree_stock_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161509_fix_adjustment_order_presence.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161510_update_classifications_positions.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161511_add_guest_token_index_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161512_remove_token_permissions_table.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161513_remove_extra_products_slug_index.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161514_update_product_slug_index.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161515_rename_identifier_to_number_for_payment.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161516_create_spree_store_credits.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161517_create_spree_store_credit_categories.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161518_create_spree_store_credit_events.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161519_create_spree_store_credit_types.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161520_remove_environment_from_payment_method.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161521_add_resellable_to_return_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161522_add_code_to_spree_promotion_categories.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161523_remove_environment_from_tracker.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161524_remove_spree_configurations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161525_add_index_to_spree_stock_items_variant_id.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161526_ensure_payments_have_numbers.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161527_add_missing_indexes_on_spree_tables.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161528_remove_duplicated_indexes_from_multi_columns.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161529_remove_user_index_from_spree_state_changes.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161530_fix_adjustment_order_id.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161531_add_position_to_spree_payment_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161532_add_deleted_at_to_friendly_id_slugs.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161533_increase_scale_on_pre_tax_amounts.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161534_add_taxable_adjustment_total_to_line_item.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161535_migrate_payment_methods_display.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161536_enable_acts_as_paranoid_on_calculators.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161537_spree_payment_method_store_credits.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161538_rename_has_and_belongs_to_associations_to_model_names.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161539_spree_store_credit_types.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161540_add_discontinued_to_products_and_variants.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161541_remove_shipping_method_id_from_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161542_add_id_column_to_earlier_habtm_tables.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161543_add_indexes.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161544_remove_counter_cache_from_spree_variants_to_spree_stock_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161545_add_zipcode_required_to_spree_countries.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161546_add_created_at_to_variant.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161547_add_null_false_to_spree_variants_timestamps.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161548_add_quantity_to_inventory_units.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161549_add_original_return_item_id_to_spree_inventory_units.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161550_add_unique_index_on_number_to_spree_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161551_add_unique_index_on_number_to_spree_stock_transfer.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161552_add_unique_index_on_number_to_spree_shipment.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161553_add_unique_index_on_number_to_spree_payments.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161554_add_unique_index_on_number_to_spree_return_authorizations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161555_add_unique_index_on_number_to_spree_customer_returns.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161556_add_unique_index_on_number_to_spree_reimbursements.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161557_add_missing_unique_indexes_for_unique_attributes.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161558_add_index_on_stock_location_to_spree_customer_returns.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161559_add_index_on_prototype_to_spree_option_type_prototype.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161560_add_indexes_to_spree_option_value_variant.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161561_add_index_on_promotion_id_to_order_promotions.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161562_add_indexes_for_property_prototype.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161563_add_index_for_prototype_id_to_prototype_taxons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161564_add_indexes_to_refunds.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161565_add_indexes_to_reimbursement_credits.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161566_add_indexes_to_return_authorizations.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161567_add_indexes_to_return_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161568_add_index_to_role_users.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161569_add_index_to_shipping_method_categories.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161570_add_index_to_shipping_method_zones.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161571_add_index_to_spree_shipping_rates.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161572_add_index_to_spree_stock_items.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161573_add_index_to_spree_stock_movement.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161574_change_indexes_on_friendly_id_slugs.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161575_add_analytics_kind_to_spree_trackers.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161576_rename_tracker_kind_field.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161577_remove_icon_from_taxons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161578_add_unique_index_on_spree_promotions_code.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161579_rename_guest_token_to_token_in_orders.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161580_add_timestamps_to_spree_prices.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161581_add_deleted_at_to_spree_credit_cards.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161582_add_iso_and_iso3_validation_on_presence_and_uniqueness.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161583_add_user_id_and_deleted_at_to_spree_addresses.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161584_add_store_id_to_payment_methods.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161585_add_deafult_value_for_store_default_currency.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161586_add_social_to_spree_stores.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161587_add_hide_from_nav_to_taxons.spree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161588_add_api_key_to_spree_users.spree_api.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161589_resize_api_key_field.spree_api.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161590_rename_api_key_to_spree_api_key.spree_api.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161591_add_index_to_user_spree_api_key.spree_api.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161592_create_doorkeeper_tables.spree_api.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161593_create_users.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161594_rename_columns_for_devise.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161595_convert_user_remember_field.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161596_add_reset_password_sent_at_to_spree_users.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161597_make_users_email_index_unique.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161598_add_deleted_at_to_users.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161599_add_confirmable_to_users.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161600_add_missing_indices_on_user.spree_auth.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161601_update_braintree_payment_method_type.spree_gateway.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161602_update_stripe_payment_method_type.spree_gateway.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161603_update_balanced_payment_method_type.spree_gateway.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161604_update_paypal_payment_method_type.spree_gateway.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425161605_migrate_stripe_preferences.spree_gateway.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163131_create_spree_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163132_add_vendor_id_to_spree_models.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163133_add_state_to_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163134_add_deleted_at_to_spree_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163135_create_spree_vendor_users.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163136_add_slug_to_spree_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163137_add_about_us_to_spree_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163138_add_contact_us_to_spree_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163139_add_commission_to_spree_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163140_add_priority_to_vendor.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163141_create_spree_order_commissions.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163142_add_notification_email_to_vendors.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425163143_add_translations_to_vendor.spree_multi_vendor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200425164902_remove_translations_from_spree_tables.spree_i18n.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200512021633_add_discount_to_spree_products.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200513190902_create_user_authentications.spree_social.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200513190903_create_authentication_methods.spree_social.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200513190904_add_db_index_to_user_authentications.spree_social.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200513190905_add_foreign_key_to_user_authentications_for_user_id.spree_social.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20200515231518_add_reference_to_spree_address.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/assets/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postcss.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/422.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/.sprockets-manifest-39d3fd253af0155479d277f0634b3d88.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-a87e866cc75bbf976a11af6e1a0979a3b7a51200f28047337a98165442e34f9c.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-e2dd45c9cacd0aa8af165185978224a89df963fc11ab87958c678ec3e414f067.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-bcf5e460148f78c4398add56231155e346063960e7164016256f07822acca76d.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/arrow-right-104483052b027d78142aa06c325eb87a8867c4e62f50381c56c9d9ce55030d7a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/bag-c50e047c26fbb1ea9bd2605c3f7c72c8f6c31e3dcc1ac20d10089dcca156c2b7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/burger-0949bab96d00a82fa1a54b6efd761d7318bf5f36da2284c7e98de00bfa843d02.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/cart-13caa6d5b54e2abea8dc1b0b824679d04bc0fbc5bd4c088525f1503de4949e7e.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/check-mark-ab3d29e00f1fc27b0c151fe0082cf5b908d39f0cfa69a05920114563f26e7d80.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/check-mark-circle-9cb99b61373cef1ef93fe441d06463ed9dc46f3ab85dda8af2f03b3a56d05e5f.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/circle-1495c8a2ebef5cdddc628be67aed12a16e0891684dc83a9b6e7330c72ce4091b.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/circle-radio-a887a5c3dd8531d16f781e774b9aeb08d8d8d5b36eafb8ad94fac30e9f650ee0.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/close-a18f55cc92596bfc090808ba77855c199915364cf698a03ffa1f366f7fd7ea44.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/american_express-c8a783d6122d80aa409cc048535113cb4d7e7d7533d4b093f8d932e5d1cc7b76.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/diners_club-d4615f2ef74b6c4218c09d33676de18db8b36d7d328588d15a83a470d58b3398.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/discover-7c51c2b93b35766af6d426d2045cd059880f5655821845a7a839be43a0eb7ce6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/generic-0385e276dc6bd97b3bb2f154d99fb8713d8935da750459045fdf805638074840.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/jcb-23ae6597f6c75deea89e60640c626412aba7b2c1cca7a385a7aab1523cecdb51.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/maestro-0c6248a05e89544986a732a8fec88cd2b4caa31c6ba4c99906e33e3849cbc77a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/master-7b3575882921b9234e47fb4d04e99cb05c4aab67a4f4f32cf06241d78b756dc4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/credit_cards/icons/visa-ce11dfd8058f3b15799c87709a3dea0c9ed5e61f69dbcfedb453c91bc1cdf662.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/doorkeeper/admin/application-2a7009dedd337366b9aad2f01c51f4707a1ddb7876597b2625f3a188d382e8e7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/doorkeeper/application-12b1a092e7005f1dcca67682d8d50524f5abc0befab8cb65f915dcaac18ef840.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/edit-9fc269fcbf8096d13a1035a671ad0d23342a6898a1f70e17cdb0388337d2a35c.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/empty-cart-f9d1b24b77b1a1aa3667b4201d7834c7a33bb387fd6edce9f8b2edb8c0387b6f.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/error-da45849628b080464441ec34889d6e7d039b4ef8179094304b1f3af165b6d849.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/facebook-39d2b8bb83f476c851aa56decd154f551bad3bf48f3d77339a6e476bafb0f9cb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/full_circle-d0e00c307cf1c68cee4ec9171bc4200a97a4f924a9397ba6f83aced421442a45.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/full_circle-radio-e94fb4e38917608d662a51cf37ba25e29ee7607a81df45063e2058897d733a5d.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/garbage-1bb357961ce214bd0b2e9bb712024878114065763decdbee7bdf96609a0d92a4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/garbage_2-5e7cfe6fbf24c17c37777aa879140c1d1b93ad0e7c2da01306a1d61bd7562fb3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/instagram-1cd14c7d8a1beacbf2116517ca3c61c89bae1c0d2cd9dc5eee2a11af4e75d60a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/jquery.jstree/themes/spree/style-4aa4ebb1a523a0f5c9477da91db23aff395909dd272f632613016c31b66fd198.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/logo-314aa0df77032e4088152ccce98323cf16a0bd5b0c77fa72595a7dc217807d0e.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/magnifying-glass-1e3444ff6abfdf17b592c9697626c38dbe9db2fe8a0907c222c96c62c2c7d992.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/minus-a88fc09f11068379bd0c43ed04e1fc3e8b21a7ed6525a81fe58ee2ab7b6b307b.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pagination-arrow-right-3d48547d1efbc5f713be88163f5989a6993c1e3d96350f623f70d9337c4a6e4f.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/pagination-double-arrow-right-563111e5409794b511b40f1a29eda0f650ccf651db570e37c4287d0d6786a033.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/person-ed3e99f3dd8b791143bd68f6b19cc7ced377e17738f752edd85e9936794199ca.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/picture-zoom-be66e8d944622a94cb28f32c977190ca6849b4b4a6dc1dcfdb3d377318c5fd65.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/plus-29a6e0ad14dd7148add8cbf67226549371c9b49c3f2b54c0a56a5ea87dbf1f8b.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/psl/browserstack-logo-ccf7c763424ff6c301ae8bf8056cbaa6aedac0b4fdfd3ea4ec59ae1f5487d6f9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/radio-button-1bc67c824910bd186e61618a7c651cd1df8f74dabcce0379b788b1a74bffb620.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/search-cb340c02c8882e6430216256d8bc78d27b5a4d8cc28276629f9b201be1a56f9a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/search-no-results-f8ee2cbdd0cb282c09b4facd61884f8cf33fddb10e7e14ae3c4b8225fcd8f8dd.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ar-53a82b812be5640eb76ea168aaf59761eda884e66d8c5ae93be3321619fa545d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_az-17ed2058772cfa1896093f5d59dc7031dc5fc2e539c55d8085fa1e68d3fcd927.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_bg-42c546b39ddf465f36571419fd70bb4f6e44ca4bba6443f8dc62228121441f49.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ca-b9b0ff178adfc196bc79779e5e641069f376b9ec7ee3f3e2836c5df71511eea8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_cs-27b95541bf7f4e2155d0f0cdc7af062aac217a807b348036c417eea70b0a2897.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_da-0772bb942f0ec472cd18b49adcfaf7bab125b32648e0759016ae6e39ea417f0a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_de-7ca5c4c1e6d14a86b68592e8e11974657602388c7745f8f7e3a1e4510614be7e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_el-48bf3eef5ba982cb3ff1b70638a91c5ac1860fbc336728eb810f1f7fd1fd9812.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_es-7b33267904c47a4985ee1877565dc4129b28c7478edbe79d798017b141701b19.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_et-cda4d2bc92439ee6207db832ea34fca366cf2119268b755023cc4861da6d7df9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_eu-b6732998ea9a29f182c344889e9de5cf0a3d8e9e839ebdc5ce4aee3f293af1d8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_fa-d98464510d779afc9e003a282b93000caff3b66d3f9fef5fe54df44ea9732909.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_fi-d3aca88f97706ace6062209f688e77f477f4ba66541a2f797ae05d57045a54f5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_fr-cca326cd42a17caf363015e0632ae360a2d9c924f15b05a0d7749c6575d4aa24.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_gl-4a273116f1ea3b1fafd8a04cc4b713277e8e4c0f0576196dc30e106dd8125e01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_he-7d98d7c309a3707124d24a22741efad6c676dfa669e3a573619ffe806a98c0a3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_hr-fb37ea68ac5e8664d41bac4727949c4269753586ec93d26b4f8f43ca50d901fd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_hu-e8969fcadba7926e0a2e1e6a20f5df3ce4818b13196d07e6ce16879f602d0583.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_id-d5bfbd09d00b856005b1bfcffdaa74292fd27f1b772be41a374b675a673ced37.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_is-012b25e8d0f0d399924a26f0c9aebc4615006276ddec1f3d84e713f97cacd0d2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_it-dcc45fb356269c7d56bee8485bfaa9b7d768b813d62d57dea6a1655a9df000ea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ja-b2b311c42b079b65dc4bd77084a487f23d814fadcafeedeed3b134533ee47b6a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ka-6d93c37b19d576388bb67f4afa6dda1a352c9d99478ffac539c9b194fa5707ee.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ko-9dec66b6f325e13b849ec4e800e0693429625e6c859262f14e7a53e1e761c5ac.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_lt-b56ef195311a71cb8a3e2a55c20faf70f723a9232caa8116a19d3ea288586350.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_lv-334e18838f800abaff51f83b34beaba3e0c1640bc957bbefd6722bfa518cc04c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_mk-ac7a50fd55dd9ff5b4163857f6eba040aeaf7420c696b95cf5bcb00e958a3d5b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ms-ffe12e251c36d62bd23d9cc704b1a1f145cf3130d41d60247fb6bd7a2ae11f5a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_nb-96e4324de54ef1063b2768ab4acf27f7bd529ece7572a60a3f4428cab4a1f871.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_nl-b3bd6541e18715eabc9b402bc87ee926471f16806c644506dee5f2f3d967b286.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_no-450ea11297318434f9c5e427302333062ba0b4497f866f8010a85294604cf801.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_pl-66b89018403ff76164c2ffaf8cd267b7c8033bb61c5b2adcc21e31dee3fbfb1c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_pt-BR-b316ef04a2596d3cd0af3b3ff43d610a896dd04537d73d8df09464e764555c5b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_pt-PT-2dc9ef1f7bf4ce21d4be57f85c304d525b2b5f19ad62b714ba94d2b118c84498.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ro-8c0bb8fa885ab577e50d6643d9ec68f87d9ba2a99b3e436c6cb21f67421d870a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_rs-1016c79a680bca3c3b8095ad04e67c9b89412ff6f6051dbc196627828e592c9b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ru-4c1cd4a76b568e7452b09b8a665a28f5808d5854aec120985101c17b7b960687.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_sk-3a3d1678ecc94a92a247f4e0eca9f368f6c1671970880acaca8f4927c36e99c4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_sv-92964e4300e520e23f5f83492c2e750b5875484b6420ed54c5c7422e50bff49e.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_th-9d64c8b41fcc2d5d28d505f0d7b325b04edc51ca0ac74b3d9c5dd0275fa4dcbd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_tr-ca28d4969d1dedbe981f7f621ded6180791945d4147cca89b0e0b3ca6edb27e3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_ug-CN-3a320caea8f59ef6c10c7fa462697a38029ab59a4450390c2ca9ec509b4a8263.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_uk-e912e0547b8a72e9caa72693c78a0e88db81dcd03f1cee8db45456c4eacbfab3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_vi-17f9b6b5fb534e62c903152c05d8a02ad5b568482e25bdf13619bf01238f5055.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_zh-CN-86b8afaa82c0b8de71d37c2cfe3949a130055880c203c785022e32a6cb7f7aaa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2_locale_zh-TW-a408bf991b2672ab5d537ff08915acecd2c043311c31f6b4041b8e04b51ba2a4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/address_states-76840b8177a1aba71ee06233175b713fb4855f7b4fe28db303c47be7807ae36b.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/all-7f7182b6eb8a1b76ac9775ffdc779404c97de3ec14416959087385ee41b692b5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/all-8b077cece7304b3ce2ba62571fefd7cd1598c9f3da438a9918d552e9e0e243fb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/backend/all-9fbfb9af50f7c09cc2222a0fd1d7f2b46fc69cc192d34b9908787d59913ed828.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-703961a489eab6fd69a7b0a753b19872bc6eb84b31e188dc3d598e580be29a18.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-dccba400145d265c140880d9e806db4211c75681318d5f0c6ce1fa4761991ce5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-e347ec53aa6b7f88018bd8ddb64fec3ab8c93892a0ed6a8613679897a91d1434.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/all-f12c21d7d0378685dbf7b4d885c79ebcf43e6f49e7faec6c88cef39ec7d4ba9a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/application-775db999246c18db163fd4cf3e4601c37fb32fdb8e98b21b408b7fdff68a64cd.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/application-a87e866cc75bbf976a11af6e1a0979a3b7a51200f28047337a98165442e34f9c.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/spree/frontend/checkout/shipment-6831cf15e8c78defbb9e9ec4d41d9dce182b79a37750b29b688e65f994644ca6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter-117ac2937bff2bc3b4975895fe9e7645aed441d45bdd533460dc1d7c7a24f2d1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/vimeo-89236a51b692d4f37a22dc4190bf997a51eacbff24fb8605b32ed399152f9075.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/channels/application_cable/connection_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/integration/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mailers/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/system/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/spree/backend/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/spree/frontend/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/spree/frontend/cart_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/spree/frontend/infinite_scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/spree/backend/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ecommerce-pyme.iml" afterPath="$PROJECT_DIR$/.idea/ecommerce-pyme.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ecommerce-pyme.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,8 +1183,40 @@
   <component name="FavoritesManager">
     <favorites_list name="ecommerce-pyme" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ecommerce-pyme.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/ecommerce-pyme.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="211" column="9" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/ecommerce-pyme.iml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -44,9 +1240,126 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce-pyme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce-pyme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce-pyme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -58,26 +1371,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590710045302</updated>
-      <workItem from="1590710046574" duration="8000" />
+      <workItem from="1590710046574" duration="319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8000" />
+    <option name="totallyTimeSpent" value="319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="24" width="1307" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -85,5 +1406,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/ecommerce-pyme.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="211" column="9" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
