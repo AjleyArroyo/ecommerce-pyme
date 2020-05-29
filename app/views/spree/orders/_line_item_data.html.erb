@@ -4,7 +4,7 @@
   <% additional_classes = "d-none d-lg-table-cell" %>
 <% end %>
 
-<div class="shopping-cart-item-price <%= additional_classes %> margin-bottom" data-hook="cart_item_price">
+<div class="shopping-cart-1-item-price <%= additional_classes %> margin-bottom" data-hook="cart_item_price">
   <%= line_item.single_money.to_html %>
 </div>
 <% if view =="mobile" %>
@@ -17,13 +17,13 @@
 <% end %>
 <div class="shopping-cart-item-quantity <%= additional_classes %>" data-hook="cart_item_quantity">
   <div class="d-flex align-items-center">
-    <%= button_tag '-', type: 'button', class: "border-right-0 shopping-cart-item-quantity-decrease-btn", data: { id: dom_id(line_item) } %>
+    <%= button_tag '-', type: 'button', class: "border-right-0 shopping-cart-1-item-quantity-decrease-btn", data: { id: dom_id(line_item) } %>
     <%= item_form.number_field :quantity, min: 0, class: "form-control text-center border-left-0 border-right-0 shopping-cart-item-quantity-input", size: 5, data: { id: dom_id(line_item) } %>
-    <%= button_tag '+', type: 'button', class: "border-left-0 shopping-cart-item-quantity-increase-btn", data: { id: dom_id(line_item) } %>
+    <%= button_tag '+', type: 'button', class: "border-left-0 shopping-cart-1-item-quantity-increase-btn", data: { id: dom_id(line_item) } %>
   </div>
 </div>
 <% if view == "desktop" %>
-  <div class="shopping-cart-item-total d-none d-lg-table-cell" data-hook="cart_item_total">
+  <div class="shopping-cart-1-item-total d-none d-lg-table-cell" data-hook="cart_item_total">
     <%= line_item.display_amount.to_html unless line_item.quantity.nil? %>
   </div>
 <% end %>
