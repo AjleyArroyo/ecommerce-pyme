@@ -46,3 +46,6 @@
 .footer-spree-copyright-logo-spark{
     height: 56px;
 }
+.footer-spree .logo img{
+    width: auto !important;
+}
