@@ -19,7 +19,7 @@ gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 gem 'spree_social', github: 'hegeltrigo/spree_social'
 gem "letter_opener", :group => :development
-
+gem 'aws-sdk-s3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
