@@ -14,6 +14,7 @@ Spree.config do |config|
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
   config.products_per_page = 12
+  config.logo = 'caimango.png'
 end
 
 # Configure Spree Dependencies
@@ -32,5 +33,31 @@ Spree.user_class = "Spree::User"
 Spree::Frontend::Config[:locale] = :es
 Spree::Backend::Config[:locale] = :es
 Spree::Auth::Config[:confirmable] = true
-Spree::PermittedAttributes.address_attributes << :reference
-# Spree::PermittedAttributes.shipping_address_attributes << [:reference]
+Spree::PermittedAttributes.address_attributes << :dni
+Spree::PermittedAttributes.address_attributes << :skip_validation
+Spree::PermittedAttributes.address_attributes << :nit
+Spree::PermittedAttributes.address_attributes << :social_reason
+Spree::Config[:checkout_zone] = 'South America'
+Spree::Config[:default_country_id] = 29
+
+# attachment_config = {
+#   s3_credentials: {
+#     access_key_id:     ENV['AWS_ACCESS_KEY_ID'],
+#     secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
+#     bucket:            ENV['S3_BUCKET_NAME']
+#   },
+
+#   storage:        :s3,
+#   s3_region:      ENV['S3_REGION'],
+#   s3_headers:     { "Cache-Control" => "max-age=31557600" },
+#   s3_protocol:    "https",
+#   bucket:         ENV['S3_BUCKET_NAME'],
+#   url:            ":s3_domain_url",
+
+#   path:           "/:class/:id/:style/:basename.:extension",
+#   default_url:    "/:class/:id/:style/:basename.:extension",
+# }
+
+# attachment_config.each do |key, value|
+#   Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
+# end
