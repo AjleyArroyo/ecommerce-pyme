@@ -16,6 +16,7 @@ module StoreFrontend
           end
           @order.bill_address ||= ::Spree::Address.build_default
           @order.bill_address.skip_validation = true
+          @order.bill_address.social_reason = @order.ship_address.firstname.to_s + ' ' + @order.ship_address.lastname.to_s
           @payment_sources = try_spree_current_user.payment_sources if try_spree_current_user&.respond_to?(:payment_sources)
         end
 
