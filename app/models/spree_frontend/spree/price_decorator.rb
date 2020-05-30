@@ -12,7 +12,6 @@ module SpreeFrontend
       rescue
         self[:amount]
       end
-
     end
   end
 end

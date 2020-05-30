@@ -1,5 +1,6 @@
 module ApplicationHelper
-
+  include ::Spree::ProductsHelper
+  
   def display_no_discount_price(product_or_variant)
     price = product_or_variant.price_in(current_currency)
     price.no_discount_mode = true
@@ -7,4 +8,5 @@ module ApplicationHelper
     price.no_discount_mode = false
     html
   end
+
 end

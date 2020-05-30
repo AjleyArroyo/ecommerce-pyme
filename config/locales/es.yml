@@ -34,15 +34,17 @@ es:
     attributes:
       spree/address:
         address1: Dirección
-        address2: Dirección (cont.)
+        address2: Nro Dpto/Casa
         city: Ciudad
         country: País
         firstname: Nombre
         lastname: Apellidos
         phone: Teléfono
-        state: Estado / Provincia
+        state: Estado
         zipcode: Código Postal
-        reference: Referencia
+        dni: CI/DNI
+        nit: NIT
+        social_reason: Razón Social
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
         preferred_tiers:
@@ -92,16 +94,24 @@ es:
         firstname: Nombre (Dirección de Facturación)
         lastname: Apellidos (Dirección de Facturación)
         phone: Teléfono (Dirección de Facturación)
-        state: Estado / Provincia (Dirección de Facturación)
+        state: Estado (Dirección de Facturación)
         zipcode: Código Postal (Dirección de Facturación)
+        country: País (Dirección de Facturación)
+        dni: CI/ DNI (Dirección de Facturación)
+        nit: NIT (Dirección de Facturación)
+        social_reason: Razón social (Dirección de Facturación)
       spree/order/ship_address:
         address1: Calle (Dirección de Envíos)
         city: Ciudad (Dirección de Envíos)
         firstname: Nombre (Dirección de Envíos)
         lastname: Apellidos (Dirección de Envíos)
         phone: Teléfono (Dirección de Envíos)
-        state: Estado / Provincia (Dirección de Envíos)
+        state: Estado (Dirección de Envíos)
         zipcode: Código Postal (Dirección de Envíos)
+        country: País (Dirección de Envíos)
+        dni: CI/ DNI (Dirección de Envíos)
+        nit: NIT (Dirección de Envíos)
+        social_reason: Razón social (Dirección de Envíos)
       spree/payment:
         amount: Monto
       spree/payment_method:
@@ -117,6 +127,7 @@ es:
         shipping_category: Categoría de Envíos
         tax_category: Categoría de Impuestos
         less_than: "Menor a"
+        discount: Descuento %
       spree/promotion:
         advertise: Anuncio
         code: Código
@@ -189,6 +200,16 @@ es:
         sku: SKU
         weight: Peso
         width: Ancho
+      spree/vendor:
+        about_us: Acerca de
+        contact_us: Contáctanos
+        image: Imagen
+        name: Nombre
+        state: estado
+        created_at: creado en
+        priority: prioridad
+        commission_rate: porcentaje de comisión
+        notification_email: Correo de notificación
       spree/zone:
         description: Descripción
         name: Nombre
@@ -210,7 +231,7 @@ es:
         spree/classification:
           attributes:
             taxon_id:
-              already_linked:
+              already_linked: ya está asignado a este producto
         spree/credit_card:
           attributes:
             base:
@@ -219,7 +240,7 @@ es:
         spree/line_item:
           attributes:
             currency:
-              must_match_order_currency:
+              must_match_order_currency:  debe coincidir con la moneda del pedido
         spree/refund:
           attributes:
             amount:
@@ -323,9 +344,15 @@ es:
       spree/variant:
         one: Variante
         other: Variantes
+      spree/vendor:
+        one: Vendedor
+        other: Vendedores
       spree/zone:
         one: Zona
         other: Zonas
+  address_book:
+    new_shipping_address: Nueva dirección de Envío
+    save: Guardar
   devise:
     confirmations:
       confirmed: Su cuenta fue confirmada correctamente. Ahora está conectado.
@@ -348,6 +375,9 @@ es:
     oauth_callbacks:
       failure: No pudo autorizarse desde %{kind} debido a %{reason}.
       success: Autorizado desde la cuenta de %{kind}
+    omniauth_callbacks:
+      failure: No pudo autorizarse desde %{kind} debido a %{reason}.
+      success: "Estás sesión con tu cuenta de %{kind}."
     unlocks:
       send_instructions: En breve recibirá  un email con instrucciones acerca de como desbloquear su cuenta.
       unlocked: Su cuenta fue desbloqueada correctamente. Ahora está conectado
@@ -406,14 +436,14 @@ es:
     add_product: Añadir producto
     add_product_properties: Añadir propiedades de producto
     add_rule_of_type: Añadir regla de tipo
-    add_state: Añadir Estado / Provincia
+    add_state: Añadir Estado
     add_stock: Añadir inventario
     add_stock_management: Añadir gestión de inventario
     add_to_cart: Añadir al carrito
     add_variant: Añadir variante
     additional_item: Costo adicional por elemento
     address1: Dirección
-    address2: Dirección (continuación)
+    address2: Nro Dpto/Casa
     address_book:
       successfully_updated: Actualizado exitosamente
     adjustable: Ajustable
@@ -484,10 +514,11 @@ es:
     authorized: Autorizado
     auto_capture: Auto Captura
     available_on: Disponible en
+    availability: Disponibilidad
     average_order_value:
     avs_response:
     back: Atrás
-    back_end: Parte Interna
+    back_end: Sistema administrativo
     back_to_payment:
     back_to_resource_list:
     back_to_rma_reason_list:
@@ -661,7 +692,6 @@ es:
     enable_mail_delivery: Habilitar envío por correo
     end: Fin
     ending_in: Ending in
-    environment: Entorno
     error: error
     errors:
       messages:
@@ -710,7 +740,7 @@ es:
     forgot_password: "¿Olvidaste tu contraseña?"
     free_shipping: Gastos de envío gratuitos
     free_shipping_amount:
-    front_end: Sistema Interno
+    front_end: Tienda En linea
     gateway: Pasarela
     gateway_config_unavailable: Pasarela no disponible por configuración
     gateway_error: Error en la pasarela
@@ -759,6 +789,7 @@ es:
     inventory_adjustment: Ajuste de inventario
     inventory_error_flash_for_insufficient_quantity: Un artículo en tu carro ya no está disponible
     inventory_state:
+    in_stock: en stock
     is_not_available_to_shipment_address: No se encuentra disponible para la dirección de envío
     iso_name: Nombre ISO
     item: artículo
@@ -926,6 +957,10 @@ es:
         subtotal:
         thanks: Gracias por su negocio
         total:
+      vendor_notification_email:
+        dear_vendor: Estimado vendedor,
+        subject: Notificación de vendedor
+        thanks: Gracias
     order_not_found: No pudimos encontrar su orden. Por favor inténtalo de nuevo
     order_number:
     order_processed_successfully: Su pedido se ha procesado correctamente
@@ -939,7 +974,7 @@ es:
       confirm: confirmado
       considered_risky:
       delivery: envío
-      payment: pago
+      payment: Confirmación de pago
       resumed: reanudado
       returned: devuelto
     order_summary: Resumen de pedido
@@ -972,7 +1007,7 @@ es:
     payment_state: Estado del pago
     payment_states:
       balance_due: pago pendiente
-      checkout: caja
+      checkout: pagar
       completed: completado
       credit_owed: cŕedito a deber
       failed: fallado
@@ -1106,7 +1141,9 @@ es:
     receive_stock: Recibir inventario
     received: Recibido
     reception_status:
-    reference: Referencia
+    dni: CI/DNI
+    nit: NIT
+    social_reason: Razón Social
     refund: Devolver
     refund_amount_must_be_greater_than_zero:
     refund_reasons: Razones de reembolso
@@ -1140,7 +1177,7 @@ es:
     rename: Renombrar
     report:
     reports: Informes
-    required: Requerido
+    required: '*'
     required_fields: Datos requeridos
     resend: Volver a enviar
     reset_password: Reiniciar mi contraseña
@@ -1287,7 +1324,7 @@ es:
       returned:
       shipped:
       void:
-    states: Provincias
+    states: Estados
     states_required: Estados Requeridos
     status: Estado
     stock:
@@ -1305,10 +1342,10 @@ es:
     stop: Hasta
     store: Tienda
     street_address: Dirección
-    street_address_2: Dirección (continuación)
+    street_address_2: Nro Dpto/Casa
     subtotal: Subtotal
     subtract: Restar
-    success:
+    success: Éxito
     successfully_created: "¡%{resource} ha sido creado con éxito"
     successfully_refunded:
     successfully_removed: "%{resource} ha sido borrado con éxito"
@@ -1446,14 +1483,14 @@ es:
       empty_info: "Carrito Vacío"
       header: "Compras"
       title: "Compras"
-      checkout: Caja
+      checkout: Pagar
     checkout_page:
-      header: Caja
+      header: Pagar
       back_to_cart: Volver al carrito
       delivery_method: Método de envío
     pdp:
       view_cart: Ver Carrito
-      checkout: Caja
+      checkout: Pagar
     store_credit_name: "Compras"
     store_credit_categories: Almacenar Categorías de Crédito
     refund_reasons: Razones de Reembolso
@@ -1483,13 +1520,44 @@ es:
     order_number: Número de Órden
     order_success: Compra exitosa
     order_success_explain: Detalle de la compra exitosa
-    social_authentication_methods: Métodos de autenticación social
-    no_authentication_methods_found: No se encontraron métodos de autenticación
-    social_provider: Proveedor social
-    social_api_secret: API secreta social 
-    social_api_key: llave API social 
-    back_to_authentication_methods_list: Volver a la lista de métodos de autenticación
-    edit_social_method: Editar método social
     go_to_category: Ir a la Categoria
     already_have_account: Ya tengo cuenta
+    environment: Ambiente
+    user_was_not_valid: "El usuario no fue válido."
+    add_another_service: 'Añadir otro servicio para inicio de sesión:'
+    authentications:
+      destroy: 'Método de autenticación destruido exitosamente.'
+    back_to_authentication_methods_list: "Volver a la lista de métodos de autenticación"
+    edit_social_method: 'Editando metodo de autenticación'
+    new_social_method: 'Nuevo método de autenticación'
+    no_authentication_methods_found: "No se encuentran ni métodos de autenticación"
+    one_more_step: 'Un paso más para completar tu registro desde %{kind}'
+    remove_authentication_option_confirmation: '¿Está seguro que quiere eliminar este método de autenticación?'
+    sign_into_account: 'Puedes iniciar sesión usando:'
+    sign_in_through_one_of_these_services: 'Iniciar sesión a través de uno de estos servicios:'
+    social_api_key: 'API Clave'
+    social_api_secret: 'API Secreto'
+    social_authentication_methods: 'Métodos de autenticación'
+    social_authentication_methods_description: 'Configurar métodos de autenticación de OAuth'
+    social_provider: 'Proveedor social'
+    please_confirm_your_email: 'Por favor confirme su email para continuar'
+    sign_in_with: 'Autententicado con %{provider}'
+    you_have_signed_in_with_these_services: "Has iniciado sesión con estos servicios"
+    back_to_vendors_list: Volver a la lista de vendedores
+    edit_vendor: Editar vendedor
+    new_vendor: Nuevo vendedor
+    only_alphanumeric_chars: Debería contener solo letras y dígitos
+    vendor: Vendedor
+    vendor_name: Nombre del vendedor
+    vendor_states:
+      active: Activo
+      blocked: Bloqueado
+      pending: Pendiente
+    admin:
+      commission: Comisión
     buy_now: COMPRAR AHORA
+    removed: QUITAR
+    product_comment: Comentario del producto
+    back_cart: Volver
+    remove_cart: ¿Quitar del carrito?
+    taxonomy_discounts_name: "Descuentos"
