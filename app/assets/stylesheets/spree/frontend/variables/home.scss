@@ -18,7 +18,7 @@
 }
 
 .product-price-with-discount {
-  color: red;
+  color: black;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0.875rem;
@@ -26,7 +26,7 @@
 
 @media (min-width: 768px) {
   .product-price-with-discount {
-    color: red;
+    color: black;
     font-size: 1.25rem;
     line-height: 1.25rem;
   }
@@ -34,9 +34,9 @@
 
 .product-price-block div {
   display: inline-block;
-  color: black;
+  color: #aaa;
   height: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.840rem;
   line-height: 0.840rem;
 }
@@ -44,9 +44,10 @@
 @media (min-width: 768px) {
   .product-price-block div {
     display: inline-block;
-    color: black;
+    color: #aaa;
     height: auto;
-    font-size: 1.15rem;
+    font-weight: 500;
+    font-size: 1.0rem;
     line-height: 1.15rem;
   }
 }
