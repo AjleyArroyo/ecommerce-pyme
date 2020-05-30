@@ -350,6 +350,9 @@ es:
       spree/zone:
         one: Zona
         other: Zonas
+  address_book:
+    new_shipping_address: Nueva dirección de Envío
+    save: Guardar
   devise:
     confirmations:
       confirmed: Su cuenta fue confirmada correctamente. Ahora está conectado.
