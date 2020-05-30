@@ -33,8 +33,12 @@ Spree.user_class = "Spree::User"
 Spree::Frontend::Config[:locale] = :es
 Spree::Backend::Config[:locale] = :es
 Spree::Auth::Config[:confirmable] = true
-Spree::PermittedAttributes.address_attributes << :reference
-# Spree::PermittedAttributes.shipping_address_attributes << [:reference]
+Spree::PermittedAttributes.address_attributes << :dni
+Spree::PermittedAttributes.address_attributes << :skip_validation
+Spree::PermittedAttributes.address_attributes << :nit
+Spree::PermittedAttributes.address_attributes << :social_reason
+Spree::Config[:checkout_zone] = 'South America'
+Spree::Config[:default_country_id] = 29
 
 # attachment_config = {
 #   s3_credentials: {

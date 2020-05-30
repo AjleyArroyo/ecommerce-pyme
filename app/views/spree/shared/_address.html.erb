@@ -21,7 +21,7 @@
       <% if Spree::Config[:address_requires_state] %>
         <span class="region"><%= address.state_text %></span>
       <% end %>
-      <span class="postal-code"><%= address.zipcode %></span>
+      <span class="postal-code"><%= address.dni %></span>
       <div class="country-name"><%= address.country.try(:name) %></div>
     </div>
   </div>

@@ -4,7 +4,6 @@ module SpreeFrontend
 
       def self.prepended(base)
         base.before_validation :validate_discount
-
       end
 
       def validate_discount
