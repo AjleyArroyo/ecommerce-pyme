@@ -16,7 +16,6 @@ Spree.config do |config|
   config.products_per_page = 12
   config.logo = 'logo/caimango.png'
   config.admin_interface_logo = 'logo/caimango.png'
-
 end
 
 # Configure Spree Dependencies
