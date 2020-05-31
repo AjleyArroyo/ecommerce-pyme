@@ -86,7 +86,6 @@ ActiveRecord::Schema.define(version: 2020_05_25_203712) do
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
     t.datetime "deleted_at"
-    t.string "reference"
     t.string "dni"
     t.string "nit"
     t.string "social_reason"
