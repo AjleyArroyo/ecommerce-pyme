@@ -16,6 +16,21 @@ module SpreeFrontend
         self.class.clear_validators!
         self.class.validates :nit, :social_reason, presence: true
       end
+
+      def skip_validation
+        return false if self[:skip_validation].blank?
+        self[:skip_validation]
+      end
+
+      def dni
+        return 123123 if self[:country_id] == 233
+        self[:dni]
+      end
+
+      def phone=(phone)
+        self[:phone] = phone
+        self[:phone] = 23452345234 if self[:country_id] == 233
+      end
     end
   end
 end
