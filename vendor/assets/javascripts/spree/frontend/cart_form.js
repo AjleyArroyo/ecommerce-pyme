@@ -11,23 +11,23 @@ Spree.ready(function ($) {
         }
 
         formUpdateCart.find('a.delete').show().one('click', function () {
-            $(this).parents('.shopping-cart-item').first().find('input.shopping-cart-item-quantity-input').val(0)
+            $(this).parents('.shopping-cart-1-item').first().find('input.shopping-cart-1-item-quantity-input').val(0)
             clearInvalidCouponField()
             formUpdateCart.submit()
             return false
         })
-        formUpdateCart.find('input.shopping-cart-item-quantity-input').on('keyup', function(e) {
+        formUpdateCart.find('input.shopping-cart-1-item-quantity-input').on('keyup', function(e) {
             var itemId = $(this).attr('data-id')
             var value = $(this).val()
             var newValue = isNaN(value) || value === '' ? value : parseInt(value, 10)
-            var targetInputs = $("form#update-cart input.shopping-cart-item-quantity-input[data-id='" + itemId + "']")
+            var targetInputs = $("form#update-cart input.shopping-cart-1-item-quantity-input[data-id='" + itemId + "']")
             $(targetInputs).val(newValue)
         })
-        formUpdateCart.find('input.shopping-cart-item-quantity-input').on('change', function(e) {
+        formUpdateCart.find('input.shopping-cart-1-item-quantity-input').on('change', function(e) {
             clearInvalidCouponField()
             formUpdateCart.submit()
         })
-        formUpdateCart.find('button.shopping-cart-item-quantity-decrease-btn').off('click').on('click', function() {
+        formUpdateCart.find('button.shopping-cart-1-item-quantity-decrease-btn').off('click').on('click', function() {
             var itemId = $(this).attr('data-id')
             var input = $("input[data-id='" + itemId + "']")
             var inputValue = parseInt($(input).val(), 10)
@@ -40,7 +40,7 @@ Spree.ready(function ($) {
                 $('#delete-modal-'+itemId).modal('show');
             }
         })
-        formUpdateCart.find('button.shopping-cart-item-quantity-increase-btn').off('click').on('click', function() {
+        formUpdateCart.find('button.shopping-cart-1-item-quantity-increase-btn').off('click').on('click', function() {
             var itemId = $(this).attr('data-id')
             var input = $("input[data-id='" + itemId + "']")
             var inputValue = parseInt($(input).val(), 10)
@@ -49,7 +49,7 @@ Spree.ready(function ($) {
             clearInvalidCouponField()
             formUpdateCart.submit()
         })
-        formUpdateCart.find('button#shopping-cart-coupon-code-button').off('click').on('click', function(event) {
+        formUpdateCart.find('button#shopping-cart-1-coupon-code-button').off('click').on('click', function(event) {
             var couponCodeField = $('#order_coupon_code');
 
             if (!$.trim(couponCodeField.val()).length) {
@@ -57,13 +57,13 @@ Spree.ready(function ($) {
                 return false
             }
         })
-        formUpdateCart.find('button#shopping-cart-remove-coupon-code-button').off('click').on('click', function(event) {
+        formUpdateCart.find('button#shopping-cart-1-remove-coupon-code-button').off('click').on('click', function(event) {
             var input = {
                 appliedCouponCodeField: $('#order_applied_coupon_code'),
                 couponCodeField: $('#order_coupon_code'),
                 couponStatus: $('#coupon_status'),
-                couponButton: $('#shopping-cart-coupon-code-button'),
-                removeCouponButton: $('#shopping-cart-remove-coupon-code-button')
+                couponButton: $('#shopping-cart-1-coupon-code-button'),
+                removeCouponButton: $('#shopping-cart-1-remove-coupon-code-button')
             }
 
             if (new CouponManager(input).removeCoupon()) {
@@ -78,7 +78,7 @@ Spree.ready(function ($) {
         var input = {
             couponCodeField: $('#order_coupon_code'),
             couponStatus: $('#coupon_status'),
-            couponButton: $('#shopping-cart-coupon-code-button')
+            couponButton: $('#shopping-cart-1-coupon-code-button')
         }
         var updateButton = formUpdateCart.find('#update-button')
         updateButton.attr('disabled', true)
