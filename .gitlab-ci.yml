@@ -28,6 +28,10 @@ before_script:
   - bin/rails db:create
   - bin/rails db:migrate
 
+artifacts:
+    paths:
+      - public
+
 rspec:
   stage: test
   script:
