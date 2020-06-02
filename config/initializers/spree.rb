@@ -14,7 +14,9 @@ Spree.config do |config|
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
   config.products_per_page = 12
-  config.logo = 'caimango.png'
+  config.logo = 'logo/caimango.png'
+  config.admin_interface_logo = 'logo/caimango.png'
+
 end
 
 # Configure Spree Dependencies
@@ -39,6 +41,7 @@ Spree::PermittedAttributes.address_attributes << :nit
 Spree::PermittedAttributes.address_attributes << :social_reason
 Spree::Config[:checkout_zone] = 'South America'
 Spree::Config[:default_country_id] = 29
+
 
 # attachment_config = {
 #   s3_credentials: {
