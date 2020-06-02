@@ -24,7 +24,9 @@ before_script:
   - bundle install --jobs $(nproc)  "${FLAGS[@]}"
 
   # Database setup
-  - bin/rails db:setup
+  - bin/rails db:drop
+  - bin/rails db:create
+  - bin/rails db:migrate
 
 rspec:
   stage: test
