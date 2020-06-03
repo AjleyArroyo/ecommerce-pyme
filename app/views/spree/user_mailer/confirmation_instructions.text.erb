@@ -1,5 +1,5 @@
-Welcome <%= @email %>!
+<%= Spree.t('user_mailer.confirmation_instructions.welcome') %> <%= @email %>!
 
-You can confirm your account email through the url below:
+<%= Spree.t('user_mailer.confirmation_instructions.instructions') %>
 
 <%= @confirmation_url %>
