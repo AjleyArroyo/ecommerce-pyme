@@ -45,14 +45,14 @@ production_deploy:
   only:
     - master
     
-staging_deploy:
-  stage: deploy
-  script:
-    - which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )
-    - eval $(ssh-agent -s)
-    # add ssh key stored in SSH_PRIVATE_KEY variable to the agent store
-    - ssh-add <(echo -e "$SSH_PRIVATE_KEY")
-    - gem install capistrano
-    - cap staging deploy
-  only:
-    - develop
+# staging_deploy:
+#   stage: deploy
+#   script:
+#     - which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )
+#     - eval $(ssh-agent -s)
+#     # add ssh key stored in SSH_PRIVATE_KEY variable to the agent store
+#     - ssh-add <(echo -e "$SSH_PRIVATE_KEY")
+#     - gem install capistrano
+#     - cap staging deploy
+#   only:
+#     - develop
