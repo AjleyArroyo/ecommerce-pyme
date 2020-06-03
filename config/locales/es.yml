@@ -1236,14 +1236,14 @@ es:
     reimbursement:
     reimbursement_mailer:
       reimbursement_email:
-        days_to_send:
-        dear_customer:
-        exchange_summary:
-        for:
-        instructions:
-        refund_summary:
-        subject:
-        total_refunded:
+        days_to_send: "'Usted tiene %{days} días para devolver cualquier artículo que esperé cambiar.'"
+        dear_customer: Estimado cliente,
+        exchange_summary: Resumen del Cambio
+        for: para
+        instructions: Su reembolso ha sido procesado.
+        refund_summary: Resumen de Reembolso
+        subject: Notificación de Reembolso
+        total_refunded: "'Total Reembolsado: %{total}'"
     reimbursement_perform_failed:
     reimbursement_status:
     reimbursement_type:
