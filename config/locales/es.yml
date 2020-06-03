@@ -941,6 +941,8 @@ es:
     order_email_resent: Email de pedido reenviado
     order_information: Información del pedido
     order_mailer:
+      subtotal: Subtotal
+      total: Total
       cancel_email:
         dear_customer: Querido cliente,\n
         instructions: Su orden ha sido CANCELADA. Por favor mantenga esta información de cancelación para sus registros
@@ -1421,6 +1423,10 @@ es:
     use_new_cc: Usar una tarjeta diferente
     use_s3: Usar Amazon S3 para imágenes
     user: Usuario
+    user_mailer:
+      confirmation_instructions:
+        welcome: Bienvenido
+        instructions: 'Puede confirmar el correo electrónico de su cuenta a través de la siguiente URL:'
     user_rule:
       choose_users: Elegir usuarios
     users: Usuarios
