@@ -6,9 +6,9 @@ module SpreeFrontend
       attr_accessor :skip_validation
 
       def self.prepended(base)
-        base.after_initialize :skip_validators, if: :skip_validation
-        base.after_find :skip_validators, if: :skip_validation
-        base.validates :phone, :dni, presence: true, numericality: true, unless: :skip_validation
+        base.after_initialize :skip_validators, if: :with_nit
+        base.after_find :skip_validators, if: :with_nit
+        base.validates :phone, :dni, presence: true, numericality: true, unless: :with_nit
         
       end
 
@@ -17,9 +17,9 @@ module SpreeFrontend
         self.class.validates :nit, :social_reason, presence: true
       end
 
-      def skip_validation
-        return false if self[:skip_validation].blank?
-        self[:skip_validation]
+      def with_nit
+        return false if self.skip_validation.blank? or @skip_validation.blank?
+        true
       end
 
       def dni
