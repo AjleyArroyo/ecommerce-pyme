@@ -1,0 +1,58 @@
+# .gitlab-ci.yml
+
+stages:
+  - test
+  - deploy
+
+image: "ruby:2.6.5"
+
+services:
+  - postgres:10.11
+
+variables:
+  RAILS_ENV: test
+  POSTGRES_DB: database_name
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: ""
+  DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/database_name"
+
+before_script:
+  - apt-get update -qq && apt-get install -y -qq nodejs
+  - ruby -v
+  - which ruby
+  - gem install bundler --no-document
+  - bundle install --jobs $(nproc)  "${FLAGS[@]}"
+
+  # Database setup
+  - bin/rails db:drop
+  - bin/rails db:create
+  - bin/rails db:migrate
+
+rspec:
+  stage: test
+  script:
+    - rspec spec
+
+production_deploy:
+  stage: deploy
+  script:
+    - which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )
+    - eval $(ssh-agent -s)
+    # add ssh key stored in SSH_PRIVATE_KEY variable to the agent store
+    - ssh-add <(echo -e "$SSH_PRIVATE_KEY")
+    - gem install capistrano
+    - cap production deploy
+  only:
+    - master
+    
+# staging_deploy:
+#   stage: deploy
+#   script:
+#     - which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )
+#     - eval $(ssh-agent -s)
+#     # add ssh key stored in SSH_PRIVATE_KEY variable to the agent store
+#     - ssh-add <(echo -e "$SSH_PRIVATE_KEY")
+#     - gem install capistrano
+#     - cap staging deploy
+#   only:
+#     - develop
