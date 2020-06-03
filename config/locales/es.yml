@@ -344,7 +344,7 @@ es:
         other: Autorizaciones de Devolución
       spree/return_authorization_reason: 
         one: Razón de autorización de devolución
-        other: Razones de eutorizacion de devolución
+        other: Razones de autorización de devolución
       spree/role:
         one: Rol
         other: Roles
