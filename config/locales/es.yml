@@ -1118,6 +1118,7 @@ es:
       not_found_filters2: no encontrado filtros 2
       not_found_text1: no encontrado texto 1
       not_found_text2: no encontrado texto 2
+      results_for: Resultados para
     populate_get_error: Algo salió mal. Por favor intente agregando el artículo de nuevo
     powered_by: Hecho con
     pre_tax_amount:
