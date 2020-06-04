@@ -4,6 +4,7 @@ module StoreFrontend
 
         def before_address
           @order.ship_address ||= ::Spree::Address.build_default if @order.checkout_steps.include?('delivery')
+          @order.ship_address.skip_validation = false
         end
 
         def before_payment
