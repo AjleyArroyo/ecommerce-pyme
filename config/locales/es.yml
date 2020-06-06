@@ -815,6 +815,7 @@ es:
     first_name: Nombre
     first_name_begins_with: Nombre comienza por
     flat_percent: Porcentaje simple
+    distance_method: Por distancia
     flat_rate_per_order: Cantidad fija (por pedido)
     flexible_rate: Cantidad variable
     forgot_password: "¿Olvidaste tu contraseña?"
