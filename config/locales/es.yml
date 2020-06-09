@@ -607,6 +607,7 @@ es:
     backorderable: Disponible para apartado
     backorderable_default:
     backordered:
+    backordered_info: Información Anterior
     backorders_allowed:
     balance_due: Saldo pendiente
     base_amount:
@@ -1334,13 +1335,7 @@ es:
         thanks: Gracias por su colaboración
         track_information: 'Información de Rastreo: %{tracking}'
         track_link: 'Enlace para rastreo: %{url}'
-    shipment_state:
-      backorder: Pedido Pendiente
-      canceled: Cancelado
-      partial: Parcial
-      pending: Pendiente
-      ready: Listo
-      shipped: Enviado
+    shipment_state: Estado de Envío
     shipment_states:
       backorder: backorder
       canceled: cancelado
