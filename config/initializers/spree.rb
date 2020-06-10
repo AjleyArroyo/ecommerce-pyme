@@ -41,7 +41,8 @@ Spree::PermittedAttributes.address_attributes << :nit
 Spree::PermittedAttributes.address_attributes << :social_reason
 Spree::Config[:checkout_zone] = 'South America'
 Spree::Config[:default_country_id] = 29
-
+Spree::Config[:currency] = 'BOB'
+SpreeI18n::Config[:available_locales] = ['es-EC']
 
 # attachment_config = {
 #   s3_credentials: {

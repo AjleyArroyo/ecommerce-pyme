@@ -940,7 +940,7 @@ es:
     name_or_sku: Nombre o código de producto
     new: Nuevo
     new_adjustment: nuevo ajuste
-    new_country:
+    new_country: Nuevo País
     new_customer: Nuevo cliente
     new_customer_return:
     new_image: Nueva Imagen
@@ -1299,7 +1299,7 @@ es:
     sales_totals: Total de Ventas
     save_and_continue: Guardar y continuar
     save_my_address:
-    say_no: false
+    say_no: No
     say_yes: Sí
     scope: Alcance
     search: Buscar
