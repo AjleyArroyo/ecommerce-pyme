@@ -17,7 +17,7 @@
                     <ul class="pl-0">
                       <% root.taxonomy.taxons.where(parent: root).each do |item| %>
                         <li>
-                          <%= link_to item.name, item.permalink, class: "text-uppercase main-nav-bar-category-links" %>
+                          <%= link_to item.name, spree.nested_taxons_path(item.permalink), class: "text-uppercase main-nav-bar-category-links" %>
                         </li>
                       <% end %>
                     </ul>
