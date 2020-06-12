@@ -35,7 +35,7 @@
     </div>
 
     <ul class="list-unstyled position-relative h-100 mobile-navigation-list">
-      <% Spree::Taxonomy.find_by_name("Categorias").root.children.each do |root| %>
+      <% Spree::Taxonomy.find_by_name("Categorías").root.children.each do |root| %>
         <li class="d-flex justify-content-between align-items-center mobile-navigation-list-item">
           <%= link_to root.name, spree.nested_taxons_path(root.permalink), class: 'w-75' %>
 
@@ -62,7 +62,7 @@
               <% end %>
             <% else %>
               <li class="d-flex justify-content-between align-items-center mobile-navigation-list-item">
-                <%= link_to root.name, spree.nested_taxons_path(root  .permalink), class: 'w-75' %>
+                <%= link_to root.name, spree.nested_taxons_path(root.permalink), class: 'w-75' %>
               </li>
             <% end %>
           </ul>
