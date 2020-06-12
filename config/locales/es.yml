@@ -56,6 +56,8 @@ es:
         dni: CI/DNI
         nit: NIT
         social_reason: Razón Social
+        latitude: Latitud
+        longitude: Longitud
       spree/calculator/tiered_flat_rate:
         preferred_base_amount: Cantidad base
         preferred_tiers: Niveles
@@ -1579,7 +1581,7 @@ es:
     store_credit_name: "Compras"
     store_credit_categories: Almacenar Categorías de Crédito
     refund_reasons: Razones de Reembolso
-    add_new_address: "Añadir Correo Electronico"
+    add_new_address: "Añadir Dirección"
     email: "Correo"
     log_in: "Iniciar Sessión"
     sign_up: "Registrar"

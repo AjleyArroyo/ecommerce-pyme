@@ -1,7 +1,7 @@
 module SpreeFrontend
   module Spree
     module AddressDecorator
-      ADDRESS_FIELDS   = %w(firstname lastname company phone dni address1 address2 country state city)
+      ADDRESS_FIELDS   = %w(firstname lastname company phone dni address1 address2 country state city latitude longitude)
       
       attr_accessor :skip_validation
 
