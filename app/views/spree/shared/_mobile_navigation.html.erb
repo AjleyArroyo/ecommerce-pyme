@@ -35,11 +35,11 @@
     </div>
 
     <ul class="list-unstyled position-relative h-100 mobile-navigation-list">
-      <% spree_navigation_data.each do |root| %>
+      <% Spree::Taxonomy.find_by_name("Categorías").root.children.each do |root| %>
         <li class="d-flex justify-content-between align-items-center mobile-navigation-list-item">
-          <%= link_to root[:title], root[:url], class: 'w-75' %>
+          <%= link_to root.name, spree.nested_taxons_path(root.permalink), class: 'w-75' %>
 
-          <a class="w-25 text-right mobile-navigation-category-link" data-category="<%= root[:title].parameterize %>" href="#" aria-label="<%= Spree.t('go_to_category')%>">
+          <a class="w-25 text-right mobile-navigation-category-link" data-category="<%= root.name %>" href="#" aria-label="<%= Spree.t('go_to_category')%>">
             <%= icon(name: 'arrow-right',
                     classes: 'd-sm-none spree-icon-arrow spree-icon-arrow-right',
                     width: 16,
@@ -50,19 +50,19 @@
                     height: 27) %>
           </a>
 
-          <ul class="list-unstyled position-absolute mobile-navigation-sublist" data-category="<%= root[:title].parameterize %>">
-            <% if root[:items].present? %>
+          <ul class="list-unstyled position-absolute mobile-navigation-sublist" data-category="<%= root.name %>">
+            <% if root.taxonomy.taxons.where(parent: root).present? %>
               <li class="text-center font-weight-bold mobile-navigation-sublist-header">
-                <%= root[:title] %>
+                <%= root.name %>
               </li>
-              <% root[:items].each do |item| %>
+              <% root.taxonomy.taxons.where(parent: root).each do |item| %>
                 <li class="d-flex justify-content-between align-items-center mobile-navigation-list-item">
-                  <%= link_to item[:title], item[:url], class: 'w-75' %>
+                  <%= link_to item.name, spree.nested_taxons_path(item.permalink), class: 'w-75' %>
                 </li>
               <% end %>
             <% else %>
               <li class="d-flex justify-content-between align-items-center mobile-navigation-list-item">
-                <%= link_to root[:title], root[:url], class: 'w-75' %>
+                <%= link_to root.name, spree.nested_taxons_path(root.permalink), class: 'w-75' %>
               </li>
             <% end %>
           </ul>

@@ -1,12 +1,12 @@
 <% if spree_navigation_data.any? %>
   <ul class="nav h-100 main-nav-bar">
-    <% spree_navigation_data.each do |root| %>
+    <%  Spree::Taxonomy.find_by_name("Categorías").root.children.each do |root| %>
       <li class="navbar main-nav-bar-dropdown main-nav-bar-category">
-        <%= link_to root[:title], root[:url], class: "p-2 main-nav-bar-item main-nav-bar-category-button" %>
-        <% if root[:items].present? || root[:promo_banners].present? %>
+        <%= link_to root.name, spree.nested_taxons_path(root.permalink), class: "p-2 main-nav-bar-item main-nav-bar-category-button" %>
+        <% if root.taxonomy.taxons.where(parent: root).present? || root[:promo_banners].present? %>
           <div class="w-100 shadow main-nav-bar-category-dropdown">
             <div class="container p-0 d-flex justify-content-xl-around mx-auto">
-              <% if root[:items].present? %>
+              <% if root.taxonomy.taxons.where(parent: root).present? %>
                 <div class="row">
                   <div class="category-links">
                     <% if root[:subtitle].present? %>
@@ -15,9 +15,9 @@
                       </div>
                     <% end %>
                     <ul class="pl-0">
-                      <% root[:items].each do |item| %>
+                      <% root.taxonomy.taxons.where(parent: root).each do |item| %>
                         <li>
-                          <%= link_to item[:title], item[:url], class: "text-uppercase main-nav-bar-category-links" %>
+                          <%= link_to item.name, spree.nested_taxons_path(item.permalink), class: "text-uppercase main-nav-bar-category-links" %>
                         </li>
                       <% end %>
                     </ul>
