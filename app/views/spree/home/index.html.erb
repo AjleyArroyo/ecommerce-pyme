@@ -11,7 +11,7 @@
     <div class="col-6">
 
       <div class="homepage-taxon-box mb-3">
-        <%= link_to spree.nested_taxons_path(Spree::Taxon.where(name: "Hombre").first.permalink) do %>
+        <%= link_to spree.nested_taxons_path(Spree::Taxon.where(permalink: "categorias/hombre").first.permalink) do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
@@ -24,7 +24,7 @@
       </div>
 
       <div class="homepage-taxon-box">
-        <%= link_to spree.nested_taxons_path(Spree::Taxon.where(name: "Infantil").first.permalink) do %>
+        <%= link_to spree.nested_taxons_path(Spree::Taxon.where(permalink: "categorias/infantil").first.permalink) do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
             data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
@@ -41,7 +41,7 @@
     <div class="col-6 d-flex flex-column">
 
       <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path(Spree::Taxon.where(name: "Mujer").first.permalink) do %>
+        <%= link_to spree.nested_taxons_path(Spree::Taxon.where(permalink: "categorias/mujer").first.permalink) do %>
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
             data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
@@ -60,7 +60,7 @@
 <div class="container">
   <div class="row">
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path(Spree::Taxon.where(name: "Alimentos").first.permalink) do %>
+      <%= link_to spree.nested_taxons_path(Spree::Taxon.where(permalink: "categorias/alimentos").first.permalink) do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/promo_banner_left.jpg') %>"
@@ -80,7 +80,7 @@
     </div>
 
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path(Spree::Taxon.where(name: "Tecnologia").first.permalink) do %>
+      <%= link_to spree.nested_taxons_path(Spree::Taxon.where(permalink: "categorias/tecnologia").first.permalink) do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/promo_banner_right.jpg') %>"
