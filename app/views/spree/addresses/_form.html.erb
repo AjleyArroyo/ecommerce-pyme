@@ -232,9 +232,9 @@
                   var latitude = $('#address_latitude').val();
                   var longitude = $('#address_longitude').val();
                   if (latitude != "" && longitude != "") {
-                      var location = {lat: parseFloat(latitude), lng: parseFloat(longitude)};
-                      addMarker(location, false);
-                      map.setCenter(location);
+                      var locat = {lat: parseFloat(latitude), lng: parseFloat(longitude)};
+                      addMarker(locat, false);
+                      map.setCenter(locat);
                   } else {
                       infoWindow = new google.maps.InfoWindow;
                       if (navigator.geolocation) {
@@ -293,6 +293,7 @@
                   for (var i = 0; i < markers.length; i++) {
                       markers[i].setMap(map);
                   }
+                  markers = []
               }
 
               function addLocationInput() {

@@ -41,6 +41,8 @@ Spree::PermittedAttributes.address_attributes << :nit
 Spree::PermittedAttributes.address_attributes << :social_reason
 Spree::PermittedAttributes.address_attributes << :latitude
 Spree::PermittedAttributes.address_attributes << :longitude
+Spree::PermittedAttributes.stock_location_attributes << :latitude
+Spree::PermittedAttributes.stock_location_attributes << :longitude
 Spree::Config[:checkout_zone] = 'South America'
 Spree::Config[:default_country_id] = 29
 Spree::Config[:currency] = 'BOB'
