@@ -29,17 +29,6 @@ module SpreeFrontend
         false
       end
 
-      # def self.prepended(base)
-      #   base.with_options unless: :skip_validation do
-      #     base.validates :phone, :dni, presence: true, numericality: true
-      #     base.validates :firstname, :lastname, presence: true
-      #   end
-      #   base.with_options if: :skip_validation do
-      #     base.clear_validators!
-      #     base.validates :nit, :social_reason, presence: true
-      #   end
-      # end
-
       def dni
         return 123123 if self[:country_id] == 233
         self[:dni]
