@@ -63,9 +63,20 @@ puts 'Taxon Agregados'
 ].each do |(parent_name, taxon_name)|
   parent = Spree::Taxon.where(name: parent_name).first
   taxon = parent.children.where(name: taxon_name).first_or_create!
-  taxon.permalink = taxon.permalink.gsub('categories/', '')
+  taxon.permalink = taxon.permalink.gsub('categorias/categorias/', '')
   taxon.taxonomy = category
   taxon.save!
 end
 puts 'Taxons Agregados'
+country =  Spree::Country.find_by(iso: 'BO')
+location = Spree::StockLocation.find_or_create_by!(name: 'default')
+location.update_attributes!(
+  address1: 'Example Street',
+  city: 'City',
+  zipcode: '12345',
+  country: country,
+  state: country.states.first,
+  active: true
+)
+puts 'Actualizar Ubicación de stock'
 Spree::Auth::Engine.load_seed if defined?(Spree::Auth)

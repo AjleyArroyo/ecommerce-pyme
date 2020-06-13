@@ -80,7 +80,7 @@
     </div>
 
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path(Spree::Taxon.where(name: "Tecnología").first.permalink) do %>
+      <%= link_to spree.nested_taxons_path(Spree::Taxon.where(permalink: "categorias/tecnologia").first.permalink) do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/promo_banner_right.jpg') %>"
