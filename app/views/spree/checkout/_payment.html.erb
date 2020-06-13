@@ -6,34 +6,16 @@
         <h5 class="text-uppercase checkout-content-header">
           <%= Spree.t(address_type + '_address') %>
         </h5>
-        <% if @addresses.present? %>
-        <div class="select_address">
-          <div class="form-group">
-            <% @addresses.each_with_index do |address, idx| %>
-            <span class="d-block mb-2" id="<%= [address_type, dom_id(address)].join('_') %>">
-              <label class="form-check-label spree-radio-label">
-                <%= form.radio_button "#{address_name}_id", address.id, checked: (address.id == try_spree_current_user["#{address_name}_id"] || idx == 0) %>
-                <span class="spree-radio-label-custom-input"></span>
-                <span class="d-inline-block align-top">
-                  <%= render "spree/users/address", address: address %>
-                </span>
-              </label>
-            </span>
-            <% end %>
-            <label class="form-check-label spree-radio-label">
-              <%= form.radio_button "#{address_name}_id", 0, class: 'form-check-input' %> <%= Spree.t('address_book.other_address') %>
-              <span class="spree-radio-label-custom-input"></span>
-            </label>
-          </div>
-        </div>
-        <% end %>
         <%= form.fields_for address_name do |address_form| %>
           <div class="inner checkout-content-inner" data-hook=<%="#{address_type}_inner" %>>
+          <% 
+            address_default = ::Spree::Address.new(country: ::Spree::Country.default, skip_validation: true)
+            %>
             <%= render partial: 'spree/addresses/form', locals: {
               address_name: address_name,
               address_form: address_form,
               address_type: address_type,
-              address: Spree::Address.default,
+              address: address_default,
               form: form
             } %>
             <p class="text-right text-uppercase checkout-content-inner-field">*<%= Spree.t(:required_fields) %></p>

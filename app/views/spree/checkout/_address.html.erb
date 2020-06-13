@@ -47,7 +47,7 @@
               address_name: address_name,
               address_form: address_form,
               address_type: address_type,
-              address: Spree::Address.default,
+              address: Spree::Address.new(country: ::Spree::Country.default, skip_validation: false),
               form: form
             } %>
             <p class="text-right text-uppercase checkout-content-inner-field">*<%= Spree.t(:required_fields) %></p>

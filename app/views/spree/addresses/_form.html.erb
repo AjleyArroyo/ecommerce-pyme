@@ -38,10 +38,10 @@
       </div>
   <% end %>
       <div class="form-group mb-4" style='display: none'>
-        <%= address_field(address_form, 'skip_validation'.to_sym, address_id) %>
+        <%= address_field(address_form, :skip_validation, address_id) %>
       </div>
       <script>
-        document.getElementById('order_bill_address_attributes_skip_validation').val('true')
+        document.getElementById('order_bill_address_attributes_skip_validation').value = 'true'
       </script>
 <% end %>
 

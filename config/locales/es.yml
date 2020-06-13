@@ -346,7 +346,7 @@ es:
         other: Autorizaciones de Devolución
       spree/return_authorization_reason: 
         one: Razón de autorización de devolución
-        other: Razones de eutorizacion de devolución
+        other: Razones de autorización de devolución
       spree/role:
         one: Rol
         other: Roles
@@ -609,6 +609,7 @@ es:
     backorderable: Disponible para apartado
     backorderable_default:
     backordered:
+    backordered_info: Información Anterior
     backorders_allowed:
     balance_due: Saldo pendiente
     base_amount:
@@ -639,7 +640,8 @@ es:
     cart_subtotal:
     categories: Categories
     category: Categoría
-    charged:
+    channel: Canal
+    charged: Cargado
     check_for_spree_alerts: Verificar alertas de Spree
     checkout: Pagar
     choose_a_customer: Elegir cliente
@@ -656,6 +658,7 @@ es:
     close: Cerrar
     close_all_adjustments: Cerrar todos los ajustes
     code: Código
+    commission: Comisión
     company: Compañía
     complete: completar
     configuration: Configuración
@@ -939,7 +942,7 @@ es:
     name_or_sku: Nombre o código de producto
     new: Nuevo
     new_adjustment: nuevo ajuste
-    new_country:
+    new_country: Nuevo País
     new_customer: Nuevo cliente
     new_customer_return:
     new_image: Nueva Imagen
@@ -956,8 +959,8 @@ es:
     new_refund: Nuevo reembolso
     new_refund_reason: Nueva razón de reembolso
     new_return_authorization: Nueva autorización de devolución
-    new_rma_reason:
-    new_shipment_at_location:
+    new_rma_reason: Nueva Rázon
+    new_shipment_at_location: Nuevo envío en el lugar
     new_shipping_category: Nueva categoría de envío
     new_shipping_method: Nueva forma de envío
     new_social_method: Nuevo método social
@@ -1005,7 +1008,7 @@ es:
     on_hand: Disponible
     open: Abrir
     open_all_adjustments: Abrir todos los ajustes
-    option_type_placeholder:
+    option_type_placeholder: Tipos de Opciones
     option_value: Valor de la opción
     option_values: Valores de la opción
     optional: Opcional
@@ -1024,7 +1027,8 @@ es:
       subtotal: Subtotal
       total: Total
       cancel_email:
-        dear_customer: Querido cliente,\n
+        dear_customer: |
+          Estimado Cliente,
         instructions: Su orden ha sido CANCELADA. Por favor mantenga esta información de cancelación para sus registros
         order_summary_canceled: Resumen del pedido [CANCELADO]
         subject: Cancelación de pedido
@@ -1032,7 +1036,7 @@ es:
         total:
       confirm_email:
         dear_customer: |
-          Querido cliente,
+          Estimado cliente,
         instructions: Por favor revise y mantenga la siguiente información del pedido para sus registros
         order_summary: Resumen del pedido
         subject: Confirmación de pedido
@@ -1086,17 +1090,17 @@ es:
     payment_processing_failed: El pago no ha podido ser procesado, por favor revise los datos proporcionados.
     payment_processor_choose_banner_text: Si necesitas ayuda eligiendo un procesador de pagos, por favor visita
     payment_processor_choose_link: nuestra página de pagos
-    payment_state: Estado del pago
+    payment_state: Estado de Pago
     payment_states:
-      balance_due: pago pendiente
-      checkout: pagar
-      completed: completado
-      credit_owed: cŕedito a deber
-      failed: fallado
-      paid: pagado
-      pending: pendiente
-      processing: procesando
-      void: vacío
+      balance_due: Pago Pendiente
+      checkout: Pagar
+      completed: Completado
+      credit_owed: Cŕedito a deber
+      failed: Fallado
+      paid: Pagado
+      pending: Pendiente
+      processing: Procesando
+      void: Vacío
     payment_updated: Pago actualizado
     payments: Pagos
     pending:
@@ -1129,7 +1133,7 @@ es:
     preferred_reimbursement_type:
     presentation: Presentación
     previous: Anterior
-    previous_state_missing:
+    previous_state_missing: Estado anterior perdido
     price: Precio
     price_range: Rango de precio
     price_sack: Price Sack
@@ -1296,8 +1300,8 @@ es:
     sales_total_description: Total de ventas de todos los pedidos
     sales_totals: Total de Ventas
     save_and_continue: Guardar y continuar
-    save_my_address:
-    say_no: false
+    save_my_address: Guardar mi Dirección
+    say_no: 'No'
     say_yes: Sí
     scope: Alcance
     search: Buscar
@@ -1324,14 +1328,16 @@ es:
     shipment_details:
     shipment_mailer:
       shipped_email:
-        dear_customer: Querido cliente,\n
+        dear_customer: |
+          Estimado Cliente,
         instructions: Su orden ha sido enviada
+        shipping_method: Metodo de Envío atráves de %{shipping_method}
         shipment_summary: Resumen de envío
         subject: Notificación de envío
         thanks: Gracias por su colaboración
         track_information: 'Información de Rastreo: %{tracking}'
         track_link: 'Enlace para rastreo: %{url}'
-    shipment_state: Estado del envío
+    shipment_state: Estado de Envío
     shipment_states:
       backorder: backorder
       canceled: cancelado
@@ -1376,37 +1382,38 @@ es:
     state: Estado
     state_based: Estado base
     state_machine_states:
-      accepted:
-      address:
-      authorized:
-      awaiting:
-      awaiting_return:
-      backordered:
-      canceled:
-      cart:
-      checkout:
-      closed:
-      complete:
-      completed:
-      confirm:
-      delivery:
-      errored:
-      failed:
-      given_to_customer:
-      invalid:
-      manual_intervention_required:
-      on_hand:
-      open:
-      order:
-      payment:
-      pending:
-      processing:
-      ready:
-      reimbursed:
-      resumed:
-      returned:
-      shipped:
-      void:
+      accepted: Aceptado
+      address: Dirección
+      authorized: Autorizado
+      awaiting: Esperando 
+      awaiting_return: Volver a Esperar
+      backordered: Pedido Pendiente
+      canceled: Cancelado
+      cart: Carrito
+      checkout: Pagos
+      closed: Cerrado
+      complete: Completo
+      completed: Completado
+      confirm: Confirmar
+      delivery: Entrega
+      errored: Errado
+      failed: Fallado
+      given_to_customer: Dado al cliente
+      invalid: Inválido
+      manual_intervention_required: intervención manual requerida
+      on_hand: a mano
+      open: Abierto
+      order: Pedido
+      payment: Pago
+      pending: Pendiente
+      processing: Procesando
+      ready: Listo
+      reimbursed: Reembolsado
+      resumed: Resumido
+      returned: Devuelto
+      shipment: Envío
+      shipped: Enviado
+      void: Vacío
     states: Estados
     states_required: Estados Requeridos
     status: Estado
@@ -1434,7 +1441,7 @@ es:
     successfully_removed: "%{resource} ha sido borrado con éxito"
     successfully_signed_up_for_analytics: Registrado exitosamente para Spree Analytics
     successfully_updated: "%{resource} ha sido actualizado con éxito"
-    summary:
+    summary: resumen
     tax: Impuestos
     tax_categories: Categorías de impuestos
     tax_category: Categoría de impuestos
@@ -1483,7 +1490,7 @@ es:
     tracking_number: Número de Rastreo
     tracking_url: URL de Rastreo
     tracking_url_placeholder: por ejemplo http://quickship.com/package?num=:tracking
-    transaction_id:
+    transaction_id: ID de la Transacción
     transfer_from_location: Transferir desde
     transfer_stock: Transferencia de inventario
     transfer_to_location: Transferir a

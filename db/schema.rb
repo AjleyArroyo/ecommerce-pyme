@@ -89,6 +89,7 @@ ActiveRecord::Schema.define(version: 2020_06_11_190249) do
     t.string "dni"
     t.string "nit"
     t.string "social_reason"
+    t.boolean "skip_validation", default: false
     t.decimal "latitude", precision: 10, scale: 6
     t.decimal "longitude", precision: 10, scale: 6
     t.index ["country_id"], name: "index_spree_addresses_on_country_id"
