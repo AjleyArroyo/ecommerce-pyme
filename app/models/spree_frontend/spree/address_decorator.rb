@@ -1,25 +1,32 @@
 module SpreeFrontend
   module Spree
     module AddressDecorator
+      
       ADDRESS_FIELDS   = %w(firstname lastname company phone dni address1 address2 country state city)
       
-      attr_accessor :skip_validation
-
       def self.prepended(base)
-        base.after_initialize :skip_validators, if: :with_nit
-        base.after_find :skip_validators, if: :with_nit
-        base.validates :phone, :dni, presence: true, numericality: true, unless: :with_nit
-        
+        base.after_initialize :with_nit
+        # base.after_find :with_nit
+        base.validates :phone, :dni, presence: true, numericality: true, unless: :skip_validation  
       end
-
+      
       def skip_validators
         self.class.clear_validators!
         self.class.validates :nit, :social_reason, presence: true
       end
-
+      
       def with_nit
-        return false if self.skip_validation.blank? or @skip_validation.blank?
-        true
+        if self.skip_validation.presence or @skip_validation.presence
+          skip_validators
+          return true
+        else
+          unless self.skip_validation
+            self.class.clear_validators!
+            self.class.validates :firstname, :lastname, :country, :state, :phone, :dni, :address1, :city, presence: true
+            self.class.validates :phone, :dni, numericality: true
+          end 
+        end
+        false
       end
 
       def dni
