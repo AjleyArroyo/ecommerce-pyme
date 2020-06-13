@@ -1006,7 +1006,7 @@ es:
     on_hand: Disponible
     open: Abrir
     open_all_adjustments: Abrir todos los ajustes
-    option_type_placeholder:
+    option_type_placeholder: Tipos de Opciones
     option_value: Valor de la opción
     option_values: Valores de la opción
     optional: Opcional
@@ -1298,8 +1298,8 @@ es:
     sales_total_description: Total de ventas de todos los pedidos
     sales_totals: Total de Ventas
     save_and_continue: Guardar y continuar
-    save_my_address:
-    say_no: No
+    save_my_address: Guardar mi Dirección
+    say_no: 'No'
     say_yes: Sí
     scope: Alcance
     search: Buscar
