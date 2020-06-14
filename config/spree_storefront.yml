@@ -1,6 +1,6 @@
 default:
   navigation:
-    - title: Mujeres
+    - title: Mujer
       subtitle: Categorias
       url: /t/categorias/women
       items:
@@ -25,7 +25,7 @@ default:
           title: Obtenga hasta un 30% de descuento
           url: /t/categorias/sportswear/tops
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Hombres
+    - title: Hombre
       subtitle: Categorias
       url: /t/categorias/men
       items:
