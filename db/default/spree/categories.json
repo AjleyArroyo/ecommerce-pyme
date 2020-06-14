@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Mujer",
+    "permalink": "categorias/mujer",
+    "taxons": [
+      {
+        "name": "Pantalones y Shorts",
+        "permalink": "categorias/mujer/pantalones"
+      },
+      {
+        "name": "Blusas y Poleras",
+        "permalink": "categorias/mujer/blusas"
+      },
+      {
+        "name": "Ropa Deportiva",
+        "permalink": "categorias/mujer/ropa-deportiva"
+      },
+      {
+        "name": "Lencería",
+        "permalink": "categorias/mujer/lenceria"
+      },
+      {
+        "name": "Zapatos y zapatillas",
+        "permalink": "categorias/mujer/zapatos"
+      },
+      {
+        "name": "Accesorios",
+        "permalink": "categorias/mujer/accesorios"
+      }
+    ]
+  },
+  {
+    "name": "Hombre",
+    "permalink": "categorias/hombre",
+    "taxons": [
+      {
+        "name": "Pantalones y Shorts",
+        "permalink": "categorias/hombre/pantalones"
+      },
+      {
+        "name": "Poleras",
+        "permalink": "categorias/hombre/poleras"
+      },
+      {
+        "name": "Zapatos",
+        "permalink": "categorias/hombre/zapatos"
+      },
+      {
+        "name": "Billeteras y Cinturones",
+        "permalink": "categorias/hombre/accesorios"
+      }
+    ]
+  },
+  {
+    "name": "Infantil",
+    "permalink": "categorias/infantil",
+    "taxons": [
+      {
+        "name": "Bebes",
+        "permalink": "categorias/infantil/bebes"
+      },
+      {
+        "name": "Juguetes",
+        "permalink": "categorias/infantil/juguetes"
+      },
+      {
+        "name": "Ropa de Niño",
+        "permalink": "categorias/infantil/varon"
+      },
+      {
+        "name": "Ropa de Niña",
+        "permalink": "categorias/infantil/dama"
+      }
+    ]
+  },
+  {
+    "name": "Muebles",
+    "permalink": "categorias/muebles",
+    "taxons": [
+      {
+        "name": "Domitorio",
+        "permalink": "categorias/muebles/dormitorio"
+      },
+      {
+        "name": "Juegos de cocina",
+        "permalink": "categorias/muebles/cocina"
+      },
+      {
+        "name": "Muebles de Jardín",
+        "permalink": "categorias/muebles/jardin"
+      },
+      {
+        "name": "Comedor y Sala",
+        "permalink": "categorias/muebles/sala"
+      }
+    ]
+  },
+  {
+    "name": "Alimentos",
+    "permalink": "categorias/alimentos",
+    "taxons": [
+    ]
+  },
+  {
+    "name": "Tecnología",
+    "permalink": "categorias/tecnologia",
+    "taxons": [
+    ]
+  }
+]
