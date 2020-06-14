@@ -100,7 +100,7 @@
     var geocoder;
     function initMap() {
         // Styles a map in night mode.
-        geocoder = google.maps.Geocoder();
+        geocoder = new google.maps.Geocoder();
         map = new google.maps.Map(document.getElementById('map2'), {
             center: {lat: -17.775381, lng: -63.183377},
             zoom: 13,
@@ -404,17 +404,60 @@
             infoWindow.open(map);
         }
         $(document).on('change', '#stock_location_state_id', function(e) {
-            changeUblication("Santa Cruz")
+            changeUblication(this.value)
 
         });
         function changeUblication(ubication){
-            geocoder.geocode({'address': ubication}, function(results, status) {
-                if (status === 'OK') {
-                    map.setCenter(results[0].geometry.location);
-                } else {
-                    alert('Geocode was not successful for the following reason: ' + status);
-                }
-            });
+            debugger
+            switch (parseInt(ubication)) {
+                //La Paz
+                case 3112:
+                    lat = -16.5009615;
+                    lng = -68.1310615;
+                    break;
+                //Cochabamba
+                case 3110:
+                    lat = -17.3973524;
+                    lng = -66.1828414;
+                    break;
+                //Chuquisaca
+                case 3111:
+                    lat = -19.0338023;
+                    lng = -65.2714974;
+                    break;
+                //Oruro
+                case 3114:
+                    lat = -17.9627937;
+                    lng = -67.1102999;
+                    break;
+                //Potosi
+                case 3115:
+                    lat = -19.5742113;
+                    lng = -65.7694655;
+                    break;
+                //Pando
+                case 3113:
+                    lat = -11.0347018;
+                    lng = -68.7916468;
+                    break;
+                //Beni
+                case 3109:
+                    lat = -14.8299837;
+                    lng = -64.9194422;
+                    break;
+                //Tarija
+                case 3117:
+                    lat = -21.5276506;
+                    lng = -64.749455;
+                    break;
+                //Santa Cruz
+                default:
+                    lat = -17.775381;
+                    lng = -63.183377;
+                    break
+            }
+            var pos = {lat: lat, lng: lng};
+            map.setCenter(pos)
         }
     }
 
