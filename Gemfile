@@ -21,7 +21,7 @@ gem 'spree_social', github: 'hegeltrigo/spree_social'
 gem "letter_opener", :group => :development
 gem 'aws-sdk-s3'
 gem 'rspec-core', '~> 3.4'
-
+gem 'gmaps4rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
