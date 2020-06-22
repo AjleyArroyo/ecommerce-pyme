@@ -5,8 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-
+# Spree::Core::Engine.load_seed if defined?(Spree::Core)
 default_path = File.join(File.dirname(__FILE__), 'default')
 
 Rake::Task['db:load_dir'].reenable
@@ -60,20 +59,20 @@ end
 "" "
 Return Authorization Reasons
 " ""
-Spree::ReturnAuthorizationReason.update(
-    [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    [
-        {name: 'Mejor precio disponible', active: false},
-        {name: 'Retraso según la fecha de envío estimada', active: true},
-        {name: 'Partes o accesorios faltantes', active: true},
-        {name: 'Dañado/Defectuoso', active: true},
-        {name: 'Diferente de lo que se ha ordenado', active: true},
-        {name: 'Diferente de la descripción', active: true},
-        {name: 'Ya no lo necesito/quiero', active: false},
-        {name: 'Pedido erróneo', active: true},
-        {name: 'Compra no autorizada', active: false}
-    ]
-)
+[
+  {id: 1, name: 'Mejor precio disponible', active: false},
+  {id: 2, name: 'Retraso según la fecha de envío estimada', active: true},
+  {id: 3, name: 'Partes o accesorios faltantes', active: true},
+  {id: 4, name: 'Dañado/Defectuoso', active: true},
+  {id: 5, name: 'Diferente de lo que se ha ordenado', active: true},
+  {id: 6, name: 'Diferente de la descripción', active: true},
+  {id: 7, name: 'Ya no lo necesito/quiero', active: false},
+  {id: 8, name: 'Pedido erróneo', active: true},
+  {id: 9, name: 'Compra no autorizada', active: false}
+].each do |reason|
+  Spree::ReturnAuthorizationReason.where(**reason
+  ).first_or_create!
+end
 
 """
 Taxons and Taxonomies

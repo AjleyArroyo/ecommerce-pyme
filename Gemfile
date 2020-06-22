@@ -18,14 +18,20 @@ gem 'spree_gateway', '~> 3.7'
 gem 'spree_multi_vendor', github: 'spree-contrib/spree_multi_vendor'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 gem 'spree_social', github: 'hegeltrigo/spree_social'
-gem "letter_opener", :group => :development
 gem 'aws-sdk-s3'
 gem 'rspec-core', '~> 3.4'
 
 
 group :development, :test do
+  gem "letter_opener"
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
+  gem 'factory_bot_rails', '~> 4.0'
+  gem 'shoulda-matchers', '~> 3.1'
+  gem 'faker'
+  gem 'database_cleaner'
+  gem 'capybara'
+  gem 'selenium-webdriver'
 end
 
 group :development do
@@ -39,14 +45,6 @@ group :development do
   gem 'capistrano-rbenv', '~> 2.1'
   gem 'capistrano3-puma'
 end
-
-group :test do
-  gem 'factory_bot_rails', '~> 4.0'
-  gem 'shoulda-matchers', '~> 3.1'
-  gem 'faker'
-  gem 'database_cleaner'
-end
-
 
 gem 'figaro'
 gem 'sentry-raven'
