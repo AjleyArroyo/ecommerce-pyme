@@ -20,7 +20,7 @@ gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 gem 'spree_social', github: 'hegeltrigo/spree_social'
 gem 'aws-sdk-s3'
 gem 'rspec-core', '~> 3.4'
-
+gem 'gmaps4rails'
 
 group :development, :test do
   gem "letter_opener"

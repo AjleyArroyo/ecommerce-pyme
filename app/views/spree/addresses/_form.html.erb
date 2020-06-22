@@ -14,6 +14,14 @@
       <div class="form-group mb-4">
         <%= address_field(address_form, :state, address_id) { address_state(address_form, address.country, address_id) } if Spree::Config[:address_requires_state] %>
       </div>
+    <% elsif field == "latitude" %>
+        <div class="form-group mb-4">
+          <%= address_form.hidden_field :latitude, class: "spree-flat-input"%>
+        </div>
+    <% elsif field == "longitude"%>
+      <div class="form-group mb-4">
+        <%= address_form.hidden_field :longitude, class: "spree-flat-input"%>
+      </div>
     <% else %>
       <% next if field == "company" && !Spree::Config[:company] %>
       <% next if field == "alternative_#{address_id}_phone" && !Spree::Config["alternative_#{address_id}_phone"] %>
@@ -22,6 +30,7 @@
       </div>
     <% end %>
   <% end %>
+  <div id="map2" class="mb-4" style='width: 100%; height: 400px;'></div>
 <% else %>
   <% [ 'nit' , 'social_reason' ].each do |field| %>
       <div class="form-group mb-4">
@@ -35,3 +44,377 @@
         document.getElementById('order_bill_address_attributes_skip_validation').value = 'true'
       </script>
 <% end %>
+
+  <script async='' defer='defer' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDJReGXJ_7NMeAm9eAZWCOjl4RznrP-eCc&amp;callback=initMap'></script>
+
+  <script>
+    var map, infoWindow;
+    markers = [];
+    var geocoder;
+      function initMap() {
+          if ($('#address_latitude').val()=="" || $('.inner.checkout-content-inner').length==0) {
+              // Styles a map in night mode.
+              geocoder = new google.maps.Geocoder();
+              map = new google.maps.Map(document.getElementById('map2'), {
+                  center: {lat: -17.775381, lng: -63.183377},
+                  zoom: 13,
+                  styles: [
+                      {
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#ebe3cd"
+                              }
+                          ]
+                      },
+                      {
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "color": "#523735"
+                              }
+                          ]
+                      },
+                      {
+                          "elementType": "labels.text.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#f5f1e6"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "administrative",
+                          "elementType": "geometry.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#c9b2a6"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "administrative.land_parcel",
+                          "elementType": "geometry.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#dcd2be"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "administrative.land_parcel",
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "color": "#ae9e90"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "landscape.natural",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#dfd2ae"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "poi",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#dfd2ae"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "poi",
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "color": "#93817c"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "poi.park",
+                          "elementType": "geometry.fill",
+                          "stylers": [
+                              {
+                                  "color": "#a5b076"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "poi.park",
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "color": "#447530"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#f5f1e6"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.arterial",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#fdfcf8"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.highway",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#f8c967"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.highway",
+                          "elementType": "geometry.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#e9bc62"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.highway.controlled_access",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#e98d58"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.highway.controlled_access",
+                          "elementType": "geometry.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#db8555"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "road.local",
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "color": "#806b63"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "transit.line",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#dfd2ae"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "transit.line",
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "color": "#8f7d77"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "transit.line",
+                          "elementType": "labels.text.stroke",
+                          "stylers": [
+                              {
+                                  "color": "#ebe3cd"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "transit.station",
+                          "elementType": "geometry",
+                          "stylers": [
+                              {
+                                  "color": "#dfd2ae"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "water",
+                          "elementType": "geometry.fill",
+                          "stylers": [
+                              {
+                                  "color": "#b9d3c2"
+                              }
+                          ]
+                      },
+                      {
+                          "featureType": "water",
+                          "elementType": "labels.text.fill",
+                          "stylers": [
+                              {
+                                  "color": "#92998d"
+                              }
+                          ]
+                      }
+                  ]
+
+              });
+              load_markers();
+
+              function load_markers() {
+                  var latitude = $('#address_latitude').val();
+                  var longitude = $('#address_longitude').val();
+                  if (latitude != "" && longitude != "") {
+                      var locat = {lat: parseFloat(latitude), lng: parseFloat(longitude)};
+                      addMarker(locat, false);
+                      map.setCenter(locat);
+                  } else {
+                      infoWindow = new google.maps.InfoWindow;
+                      if (navigator.geolocation) {
+                          navigator.geolocation.getCurrentPosition(function (position) {
+                              var pos = {
+                                  lat: position.coords.latitude,
+                                  lng: position.coords.longitude
+                              };
+                              infoWindow.setPosition(pos);
+                              // infoWindow.setContent('Ubicación.');
+
+                              addMarker(pos, true);
+                              infoWindow.open(map);
+                              map.setCenter(pos);
+                          }, function () {
+                              handleLocationError(true, infoWindow, map.getCenter());
+                          });
+                      } else {
+                          // Browser doesn't support Geolocation
+                          handleLocationError(false, infoWindow, map.getCenter());
+                      }
+                  }
+              }
+
+              map.addListener('click', function (event) {
+                  addMarker(event.latLng, true);
+              });
+
+              function addMarker(location, setInputLocation) {
+                  // Add the marker at the clicked location, and add the next-available label
+                  // from the array of alphabetical characters.
+                  var marker = new google.maps.Marker({
+                      draggable: true,
+                      position: location,
+                      label: '',
+                      map: map
+                  });
+                  marker.addListener('click', function () {
+                      if (this.getAnimation() !== null) {
+                          this.setAnimation(null);
+                      } else {
+                          this.setAnimation(google.maps.Animation.BOUNCE);
+                      }
+                  });
+                  clearMarkers();
+                  markers.push(marker);
+                  if (setInputLocation)
+                      addLocationInput();
+              }
+
+              function clearMarkers() {
+                  setMapOnAll(null);
+              }
+
+              function setMapOnAll(map) {
+                  for (var i = 0; i < markers.length; i++) {
+                      markers[i].setMap(map);
+                  }
+                  markers = []
+              }
+
+              function addLocationInput() {
+                  $('#address_latitude').val(markers[0].position.lat());
+                  $('#address_longitude').val(markers[0].position.lng());
+              }
+
+              function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+                  infoWindow.setPosition(pos);
+                  infoWindow.setContent(browserHasGeolocation ?
+                      'No hemos podido detectar tu ubicación.' :
+                      'Tu navegador no soporta la detección de tu ubicación.');
+                  infoWindow.open(map);
+              }
+
+              $(document).on('change', '#address_state_id', function(e) {
+                  changeUblication(this.value)
+
+              });
+              function changeUblication(ubication){
+                  debugger
+                  switch (parseInt(ubication)) {
+                      //La Paz
+                      case 3112:
+                          lat = -16.5009615;
+                          lng = -68.1310615;
+                          break;
+                      //Cochabamba
+                      case 3110:
+                          lat = -17.3973524;
+                          lng = -66.1828414;
+                          break;
+                      //Chuquisaca
+                      case 3111:
+                          lat = -19.0338023;
+                          lng = -65.2714974;
+                          break;
+                      //Oruro
+                      case 3114:
+                          lat = -17.9627937;
+                          lng = -67.1102999;
+                          break;
+                      //Potosi
+                      case 3115:
+                          lat = -19.5742113;
+                          lng = -65.7694655;
+                          break;
+                      //Pando
+                      case 3113:
+                          lat = -11.0347018;
+                          lng = -68.7916468;
+                          break;
+                      //Beni
+                      case 3109:
+                          lat = -14.8299837;
+                          lng = -64.9194422;
+                          break;
+                      //Tarija
+                      case 3117:
+                          lat = -21.5276506;
+                          lng = -64.749455;
+                          break;
+                      //Santa Cruz
+                      default:
+                          lat = -17.775381;
+                          lng = -63.183377;
+                          break
+                  }
+                  var pos = {lat: lat, lng: lng};
+                  map.setCenter(pos)
+              }
+          }
+      }
+
+  </script>
