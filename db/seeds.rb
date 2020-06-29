@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # Spree::Core::Engine.load_seed if defined?(Spree::Core)
+
 default_path = File.join(File.dirname(__FILE__), 'default')
 
 Rake::Task['db:load_dir'].reenable
@@ -59,6 +60,21 @@ end
 "" "
 Return Authorization Reasons
 " ""
+Spree::ReturnAuthorizationReason.update(
+    [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    [
+        {name: 'Mejor precio disponible', active: false},
+        {name: 'Retraso según la fecha de envío estimada', active: true},
+        {name: 'Partes o accesorios faltantes', active: true},
+        {name: 'Dañado/Defectuoso', active: true},
+        {name: 'Diferente de lo que se ha ordenado', active: true},
+        {name: 'Diferente de la descripción', active: true},
+        {name: 'Ya no lo necesito/quiero', active: false},
+        {name: 'Pedido erróneo', active: true},
+        {name: 'Compra no autorizada', active: false}
+    ]
+) unless Rails.env.test?
+
 [
   {id: 1, name: 'Mejor precio disponible', active: false},
   {id: 2, name: 'Retraso según la fecha de envío estimada', active: true},
@@ -72,7 +88,7 @@ Return Authorization Reasons
 ].each do |reason|
   Spree::ReturnAuthorizationReason.where(**reason
   ).first_or_create!
-end
+end if Rails.env.test?
 
 """
 Taxons and Taxonomies
@@ -117,4 +133,34 @@ location.update_attributes!(
 )
 puts 'Actualizar Ubicación de stock'
 
-Spree::Auth::Engine.load_seed if defined?(Spree::Auth)
+# Spree::Auth::Engine.load_seed if defined?(Spree::Auth)
+
+def create_admin_user
+    password = 'spree123'
+    email = 'spree@example.com'
+  
+  attributes = {
+    password: password,
+    password_confirmation: password,
+    email: email,
+    login: email
+  }
+  unless Spree::User.find_by_email(email)
+    admin = Spree::User.new(attributes)
+    if admin.save
+      role = Spree::Role.find_or_create_by(name: 'admin')
+      admin.spree_roles << role
+      admin.confirm
+      admin.save
+      admin.generate_spree_api_key! if Spree::Auth::Engine.api_available?
+    end
+  end
+end
+
+if Rails.env.test?
+  create_admin_user
+  puts 'create admin user'
+else
+  Spree::Auth::Engine.load_seed if defined?(Spree::Auth)
+  puts 'create admin user'
+end

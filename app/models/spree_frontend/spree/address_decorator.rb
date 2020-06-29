@@ -5,7 +5,6 @@ module SpreeFrontend
 
       def self.prepended(base)
         base.after_initialize :with_nit
-        # base.after_find :with_nit
         base.validates :phone, :dni, presence: true, numericality: true, unless: :skip_validation
       end
 
