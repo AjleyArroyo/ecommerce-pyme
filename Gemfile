@@ -22,6 +22,8 @@ gem "letter_opener", :group => :development
 gem 'aws-sdk-s3'
 gem 'rspec-core', '~> 3.4'
 gem 'gmaps4rails'
+gem 'geocoder'
+gem 'google_maps_service'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

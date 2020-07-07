@@ -1,5 +1,6 @@
 require_relative 'boot'
 require 'rails/all'
+require 'google_maps_service'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -34,5 +35,11 @@ module Marketone
     I18n.config.available_locales = :es
     config.i18n.default_locale = :es
     config.time_zone = 'La Paz'
+
+    GoogleMapsService.configure do |config|
+      config.key = 'AIzaSyDJReGXJ_7NMeAm9eAZWCOjl4RznrP-eCc'
+      config.retry_timeout = 20
+      config.queries_per_second = 10
+    end
   end
 end
