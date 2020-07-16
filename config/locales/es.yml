@@ -369,10 +369,7 @@ es:
       spree/stock_movement: Movimiento de stock
       spree/stock_transfer: Transferencia de stock
       spree/store_credit_category: Categoria de credito de la tienda
-      spree/authentication_method:
-        social_provider: Proveedor social
-        social_api_secret: API secreta social 
-        social_api_key: llave API social 
+      spree/authentication_method: Método de Autenticación
       spree/tax_category:
         one: Categoría de Impuesto
         other: Categorías de Impuesto
